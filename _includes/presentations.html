@@ -1,16 +1,14 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Presentations</h3>
-    {% for presentation in site.data.presentations %}
-    <div class="row g-5 mb-5">
-      <div class="col-md-12">
-        <h4>{{ presentation.title }}</h4>
-        <p><strong>Presented at:</strong> {{ presentation.event }}</p>
-        <p><strong>Date:</strong> {{ presentation.date }}</p>
-        <p><strong>Location:</strong> {{ presentation.location }}</p>
-        <p>{{ presentation.description }}</p>
-      </div>
-    </div>
-    {% endfor %}
+    {% if page.title == "Home" %}
+      {% for item in site.data.presentations.featured %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    {% else %}
+      {% for item in site.data.presentations.index %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
