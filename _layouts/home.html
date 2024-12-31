@@ -18,9 +18,34 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">recent updates</h3>
-    {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.date | date: "%B %-d, %Y" }}</a> - {{ post.title }}</p>
-    {% endfor %}
+    <h3 class="fw-bold border-bottom pb-3 mb-3">Recent Updates</h3>
+    <div class="updates-container">
+      <p><b>January 10, 2025</b> - Talk at LSA Annual Meeting.</p>
+    </div>
   </div>
 </div>
+
+<style>
+  .updates-container {
+    max-height: 200px; /* Set the maximum height for the scrollable area */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding-right: 10px; /* Add padding to the right for better readability */
+    border: 1px solid #ddd; /* Optional: Add a border for clarity */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    background-color: #f9f9f9; /* Optional: Add a subtle background color */
+  }
+
+  .updates-container::-webkit-scrollbar {
+    width: 6px; /* Customize scrollbar width */
+  }
+
+  .updates-container::-webkit-scrollbar-thumb {
+    background: #ccc; /* Customize scrollbar thumb color */
+    border-radius: 3px; /* Round scrollbar thumb */
+  }
+
+  .updates-container::-webkit-scrollbar-thumb:hover {
+    background: #aaa; /* Change color on hover */
+  }
+</style>
+
