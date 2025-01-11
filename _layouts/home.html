@@ -19,49 +19,88 @@ layout: default
 <div class="row g-5 mb-5">
   <!-- Upcoming Section (Left) -->
   <div class="col-md-6">
-    <h3 class="fw-bold border-bottom pb-3 mb-3">Upcoming</h3>
-    <div class="updates-container">
-      <p><b>May 9, 2025</b> - Talk at Stanford Syntax Reading Group </p>
+    <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Upcoming</h3>
+    <div class="updates-container shadow">
+      <p><b class="text-secondary">May 9, 2025</b> - Talk at Stanford Syntax Reading Group</p>
     </div>
   </div>
 
   <!-- Recent Updates Section (Right) -->
   <div class="col-md-6">
-    <h3 class="fw-bold border-bottom pb-3 mb-3">Recent Updates</h3>
-    <div class="updates-container">
-      <p><b>January 10, 2025</b> - Talk at the LSA 2025 Annual Meeting [<a href="research/kiper_lsa2025_HO.pdf" target="_blank">handout</a>]</p>
+    <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Recent Updates</h3>
+    <div class="updates-container shadow">
+      <p><b class="text-secondary">January 10, 2025</b> - Talk at the LSA 2025 Annual Meeting [<a href="research/kiper_lsa2025_HO.pdf" target="_blank" class="text-primary">handout</a>]</p>
     </div>
   </div>
 </div>
 
 <style>
-  .updates-container {
-    max-height: 100px; /* Set the maximum height for the scrollable area */
-    max-width: 100%; /* Allow the container to fit the column width */
-    overflow-y: scroll; /* Enable vertical scrolling */
-    padding-right: 10px; /* Add padding to the right for better readability */
-    border: 1px solid #ddd; /* Optional: Add a border for clarity */
-    border-radius: 15px; /* Optional: Add rounded corners */
-    background-color: #f9f9f9; /* Optional: Add a subtle background color */
+  /* Overall Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Subtle background color */
   }
 
+  h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase; /* Add emphasis */
+    letter-spacing: 1px;
+  }
+
+  /* Updates Container Styling */
+  .updates-container {
+    max-height: 150px; /* Increase height slightly */
+    max-width: 100%; /* Fit to column */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px; /* Add padding */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* Clean white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+
+  /* Scrollbar Customization */
   .updates-container::-webkit-scrollbar {
-    width: 10px; /* Customize scrollbar width */
+    width: 8px; /* Slimmer scrollbar */
   }
 
   .updates-container::-webkit-scrollbar-thumb {
-    background: #ccc; /* Customize scrollbar thumb color */
-    border-radius: 3px; /* Round scrollbar thumb */
+    background: #bbb; /* Light gray color */
+    border-radius: 10px; /* Rounded thumb */
   }
 
   .updates-container::-webkit-scrollbar-thumb:hover {
-    background: #aaa; /* Change color on hover */
+    background: #999; /* Slightly darker on hover */
   }
 
-  /* Adjust margins for mobile view */
+  /* Link and Text Styling */
+  .text-primary {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+  }
+
+  .text-primary:hover {
+    text-decoration: underline; /* Add hover effect */
+  }
+
+  .text-secondary {
+    color: #6c757d; /* Bootstrap secondary color */
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  /* Responsive Styling */
   @media (max-width: 768px) {
     .updates-container {
-      max-height: 120px;
+      max-height: 200px; /* Increase height for smaller screens */
+    }
+    h3 {
+      font-size: 1.25rem;
     }
   }
 </style>
