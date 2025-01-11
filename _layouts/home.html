@@ -17,8 +17,17 @@ layout: default
 </div>
 
 <div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-3">recent updates</h3>
+  <!-- Upcoming Section (Left) -->
+  <div class="col-md-6">
+    <h3 class="fw-bold border-bottom pb-3 mb-3">Upcoming</h3>
+    <div class="updates-container">
+      <p><b>May 9, 2025</b> - Talk at Stanford Syntax Reading Group </p>
+    </div>
+  </div>
+
+  <!-- Recent Updates Section (Right) -->
+  <div class="col-md-6">
+    <h3 class="fw-bold border-bottom pb-3 mb-3">Recent Updates</h3>
     <div class="updates-container">
       <p><b>January 10, 2025</b> - Talk at the LSA 2025 Annual Meeting [<a href="research/kiper_lsa2025_HO.pdf" target="_blank">handout</a>]</p>
     </div>
@@ -28,7 +37,7 @@ layout: default
 <style>
   .updates-container {
     max-height: 100px; /* Set the maximum height for the scrollable area */
-    max-width: 700px; /* Set the maximum width */
+    max-width: 100%; /* Allow the container to fit the column width */
     overflow-y: scroll; /* Enable vertical scrolling */
     padding-right: 10px; /* Add padding to the right for better readability */
     border: 1px solid #ddd; /* Optional: Add a border for clarity */
@@ -47,6 +56,13 @@ layout: default
 
   .updates-container::-webkit-scrollbar-thumb:hover {
     background: #aaa; /* Change color on hover */
+  }
+
+  /* Adjust margins for mobile view */
+  @media (max-width: 768px) {
+    .updates-container {
+      max-height: 120px;
+    }
   }
 </style>
 
