@@ -1,9 +1,44 @@
 index:
-- {name: '<b>upcoming</b> Low sluicing is VPE. <i>Talk at the Annual Meeting of the Linguistic Society of America (LSA 2025)</i>, Philadelphia. <a href="https://app.oxfordabstracts.com/response-content/submissions/824104/questions/91693">[abstract]</a>'}
-- {name: '<b>2021</b> (Mis)matches in Turkish sluicing constructions. <i>Short Talk at Architectures and Mechanisms for Language Processing (AMLaP)</i>, Université de Paris (online). <a href="https://amlap2021.github.io/program/186.pdf">[abstract]</a>'}
-- {name: '<b>2021</b> Connectivity in Turkish sluicing. <i>Talk at the 23rd Seoul International Conference on Generative Grammar (SICOGG 23)</i>, Sogang University (online).' }
-- {name: '<b>2021</b> The position of the Q-like particle ki in Turkish and consequences for sluicing. <i>Talk at the 37th Annual Northwest Linguistics Conference (NWLC 37)</i>, University of British Columbia (online).' }
-- {name: '<b>2017</b> Applicability of subset/superset principle in the acquisition of relative clauses by Turkish learners of English (with Sercan Karakaş and Ayşe Gül Özay). <i>Poster at the 31st National Conference on Turkish Linguistics (UDK 31)</i>, Anadolu University.' }
-- {name: '<b>2017</b> L1  Turkish transfer in the acquisition of L2 English definite article. <i>Talk at the 11th Student Conference on Linguistics (DÖK 11)</i>, Mersin University.' }
-- {name: '<b>2016</b> L1  Turkish transfer in the acquisition of L2 English definite article. <i>Talk at the T.W.I.S.T. Conference in Linguistics (TWISTx10)</i>, Leiden University.' }
+  - year: 2025
+    title: "Low sluicing is VPE."
+    event: "Talk at the Annual Meeting of the Linguistic Society of America (LSA 2025)"
+    location: "Philadelphia"
+    links:
+      - text: "abstract"
+        url: "https://app.oxfordabstracts.com/response-content/submissions/824104/questions/91693"
+      - text: "handout"
+        url: "https://yagmurkiper.github.io/research/kiper_lsa2025_HO.pdf"
 
+  - year: 2021
+    title: "(Mis)matches in Turkish sluicing constructions."
+    event: "Short Talk at Architectures and Mechanisms for Language Processing (AMLaP)"
+    location: "Université de Paris (online)"
+    links:
+      - text: "abstract"
+        url: "https://amlap2021.github.io/program/186.pdf"
+
+  - year: 2021
+    title: "Connectivity in Turkish sluicing."
+    event: "Talk at the 23rd Seoul International Conference on Generative Grammar (SICOGG 23)"
+    location: "Sogang University (online)"
+
+  - year: 2021
+    title: "The position of the Q-like particle ki in Turkish and consequences for sluicing."
+    event: "Talk at the 37th Annual Northwest Linguistics Conference (NWLC 37)"
+    location: "University of British Columbia (online)"
+
+  - year: 2017
+    title: "Applicability of subset/superset principle in the acquisition of relative clauses by Turkish learners of English"
+    authors: "(with Sercan Karakaş and Ayşe Gül Özay)"
+    event: "Poster at the 31st National Conference on Turkish Linguistics (UDK 31)"
+    location: "Anadolu University"
+
+  - year: 2017
+    title: "L1 Turkish transfer in the acquisition of L2 English definite article."
+    event: "Talk at the 11th Student Conference on Linguistics (DÖK 11)"
+    location: "Mersin University"
+
+  - year: 2016
+    title: "L1 Turkish transfer in the acquisition of L2 English definite article."
+    event: "Talk at the T.W.I.S.T. Conference in Linguistics (TWISTx10)"
+    location: "Leiden University"

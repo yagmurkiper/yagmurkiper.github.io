@@ -1,26 +1,32 @@
 <div class="row g-5 mb-5">
   <div class="col-md-12">
+    <!-- Title -->
     <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Presentations</h3>
+
+    <!-- Scrollable Presentations Container -->
     <div class="presentations-container">
-      {% if page.title == "Home" %}
-        {% for item in site.data.presentations.featured %}
-          <div class="presentation-item">
-            <p><strong>{{ item.name }}</strong> <span class="text-secondary">({{ item.date }} - {{ item.location }})</span></p>
-            {% if item.link %}
-              <a href="{{ item.link }}" target="_blank">View Details</a>
+      {% for item in site.data.presentations.index %}
+        <div class="presentation-item">
+          <p>
+            <strong class="text-secondary">{{ item.year }}</strong> - 
+            <span>{{ item.title }}</span><br>
+            <em>{{ item.event }}</em>, {{ item.location }}<br>
+            {% if item.authors %}
+              <span>{{ item.authors }}</span><br>
             {% endif %}
-          </div>
-        {% endfor %}
-      {% else %}
-        {% for item in site.data.presentations.index %}
-          <div class="presentation-item">
-            <p><strong>{{ item.name }}</strong> <span class="text-secondary">({{ item.date }} - {{ item.location }})</span></p>
-            {% if item.link %}
-              <a href="{{ item.link }}" target="_blank">View Details</a>
+            {% if item.links %}
+              {% for link in item.links %}
+                <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>
+              {% endfor %}
             {% endif %}
-          </div>
-        {% endfor %}
-      {% endif %}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Image Section -->
+    <div class="presentations-image text-center mt-4">
+      <img src="/assets/img/goldengate.jpg" alt="Presentation Image" class="img-fluid rounded">
     </div>
   </div>
 </div>
@@ -28,7 +34,9 @@
 <style>
   /* Presentations Container Styling */
   .presentations-container {
-    padding: 10px;
+    max-height: 200px; /* Set maximum height for scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px;
     background-color: #f9f9f9; /* Light neutral background */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 8px; /* Rounded corners */
@@ -38,37 +46,45 @@
   .presentation-item {
     margin-bottom: 10px; /* Space between items */
     font-size: 0.95rem; /* Compact text */
+    line-height: 1.4; /* Comfortable line spacing */
   }
 
   .presentation-item:last-child {
     margin-bottom: 0; /* Remove space after the last item */
   }
 
-  /* Strong Text for Presentation Name */
-  strong {
-    color: #333; /* Neutral dark text color */
-  }
-
-  /* Secondary Text for Date and Location */
+  /* Styling for Dates */
   .text-secondary {
-    color: #6c757d; /* Subtle gray for secondary info */
+    color: #333; /* Dark text for dates */
+    font-weight: bold;
   }
 
-  /* Hyperlink Styling */
+  /* Link Styling */
   a {
-    color: #007bff; /* Blue for links */
+    color: #007bff; /* Blue links */
     text-decoration: none;
-    font-size: 0.9rem; /* Slightly smaller text for links */
+    font-weight: bold; /* Highlight links */
   }
 
   a:hover {
     text-decoration: underline;
   }
 
+  /* Image Section Styling */
+  .presentations-image {
+    margin-top: 20px;
+  }
+
+  .img-fluid {
+    max-width: 100%; /* Ensure image scales within its container */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for image */
+  }
+
   /* Responsive Adjustments */
   @media (max-width: 768px) {
     .presentations-container {
-      padding: 8px;
+      padding: 10px;
     }
 
     .presentation-item {
