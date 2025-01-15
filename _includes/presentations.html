@@ -1,15 +1,96 @@
 <div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Presentations</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.presentations.featured %}
-        <p>{{ item.name }}</p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.presentations.index %}
-        <p>{{ item.name }}</p>
-      {% endfor %}
-    {% endif %}
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5 text-primary">Presentations</h3>
+    <div class="presentations-container">
+      {% if page.title == "Home" %}
+        {% for item in site.data.presentations.featured %}
+          <div class="presentation-item">
+            <h5 class="fw-bold">{{ item.name }}</h5>
+            <p class="text-secondary">
+              {{ item.date }} - <em>{{ item.location }}</em>
+            </p>
+            <p>{{ item.description }}</p>
+            {% if item.link %}
+              <a href="{{ item.link }}" target="_blank" class="btn btn-outline-primary">View Details</a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% else %}
+        {% for item in site.data.presentations.index %}
+          <div class="presentation-item">
+            <h5 class="fw-bold">{{ item.name }}</h5>
+            <p class="text-secondary">
+              {{ item.date }} - <em>{{ item.location }}</em>
+            </p>
+            <p>{{ item.description }}</p>
+            {% if item.link %}
+              <a href="{{ item.link }}" target="_blank" class="btn btn-outline-primary">View Details</a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </div>
+
+<style>
+  /* Container for the presentations */
+  .presentations-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+
+  /* Individual presentation items */
+  .presentation-item {
+    margin-bottom: 20px; /* Space between presentations */
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Divider between items */
+  }
+
+  .presentation-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+
+  /* Presentation name styling */
+  h5 {
+    font-size: 1.25rem;
+    color: #007bff; /* Primary color for emphasis */
+    margin-bottom: 5px;
+  }
+
+  /* Date and location styling */
+  .text-secondary {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  /* Button styling */
+  .btn-outline-primary {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    transition: all 0.3s ease;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .presentations-container {
+      padding: 15px;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+    }
+  }
+</style>
 
