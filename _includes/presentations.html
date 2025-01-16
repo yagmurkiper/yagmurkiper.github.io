@@ -1,5 +1,5 @@
 <div class="row g-5 mb-5">
-  <div class="col-12"> <!-- Use col-12 for full width -->
+  <div class="col-12">
     <!-- Title -->
     <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Presentations</h3>
 
@@ -26,6 +26,7 @@
 
     <!-- Photo Section -->
     <div class="photo-container">
+      <div class="photo-title">golden gate, san francisco in dec, 2022</div>
       <img src="/assets/img/goldengate.jpg" alt="Presentation Image" class="img-fluid rounded">
     </div>
   </div>
@@ -77,12 +78,24 @@
     border: 1px solid #ddd; /* Match the border style of presentations-container */
     border-radius: 8px; /* Match the rounded corners */
     overflow: hidden; /* Prevent image overflow */
-    width: 100%; /* Ensure it matches the width of the container */
+    width: 80%; /* Make the photo container smaller than the presentation container */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
+    text-align: center; /* Center content inside */
   }
 
   .photo-container img {
     width: 100%; /* Make image stretch to match the container's width */
     height: auto; /* Keep the aspect ratio intact */
+  }
+
+  /* Photo Title Styling */
+  .photo-title {
+    font-size: 0.8rem; /* Small font size for the title */
+    color: #666; /* Subtle gray color */
+    margin-bottom: 10px; /* Spacing between the title and the photo */
+    text-align: center; /* Center the title */
+    font-style: italic; /* Optional: Make the title italic */
   }
 
   /* Responsive Adjustments */
@@ -93,6 +106,10 @@
 
     .presentation-item {
       font-size: 0.9rem;
+    }
+
+    .photo-container {
+      width: 90%; /* Adjust width for smaller screens */
     }
   }
 </style>
