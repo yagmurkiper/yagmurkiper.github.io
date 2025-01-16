@@ -15,7 +15,7 @@
           {% if item.links %}
             <p class="presentation-links">
               {% for link in item.links %}
-                <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>
+                <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
               {% endfor %}
             </p>
           {% endif %}
