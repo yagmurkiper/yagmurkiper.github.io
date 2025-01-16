@@ -1,5 +1,5 @@
 <div class="row g-5 mb-5">
-  <div class="col-12"> <!-- Full-width column -->
+  <div class="col-12"> <!-- Use col-12 for full width -->
     <!-- Title -->
     <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Presentations</h3>
 
@@ -34,14 +34,13 @@
 <style>
   /* Presentations Container Styling */
   .presentations-container {
-    width: 100%; /* Full width */
-    max-width: none; /* Ensure it doesn't shrink */
     max-height: 300px; /* Set maximum height for scrollable area */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 15px;
     background-color: #f9f9f9; /* Light neutral background */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 8px; /* Rounded corners */
+    width: 100%; /* Ensure it uses the full width */
   }
 
   /* Individual Presentation Items */
@@ -74,16 +73,15 @@
 
   /* Photo Container Styling */
   .photo-container {
-    width: 100%; /* Full width */
-    max-width: none; /* Ensure it matches the presentations container */
     margin-top: 20px;
     border: 1px solid #ddd; /* Match the border style of presentations-container */
     border-radius: 8px; /* Match the rounded corners */
     overflow: hidden; /* Prevent image overflow */
+    width: 100%; /* Ensure it matches the width of the container */
   }
 
   .photo-container img {
-    width: 100%; /* Stretch image to match the container's width */
+    width: 100%; /* Make image stretch to match the container's width */
     height: auto; /* Keep the aspect ratio intact */
   }
 
