@@ -1,5 +1,5 @@
 <div class="row g-5 mb-5">
-  <div class="col-md-12">
+  <div class="col-md-6">
     <!-- Title -->
     <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Presentations</h3>
 
@@ -23,13 +23,18 @@
         </div>
       {% endfor %}
     </div>
+
+    <!-- Photo Section -->
+    <div class="photo-container">
+      <img src="/assets/img/goldengate.jpg" alt="Presentation Image" class="img-fluid rounded">
+    </div>
   </div>
 </div>
 
 <style>
   /* Presentations Container Styling */
   .presentations-container {
-    max-height: 200px; /* Set maximum height for scrollable area */
+    max-height: 300px; /* Set maximum height for scrollable area */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 15px;
     background-color: #f9f9f9; /* Light neutral background */
@@ -63,6 +68,19 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  /* Photo Container Styling */
+  .photo-container {
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Match the border style of presentations-container */
+    border-radius: 8px; /* Match the rounded corners */
+    overflow: hidden; /* Prevent image overflow */
+  }
+
+  .photo-container img {
+    width: 100%; /* Make image stretch to match the container's width */
+    height: auto; /* Keep the aspect ratio intact */
   }
 
   /* Responsive Adjustments */
