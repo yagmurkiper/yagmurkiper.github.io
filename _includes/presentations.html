@@ -9,24 +9,23 @@
         <div class="presentation-item">
           <p>
             <strong class="text-secondary">{{ item.year }}</strong> - 
-            <span>{{ item.title }}</span><br>
-            <em>{{ item.event }}</em>, {{ item.location }}<br>
-            {% if item.authors %}
-              <span>{{ item.authors }}</span><br>
-            {% endif %}
-            {% if item.links %}
+            <span>{{ item.title }}</span>, 
+            <em>{{ item.event }}</em>, {{ item.location }}
+          </p>
+          {% if item.links %}
+            <p class="presentation-links">
               {% for link in item.links %}
                 <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>
               {% endfor %}
-            {% endif %}
-          </p>
+            </p>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
 
     <!-- Photo Section -->
     <div class="photo-container">
-      <div class="photo-title">golden gate, san francisco in dec, 2022</div>
+      <div class="photo-title">Golden Gate, San Francisco, in December 2022</div>
       <img src="/assets/img/goldengate.jpg" alt="Presentation Image" class="img-fluid rounded">
     </div>
   </div>
@@ -46,13 +45,9 @@
 
   /* Individual Presentation Items */
   .presentation-item {
-    margin-bottom: 10px; /* Space between items */
+    margin-bottom: 15px; /* Space between items */
     font-size: 0.95rem; /* Compact text */
-    line-height: 1.4; /* Comfortable line spacing */
-  }
-
-  .presentation-item:last-child {
-    margin-bottom: 0; /* Remove space after the last item */
+    line-height: 1.6; /* Comfortable line spacing */
   }
 
   /* Styling for Dates */
@@ -62,10 +57,15 @@
   }
 
   /* Link Styling */
+  .presentation-links {
+    margin-top: 5px; /* Space above the links */
+  }
+
   a {
     color: #007bff; /* Blue links */
     text-decoration: none;
     font-weight: bold; /* Highlight links */
+    margin-right: 10px; /* Space between links */
   }
 
   a:hover {
@@ -78,7 +78,7 @@
     border: 1px solid #ddd; /* Match the border style of presentations-container */
     border-radius: 8px; /* Match the rounded corners */
     overflow: hidden; /* Prevent image overflow */
-    width: 80%; /* Make the photo container smaller than the presentation container */
+    width: 80%; /* Make the photo container smaller than the presentations box */
     margin-left: auto; /* Center the container */
     margin-right: auto; /* Center the container */
     text-align: center; /* Center content inside */
