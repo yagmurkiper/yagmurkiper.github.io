@@ -27,8 +27,8 @@
 
       <!-- Photo Section -->
       <div class="photo-container">
-        <div class="photo-title">golden gate, san francisco, in dec 2022</div>
         <img src="/assets/img/goldengate.jpg" alt="Presentation Image" class="img-fluid rounded">
+        <div class="photo-title">golden gate, san francisco, in dec 2022</div>
       </div>
     </div>
   </div>
@@ -89,11 +89,11 @@
 .photo-container {
   flex: 1; /* Allow the photo container to take up equal space */
   display: flex;
-  flex-direction: column; /* Align title and image vertically */
-  justify-content: flex-start; /* Align title and image to the top */
+  flex-direction: column; /* Align image and title vertically */
+  justify-content: flex-start; /* Align content to the top */
   align-items: center; /* Center content horizontally */
   max-height: 300px; /* Match the height of the presentations container */
-  border: none; /* Remove border around the container */
+  border: none; /* Ensure no border around the container */
   overflow: hidden; /* Prevent content overflow */
 }
 
@@ -106,10 +106,9 @@
 .photo-title {
   font-size: 0.8rem; /* Small font size for the title */
   color: #666; /* Subtle gray color */
-  margin-bottom: 10px; /* Spacing between the title and the photo */
+  margin-top: 10px; /* Space above the title */
   text-align: center; /* Center the title */
   font-style: italic; /* Optional: Make the title italic */
-  border: none; /* Ensure no border on the title */
 }
 
   /* Responsive Adjustments */
