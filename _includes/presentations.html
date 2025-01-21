@@ -86,31 +86,31 @@
   }
 
   /* Photo Container */
-  .photo-container {
-    flex: 1; /* Allow the photo container to take up equal space */
-    display: flex;
-    flex-direction: column; /* Align title and image vertically */
-    justify-content: flex-start; /* Align title and image to the top */
-    align-items: center; /* Center content horizontally */
-    max-height: 300px; /* Match the height of the presentations container */
-    border: 1px solid #ddd; /* Match the border style of presentations-container */
-    border-radius: 8px; /* Match the rounded corners */
-    overflow: hidden; /* Prevent content overflow */
-  }
+.photo-container {
+  flex: 1; /* Allow the photo container to take up equal space */
+  display: flex;
+  flex-direction: column; /* Align title and image vertically */
+  justify-content: flex-start; /* Align title and image to the top */
+  align-items: center; /* Center content horizontally */
+  max-height: 300px; /* Match the height of the presentations container */
+  border: none; /* Remove border around the container */
+  overflow: hidden; /* Prevent content overflow */
+}
 
   .photo-container img {
     width: 100%; /* Make image stretch to match the container's width */
     height: auto; /* Keep the aspect ratio intact */
     flex-shrink: 0; /* Prevent the image from shrinking */
   }
-
-  .photo-title {
-    font-size: 0.8rem; /* Small font size for the title */
-    color: #666; /* Subtle gray color */
-    margin-bottom: 10px; /* Spacing between the title and the photo */
-    text-align: center; /* Center the title */
-    font-style: italic; /* Optional: Make the title italic */
-  }
+  /* Photo Title */
+.photo-title {
+  font-size: 0.8rem; /* Small font size for the title */
+  color: #666; /* Subtle gray color */
+  margin-bottom: 10px; /* Spacing between the title and the photo */
+  text-align: center; /* Center the title */
+  font-style: italic; /* Optional: Make the title italic */
+  border: none; /* Ensure no border on the title */
+}
 
   /* Responsive Adjustments */
   @media (max-width: 768px) {
