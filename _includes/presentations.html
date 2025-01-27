@@ -26,13 +26,31 @@
     <!-- Scrollable Photo Section -->
     <div class="photos-container">
       <div class="photos-scroll">
-        <img src="/assets/img/cappadocia.jpg" alt="Photo 1" class="img-thumbnail">
-        <img src="/assets/img/kizilay.jpg" alt="Photo 2" class="img-thumbnail">
-        <img src="/assets/img/ulus.jpg" alt="Photo 3" class="img-thumbnail">
-        <img src="/assets/img/dalyan.jpg" alt="Photo 3" class="img-thumbnail">
-        <img src="/assets/img/devrim.jpg" alt="Photo 3" class="img-thumbnail">
-        <img src="/assets/img/kas.jpg" alt="Photo 3" class="img-thumbnail">
-        <!-- Add more photos as needed -->
+        <div class="photo-item">
+          <div class="photo-title">cappadocia, 2017</div>
+          <img src="/assets/img/cappadocia.jpg" alt="Cappadocia" class="img-thumbnail">
+        </div>
+        <div class="photo-item">
+          <div class="photo-title">kızılay, 2019</div>
+          <img src="/assets/img/kizilay.jpg" alt="Kızılay" class="img-thumbnail">
+        </div>
+        <div class="photo-item">
+          <div class="photo-title">ulus, 2018</div>
+          <img src="/assets/img/ulus.jpg" alt="Ulus" class="img-thumbnail">
+        </div>
+        <div class="photo-item">
+          <div class="photo-title">dalyan, 2022</div>
+          <img src="/assets/img/dalyan.jpg" alt="Dalyan" class="img-thumbnail">
+        </div>
+        <div class="photo-item">
+          <div class="photo-title">devrim, 2018</div>
+          <img src="/assets/img/devrim.jpg" alt="Devrim" class="img-thumbnail">
+        </div>
+        <div class="photo-item">
+          <div class="photo-title">kaş, 2023</div>
+          <img src="/assets/img/kas.jpg" alt="Kaş" class="img-thumbnail">
+        </div>
+        <!-- Add more photo items as needed -->
       </div>
     </div>
   </div>
@@ -70,7 +88,7 @@
   /* Scrollable Photos Section */
   .photos-container {
     width: 100%; /* Full width */
-    max-height: 200px; /* Define height for photos */
+    max-height: 250px; /* Define height for photos */
     overflow-x: auto; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Prevent vertical scrolling */
     display: flex;
@@ -82,7 +100,21 @@
 
   .photos-scroll {
     display: flex; /* Horizontal layout for photos */
-    gap: 10px; /* Space between photos */
+    gap: 15px; /* Space between photo items */
+  }
+
+  .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center titles and images */
+    gap: 5px; /* Space between title and image */
+    text-align: center; /* Center text */
+  }
+
+  .photo-title {
+    font-size: 0.9rem; /* Slightly smaller font size for titles */
+    color: #555; /* Subtle gray color */
+    font-weight: bold;
   }
 
   .photos-scroll img {
@@ -99,7 +131,7 @@
     }
 
     .photos-container {
-      max-height: 150px; /* Adjust photo height on smaller screens */
+      max-height: 200px; /* Adjust photo height on smaller screens */
     }
 
     .photos-scroll img {
