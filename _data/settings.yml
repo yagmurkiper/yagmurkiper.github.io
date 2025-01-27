@@ -7,7 +7,7 @@ menu:
 - {name: 'cv', url: '/cv'}
 
 social:
-  - {icon: 'fab fa-github', link: 'https://github.com/yagmurkiper'}       # GitHub Icon
-  - {icon: 'fas fa-graduation-cap', link: 'https://scholar.google.com/citations?user=_4wll80AAAAJ&hl=en&oi=ao'} # Graduation Cap for Google Scholar
-  - {icon: 'fab fa-linkedin', link: 'https://linkedin.com/in/yagmur-kiper'} # LinkedIn Icon
-  - {icon: 'fab fa-orcid', link: 'https://orcid.org/0000-0003-1430-2424'}  # ORCID Icon
+  - {icon: 'fab fa-github', link: 'https://github.com/yagmurkiper'}
+  - {icon: 'fas fa-graduation-cap', link: 'https://scholar.google.com/citations?user=_4wll80AAAAJ&hl=en&oi=ao'}
+  - {icon: 'fab fa-linkedin', link: 'https://linkedin.com/in/yagmur-kiper'}
+  - {icon: 'fab fa-orcid', link: 'https://orcid.org/0000-0003-1430-2424'}
