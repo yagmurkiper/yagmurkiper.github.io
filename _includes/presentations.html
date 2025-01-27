@@ -5,8 +5,8 @@
 
     <!-- Scrollable Presentations Section -->
     <div class="presentations-container">
-      <!-- Peer-reviewed Subsection -->
-      <h4 class="fw-bold text-secondary mb-3">Peer-reviewed</h4>
+      <!-- Peer-reviewed Presentations -->
+      <h4 class="fw-bold text-secondary mb-3">Peer-reviewed Presentations</h4>
       {% for item in site.data.presentations.index %}
         {% if item.type == "peer-reviewed" %}
           <div class="presentation-item">
@@ -18,16 +18,18 @@
             {% if item.links %}
               <p class="presentation-links">
                 {% for link in item.links %}
-                  <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
+                  <a href="{{ link.url }}" class="custom-link {% if link.text == 'abstract' or link.text == 'handout' %}highlight{% endif %}" target="_blank">
+                    <strong>[{{ link.text }}]</strong>
+                  </a>
                 {% endfor %}
               </p>
             {% endif %}
           </div>
         {% endif %}
       {% endfor %}
-
-      <!-- Invited Subsection -->
-      <h4 class="fw-bold text-secondary mb-3 mt-4">Invited</h4>
+    
+      <!-- Invited Presentations -->
+      <h4 class="fw-bold text-secondary mb-3 mt-4">Invited Presentations</h4>
       {% for item in site.data.presentations.index %}
         {% if item.type == "invited" %}
           <div class="presentation-item">
@@ -39,14 +41,16 @@
             {% if item.links %}
               <p class="presentation-links">
                 {% for link in item.links %}
-                  <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
+                  <a href="{{ link.url }}" class="custom-link {% if link.text == 'abstract' or link.text == 'handout' %}highlight{% endif %}" target="_blank">
+                    <strong>[{{ link.text }}]</strong>
+                  </a>
                 {% endfor %}
               </p>
             {% endif %}
           </div>
         {% endif %}
       {% endfor %}
-    </div>
+    </div>    
 
     <!-- Scrollable Photo Section -->
     <div class="photos-container mt-5">
