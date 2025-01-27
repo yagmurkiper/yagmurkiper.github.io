@@ -6,13 +6,8 @@ menu:
 - {name: 'teaching', url: '/teaching'}
 - {name: 'cv', url: '/cv'}
 
-about_me:
-
-courses:
-
 social:
-- {icon: 'github', link: 'https://github.com/yagmurkiper'}
-- {icon: 'graduation-cap', link: 'https://scholar.google.com/citations?user=_4wll80AAAAJ&hl=en&oi=ao'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/yagmur-kiper'}
-
-presentations:
+  - {icon: 'github', link: 'https://github.com/yagmurkiper'}
+  - {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=_4wll80AAAAJ&hl=en&oi=ao'} # Updated for Google Scholar
+  - {icon: 'linkedin', link: 'https://linkedin.com/in/yagmur-kiper'}
+  - {icon: 'orcid', link: 'https://orcid.org/0000-0003-1430-2424'}
