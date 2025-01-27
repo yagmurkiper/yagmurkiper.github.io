@@ -1,8 +1,15 @@
 index:
+  - year: upcoming
+    title: "Differential Subject Marking in Turkish (tentative)"
+    event: "Talk at the Syntax and Morphology Circle (SMircle)"
+    location: "Stanford University"
+    type: "invited"
+
   - year: 2025
     title: "Low sluicing in Turkish is VPE"
     event: "Talk at the Annual Meeting of the Linguistic Society of America (LSA 2025)"
     location: "Philadelphia"
+    type: "peer-reviewed"
     links:
       - text: "abstract"
         url: "https://app.oxfordabstracts.com/response-content/submissions/824104/questions/91693"
@@ -13,6 +20,7 @@ index:
     title: "(Mis)matches in Turkish sluicing constructions"
     event: "Short Talk at Architectures and Mechanisms for Language Processing (AMLaP)"
     location: "Université de Paris (online)"
+    type: "peer-reviewed"
     links:
       - text: "abstract"
         url: "https://amlap2021.github.io/program/186.pdf"
@@ -21,27 +29,32 @@ index:
     title: "Connectivity in Turkish sluicing."
     event: "Talk at the 23rd Seoul International Conference on Generative Grammar (SICOGG 23)"
     location: "Sogang University (online)"
+    type: "peer-reviewed"
 
   - year: 2021
     title: "The position of the Q-like particle ki in Turkish and consequences for sluicing"
     event: "Talk at the 37th Annual Northwest Linguistics Conference (NWLC 37)"
     location: "University of British Columbia (online)"
+    type: "peer-reviewed"
     links:
       - text: "abstract"
         url: "https://blogs.ubc.ca/nwlc37/files/2021/05/THE-POSITION-OF-THE-Q-LIKE-PARTICLE-Kİ-IN-TURKISH-AND-CONSEQUENCES-FOR-SLUICING.pdf"
 
-  - year: 2017
-    title: "Applicability of subset/superset principle in the acquisition of relative clauses by Turkish learners of English"
-    authors: "(with Sercan Karakaş and Ayşe Gül Özay)"
-    event: "Poster at the 31st National Conference on Turkish Linguistics (UDK 31)"
-    location: "Anadolu University"
+  #- year: 2017
+  #  title: "Applicability of subset/superset principle in the acquisition of relative clauses by Turkish learners of English"
+  #  authors: "(with Sercan Karakaş and Ayşe Gül Özay)"
+  #  event: "Poster at the 31st National Conference on Turkish Linguistics (UDK 31)"
+  #  location: "Anadolu University"
+  #  type: "peer-reviewed"
 
-  - year: 2017
-    title: "L1 Turkish transfer in the acquisition of L2 English definite article"
-    event: "Talk at the 11th Student Conference on Linguistics (DÖK 11)"
-    location: "Mersin University"
+  #- year: 2017
+  #  title: "L1 Turkish transfer in the acquisition of L2 English definite article"
+  #  event: "Talk at the 11th Student Conference on Linguistics (DÖK 11)"
+  #  location: "Mersin University"
+  #  type: "peer-reviewed"
 
   - year: 2016
     title: "L1 Turkish transfer in the acquisition of L2 English definite article"
     event: "Talk at the T.W.I.S.T. Conference in Linguistics (TWISTx10)"
     location: "Leiden University"
+    type: "peer-reviewed"

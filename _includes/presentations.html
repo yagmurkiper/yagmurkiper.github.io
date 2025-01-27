@@ -1,30 +1,56 @@
 <div class="row g-5 mb-5">
   <div class="col-12">
     <!-- Title -->
-    <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Presentations</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Selected Presentations</h3>
 
-    <!-- Scrollable Presentations Section -->
+    <!-- Peer-reviewed Presentations Section -->
+    <h4 class="fw-bold text-secondary mb-3">Peer-reviewed</h4>
     <div class="presentations-container">
       {% for item in site.data.presentations.index %}
-        <div class="presentation-item">
-          <p>
-            <strong class="text-secondary">{{ item.year }}</strong> - 
-            <span>{{ item.title }}</span>, 
-            <em>{{ item.event }}</em>, {{ item.location }}
-          </p>
-          {% if item.links %}
-            <p class="presentation-links">
-              {% for link in item.links %}
-                <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
-              {% endfor %}
+        {% if item.type == "peer-reviewed" %}
+          <div class="presentation-item">
+            <p>
+              <strong class="text-secondary">{{ item.year }}</strong> - 
+              <span>{{ item.title }}</span>, 
+              <em>{{ item.event }}</em>, {{ item.location }}
             </p>
-          {% endif %}
-        </div>
+            {% if item.links %}
+              <p class="presentation-links">
+                {% for link in item.links %}
+                  <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Invited Presentations Section -->
+    <h4 class="fw-bold text-secondary mb-3 mt-5">Invited</h4>
+    <div class="presentations-container">
+      {% for item in site.data.presentations.index %}
+        {% if item.type == "invited" %}
+          <div class="presentation-item">
+            <p>
+              <strong class="text-secondary">{{ item.year }}</strong> - 
+              <span>{{ item.title }}</span>, 
+              <em>{{ item.event }}</em>, {{ item.location }}
+            </p>
+            {% if item.links %}
+              <p class="presentation-links">
+                {% for link in item.links %}
+                  <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
 
     <!-- Scrollable Photo Section -->
-    <div class="photos-container">
+    <div class="photos-container mt-5">
       <div class="photos-scroll">
         <div class="photo-item">
           <img src="/assets/img/cappadocia.jpg" alt="Cappadocia" class="img-thumbnail">
@@ -60,13 +86,13 @@
   /* Scrollable Presentations Section */
   .presentations-container {
     width: 100%; /* Full width */
-    max-height: 300px; /* Define the height for presentations */
+    max-height: 400px; /* Define the height for presentations */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 15px;
     background-color: #f9f9f9; /* Light neutral background */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 8px; /* Rounded corners */
-    margin-bottom: 20px; /* Space between presentations and photos */
+    margin-bottom: 20px; /* Space between presentations */
   }
 
   .presentation-item {
@@ -83,6 +109,15 @@
 
   .presentation-links a:hover {
     text-decoration: underline;
+  }
+
+  /* Section Titles */
+  h4 {
+    font-size: 1.2rem;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   /* Scrollable Photos Section */
@@ -112,7 +147,7 @@
   }
 
   .photo-title {
-    font-size: 0.8rem; /* Slightly smaller font size for titles */
+    font-size: 0.9rem; /* Slightly smaller font size for titles */
     color: #555; /* Subtle gray color */
     font-style: italic; /* Make the title italic */
     font-weight: normal; /* Remove bold */
