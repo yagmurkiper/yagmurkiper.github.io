@@ -3,9 +3,10 @@
     <!-- Title -->
     <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Selected Presentations</h3>
 
-    <!-- Peer-reviewed Presentations Section -->
-    <h4 class="fw-bold text-secondary mb-3">Peer-reviewed</h4>
+    <!-- Scrollable Presentations Section -->
     <div class="presentations-container">
+      <!-- Peer-reviewed Subsection -->
+      <h4 class="fw-bold text-secondary mb-3">Peer-reviewed</h4>
       {% for item in site.data.presentations.index %}
         {% if item.type == "peer-reviewed" %}
           <div class="presentation-item">
@@ -24,11 +25,9 @@
           </div>
         {% endif %}
       {% endfor %}
-    </div>
 
-    <!-- Invited Presentations Section -->
-    <h4 class="fw-bold text-secondary mb-3 mt-5">Invited</h4>
-    <div class="presentations-container">
+      <!-- Invited Subsection -->
+      <h4 class="fw-bold text-secondary mb-3 mt-4">Invited</h4>
       {% for item in site.data.presentations.index %}
         {% if item.type == "invited" %}
           <div class="presentation-item">
@@ -76,7 +75,6 @@
           <img src="/assets/img/kas.jpg" alt="Kaş" class="img-thumbnail">
           <div class="photo-title">kaş, 2023</div>
         </div>
-        <!-- Add more photo items as needed -->
       </div>
     </div>
   </div>
@@ -86,17 +84,17 @@
   /* Scrollable Presentations Section */
   .presentations-container {
     width: 100%; /* Full width */
-    max-height: 400px; /* Define the height for presentations */
+    max-height: 400px; /* Set height for scrollable area */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 15px;
-    background-color: #f9f9f9; /* Light neutral background */
+    background-color: #f9f9f9; /* Light background */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 8px; /* Rounded corners */
-    margin-bottom: 20px; /* Space between presentations */
+    margin-bottom: 20px; /* Space between sections */
   }
 
   .presentation-item {
-    margin-bottom: 15px; /* Space between presentation items */
+    margin-bottom: 15px; /* Space between individual items */
     font-size: 0.95rem;
     line-height: 1.6;
   }
@@ -111,13 +109,12 @@
     text-decoration: underline;
   }
 
-  /* Section Titles */
+  /* Subsection Titles */
   h4 {
     font-size: 1.2rem;
     color: #555;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   /* Scrollable Photos Section */
