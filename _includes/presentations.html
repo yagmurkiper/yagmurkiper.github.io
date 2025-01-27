@@ -3,123 +3,107 @@
     <!-- Title -->
     <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Presentations</h3>
 
-    <!-- Flex Container for Scrollable Area and Photo -->
-    <div class="flex-container">
-      <!-- Scrollable Presentations Container -->
-      <div class="presentations-container">
-        {% for item in site.data.presentations.index %}
-          <div class="presentation-item">
-            <p>
-              <strong class="text-secondary">{{ item.year }}</strong> - 
-              <span>{{ item.title }}</span>, 
-              <em>{{ item.event }}</em>, {{ item.location }}
+    <!-- Scrollable Presentations Section -->
+    <div class="presentations-container">
+      {% for item in site.data.presentations.index %}
+        <div class="presentation-item">
+          <p>
+            <strong class="text-secondary">{{ item.year }}</strong> - 
+            <span>{{ item.title }}</span>, 
+            <em>{{ item.event }}</em>, {{ item.location }}
+          </p>
+          {% if item.links %}
+            <p class="presentation-links">
+              {% for link in item.links %}
+                <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
+              {% endfor %}
             </p>
-            {% if item.links %}
-              <p class="presentation-links">
-                {% for link in item.links %}
-                  <a href="{{ link.url }}" target="_blank"><strong>[{{ link.text }}]</strong></a>
-                {% endfor %}
-              </p>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
 
-      <!-- Photo Section -->
-      <div class="photo-container">
-        <img src="/assets/img/goldengate.jpg" alt="Presentation Image" class="img-fluid rounded">
-        <div class="photo-title">golden gate, san francisco, in dec 2022</div>
+    <!-- Scrollable Photo Section -->
+    <div class="photos-container">
+      <div class="photos-scroll">
+        <img src="/assets/img/cappadocia.jpg" alt="Photo 1" class="img-thumbnail">
+        <img src="/assets/img/kizilay.jpg" alt="Photo 2" class="img-thumbnail">
+        <img src="/assets/img/ulus.jpg" alt="Photo 3" class="img-thumbnail">
+        <img src="/assets/img/dalyan.jpg" alt="Photo 3" class="img-thumbnail">
+        <img src="/assets/img/devrim.jpg" alt="Photo 3" class="img-thumbnail">
+        <img src="/assets/img/kas.jpg" alt="Photo 3" class="img-thumbnail">
+        <!-- Add more photos as needed -->
       </div>
     </div>
   </div>
 </div>
 
 <style>
-  /* Flex Container for Scrollable Area and Photo */
-  .flex-container {
-    display: flex; /* Use flexbox layout */
-    gap: 20px; /* Add spacing between items */
-  }
-
-  /* Scrollable Presentations Container */
+  /* Scrollable Presentations Section */
   .presentations-container {
-    flex: 1; /* Allow the presentations container to take up equal space */
-    max-height: 300px; /* Match the height of the photo container */
+    width: 100%; /* Full width */
+    max-height: 400px; /* Define the height for presentations */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 15px;
     background-color: #f9f9f9; /* Light neutral background */
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between presentations and photos */
   }
 
-  /* Individual Presentation Items */
   .presentation-item {
-    margin-bottom: 15px; /* Space between items */
-    font-size: 0.95rem; /* Compact text */
-    line-height: 1.6; /* Comfortable line spacing */
+    margin-bottom: 15px; /* Space between presentation items */
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
-  .presentation-item:last-child {
-    margin-bottom: 0; /* Remove space after the last item */
-  }
-
-  /* Styling for Dates */
-  .text-secondary {
-    color: #333; /* Dark text for dates */
-    font-weight: bold;
-  }
-
-  /* Link Styling */
-  .presentation-links {
-    margin-top: 5px; /* Space above the links */
-  }
-
-  a {
-    color: #007bff; /* Blue links */
+  .presentation-links a {
+    color: #007bff;
     text-decoration: none;
-    font-weight: bold; /* Highlight links */
-    margin-right: 10px; /* Space between links */
+    margin-right: 10px;
   }
 
-  a:hover {
+  .presentation-links a:hover {
     text-decoration: underline;
   }
 
-  /* Photo Container */
-.photo-container {
-  flex: 1; /* Allow the photo container to take up equal space */
-  display: flex;
-  flex-direction: column; /* Align image and title vertically */
-  justify-content: flex-start; /* Align content to the top */
-  align-items: center; /* Center content horizontally */
-  max-height: 300px; /* Match the height of the presentations container */
-  border: none; /* Ensure no border around the container */
-  overflow: hidden; /* Prevent content overflow */
-}
-
-  .photo-container img {
-    width: 100%; /* Make image stretch to match the container's width */
-    height: auto; /* Keep the aspect ratio intact */
-    flex-shrink: 0; /* Prevent the image from shrinking */
+  /* Scrollable Photos Section */
+  .photos-container {
+    width: 100%; /* Full width */
+    max-height: 200px; /* Define height for photos */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scrolling */
+    display: flex;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Add padding around photos */
   }
-  /* Photo Title */
-.photo-title {
-  font-size: 0.8rem; /* Small font size for the title */
-  color: #666; /* Subtle gray color */
-  margin-top: 10px; /* Space above the title */
-  text-align: center; /* Center the title */
-  font-style: italic; /* Optional: Make the title italic */
-}
+
+  .photos-scroll {
+    display: flex; /* Horizontal layout for photos */
+    gap: 10px; /* Space between photos */
+  }
+
+  .photos-scroll img {
+    max-height: 150px; /* Define maximum photo height */
+    object-fit: cover; /* Ensure photos maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for photos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
 
   /* Responsive Adjustments */
   @media (max-width: 768px) {
-    .flex-container {
-      flex-direction: column; /* Stack items vertically on smaller screens */
+    .presentations-container {
+      max-height: 300px; /* Adjust presentations height on smaller screens */
     }
 
-    .photo-container,
-    .presentations-container {
-      width: 100%; /* Full width for smaller screens */
+    .photos-container {
+      max-height: 150px; /* Adjust photo height on smaller screens */
+    }
+
+    .photos-scroll img {
+      max-height: 120px; /* Smaller photos on smaller screens */
     }
   }
 </style>
