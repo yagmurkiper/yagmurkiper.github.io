@@ -1,14 +1,44 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: 'Libre Baskerville', serif;
+$headingFont: 'Roboto', sans-serif; /* Add a new variable for headings */
 $linkColor: #212529 !important;
 
+/* Body Styling */
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  font-size: 16px; /* Optional: Adjust font size */
+  line-height: 1.6; /* Optional: Improve readability */
 }
 
+/* Links Styling */
 body a {
-  color: $linkColor
+  color: $linkColor;
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+body a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Headings Styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headingFont; /* Use the new heading font */
+  font-weight: 700; /* Bold headings */
+  letter-spacing: 0.5px; /* Optional: Slight spacing for a modern look */
+}
+
+/* Specific Styling for Other Elements */
+.navbar a {
+  font-family: $headingFont; /* Use heading font for navigation links */
+  font-weight: 400; /* Regular weight for nav links */
+  text-transform: uppercase; /* Optional: Uppercase for nav */
+}
+
+button, .btn {
+  font-family: $headingFont; /* Use heading font for buttons */
+  font-weight: 700; /* Bold buttons */
+  text-transform: uppercase; /* Optional: Uppercase for buttons */
 }
