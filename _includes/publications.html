@@ -1,14 +1,172 @@
 <div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p>{{ item.name }}</p>
-      {% endfor %}
-    {% else %}
+  <div class="col-12">
+    <!-- Title -->
+    <h3 class="fw-bold border-bottom pb-3 mb-4 text-primary">Publications</h3>
+
+    <!-- Scrollable Publications Section -->
+    <div class="publications-container">
+      <!-- Conference Proceedings Subsection -->
+      <h4 class="fw-bold text-secondary mb-3">Conference Proceedings</h4>
       {% for item in site.data.publications.index %}
-        <p>{{ item.name }}</p>
+        {% if item.type == "conference proceedings" %}
+          <div class="publication-item">
+            <p>
+              <strong class="text-secondary">{{ item.year }}</strong> - 
+              <span>{{ item.title }}</span>, 
+              <em>{{ item.journal }}</em>, {{ item.location }}
+            </p>
+            {% if item.links %}
+              <p class="publication-links">
+                {% for link in item.links %}
+                  <a href="{{ link.url }}" class="custom-link {% if link.text == 'abstract' or link.text == 'full-text' %}highlight{% endif %}" target="_blank">
+                    <strong>[{{ link.text }}]</strong>
+                  </a>
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
       {% endfor %}
-    {% endif %}
+
+      <!-- Edited Volumes Subsection -->
+      <h4 class="fw-bold text-secondary mb-3 mt-4">Edited Volumes</h4>
+      {% for item in site.data.publications.index %}
+        {% if item.type == "edited volume" %}
+          <div class="publication-item">
+            <p>
+              <strong class="text-secondary">{{ item.year }}</strong> - 
+              <span>{{ item.title }}</span>, 
+              <em>{{ item.publisher }}</em>, {{ item.location }}
+            </p>
+            {% if item.links %}
+              <p class="publication-links">
+                {% for link in item.links %}
+                  <a href="{{ link.url }}" class="custom-link {% if link.text == 'abstract' or link.text == 'full-text' %}highlight{% endif %}" target="_blank">
+                    <strong>[{{ link.text }}]</strong>
+                  </a>
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Scrollable Photo Section -->
+    <div class="photos-container mt-5">
+      <div class="photos-scroll">
+        <div class="photo-item">
+          <img src="/assets/img/bigsur.jpg" alt="Publication Photo 1" class="img-thumbnail">
+          <div class="photo-title">big sur, 2024</div>
+        </div>
+        <div class="photo-item">
+          <img src="/assets/img/goldengate.jpg" alt="Publication Photo 2" class="img-thumbnail">
+          <div class="photo-title">golden gate, 2024</div>
+        </div>
+        <div class="photo-item">
+          <img src="/assets/img/naturalbridges.jpg" alt="Publication Photo 3" class="img-thumbnail">
+          <div class="photo-title">natural bridges, 2024</div>
+        </div>
+        <div class="photo-item">
+          <img src="/assets/img/wharf.jpg" alt="Publication Photo 4" class="img-thumbnail">
+          <div class="photo-title">santa cruz wharf, 2024</div>
+        </div>
+        <!-- Add more photos as needed -->
+      </div>
+    </div>
   </div>
 </div>
+
+<style>
+  /* Scrollable Publications Section */
+  .publications-container {
+    width: 100%; /* Full width */
+    max-height: 400px; /* Set height for scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between sections */
+  }
+
+  .publication-item {
+    margin-bottom: 15px; /* Space between individual items */
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .publication-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .publication-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Subsection Titles */
+  h4 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Scrollable Photos Section */
+  .photos-container {
+    width: 100%; /* Full width */
+    max-height: 250px; /* Define height for photos */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scrolling */
+    display: flex;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Add padding around photos */
+  }
+
+  .photos-scroll {
+    display: flex; /* Horizontal layout for photos */
+    gap: 15px; /* Space between photo items */
+  }
+
+  .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center titles and images */
+    gap: 5px; /* Space between image and title */
+    text-align: center; /* Center text */
+  }
+
+  .photo-title {
+    font-size: 0.9rem; /* Slightly smaller font size for titles */
+    color: #555; /* Subtle gray color */
+    font-style: italic; /* Make the title italic */
+    font-weight: normal; /* Remove bold */
+  }
+
+  .photos-scroll img {
+    max-height: 150px; /* Define maximum photo height */
+    object-fit: cover; /* Ensure photos maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for photos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .publications-container {
+      max-height: 300px; /* Adjust publications height on smaller screens */
+    }
+
+    .photos-container {
+      max-height: 200px; /* Adjust photo height on smaller screens */
+    }
+
+    .photos-scroll img {
+      max-height: 120px; /* Smaller photos on smaller screens */
+    }
+  }
+</style>
+

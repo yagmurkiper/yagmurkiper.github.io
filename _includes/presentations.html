@@ -6,7 +6,7 @@
     <!-- Scrollable Presentations Section -->
     <div class="presentations-container">
       <!-- Peer-reviewed Presentations -->
-      <h4 class="fw-bold text-secondary mb-3">Peer-reviewed Presentations</h4>
+      <h4 class="fw-bold text-secondary mb-3">Peer-reviewed</h4>
       {% for item in site.data.presentations.index %}
         {% if item.type == "peer-reviewed" %}
           <div class="presentation-item">
@@ -29,7 +29,7 @@
       {% endfor %}
     
       <!-- Invited Presentations -->
-      <h4 class="fw-bold text-secondary mb-3 mt-4">Invited Presentations</h4>
+      <h4 class="fw-bold text-secondary mb-3 mt-4">Invited</h4>
       {% for item in site.data.presentations.index %}
         {% if item.type == "invited" %}
           <div class="presentation-item">

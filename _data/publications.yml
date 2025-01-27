@@ -1,2 +1,19 @@
 index:
-- {name: '<b>2022</b> The position of the Q-like particle <i>ki</i> in Turkish and consequences for sluicing. In <i> Proceedings of the Northwest Linguistics Conference 37</i>, edited by Marianne Huijsmans and Sander Nederveen, Vancouver, BC: UBCWPL. <a href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf">[paper]</a>'}
+  - year: 2022
+    title: "The position of the Q-like particle <i>ki</i> in Turkish and consequences for sluicing"
+    journal: "<i>Proceedings of the Northwest Linguistics Conference 37</i>"
+    editors: "Marianne Huijsmans and Sander Nederveen"
+    location: "Vancouver, BC: UBCWPL"
+    type: "conference proceedings"
+    links:
+      - text: "paper"
+        url: "https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf"
+        
+    - year: upcoming
+    title: "Proceedings of the 41st West Coast Conference on Formal Linguistics (WCCFL41)"
+    authors: "Niko Webster, <b>Yağmur Kiper</b>, Huolin Wang, & Larry Lyu (eds.)"
+    publisher: "Cascadilla Proceedings Project"
+    location: "Somerville, MA"
+    type: "edited volume"
+
+      
