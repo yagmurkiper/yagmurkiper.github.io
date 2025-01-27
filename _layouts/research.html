@@ -3,19 +3,21 @@ layout: default
 ---
 
 <div class="container text-center" style="margin-top: 100px;">
-  <h1 class="display-4 text-primary">🚧 Under Construction 🚧</h1>
+  <h1 class="display-4">🚧 under construction 🚧</h1>
   <p class="lead text-secondary" style="margin-top: 20px;">
     This page is currently being updated. Please check back soon for more content!
   </p>
   <div style="margin-top: 40px;">
-    <a href="/" class="btn btn-primary">Return to Home</a>
+    <a href="/" class="btn btn-primary">return to home</a>
   </div>
 </div>
 
 <style>
+  /* Overall Styling */
   body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5; /* Subtle background */
+    font-family: 'Libre Baskerville', serif; /* Match home page font */
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Subtle background color */
     color: #333; /* Neutral text color */
   }
 
@@ -28,16 +30,33 @@ layout: default
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
   }
 
+  h1 {
+    font-family: 'Roboto', sans-serif; /* Match heading font */
+    font-size: 2.5rem; /* Slightly smaller than display-4 */
+    color: #454949; /* Consistent heading color */
+    text-transform: lowercase; /* Consistent with other headings */
+    margin-bottom: 20px;
+  }
+
+  .lead {
+    font-family: 'Libre Baskerville', serif; /* Match body font */
+    font-size: 1.2rem; /* Adjust font size for readability */
+    color: #6c757d; /* Consistent with secondary text */
+  }
+
   .btn-primary {
+    font-family: 'Roboto', sans-serif; /* Match button font with headings */
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
+    text-transform: lowercase; /* Consistent button text style */
   }
 
   .btn-primary:hover {
     background-color: #0056b3; /* Darker on hover */
+    border-color: #0056b3;
   }
 </style>
