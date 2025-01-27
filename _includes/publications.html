@@ -1,12 +1,12 @@
 <div class="row g-5 mb-5">
   <div class="col-12">
     <!-- Title -->
-    <h3 class="fw-bold border-bottom pb-3 mb-4" style="color: #454949;">Publications</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-4">publications</h3>
 
     <!-- Scrollable Publications Section -->
     <div class="publications-container">
       <!-- Conference Proceedings Subsection -->
-      <h4 class="fw-bold text-secondary mb-3">Conference Proceedings</h4>
+      <h4 class="fw-bold text-secondary mb-3">conference proceedings</h4>
       {% for item in site.data.publications.index %}
         {% if item.type == "conference proceedings" %}
           <div class="publication-item">
@@ -29,7 +29,7 @@
       {% endfor %}
 
       <!-- Edited Volumes Subsection -->
-      <h4 class="fw-bold text-secondary mb-3 mt-4">Edited Volumes</h4>
+      <h4 class="fw-bold text-secondary mb-3 mt-4">edited volumes</h4>
       {% for item in site.data.publications.index %}
         {% if item.type == "edited volume" %}
           <div class="publication-item">
@@ -78,26 +78,49 @@
 </div>
 
 <style>
-  /* Scrollable Publications Section */
+  /* Overall Styling */
+  body {
+    font-family: 'Libre Baskerville', serif; /* Consistent with home page */
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Subtle background */
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif; /* Consistent heading font */
+    font-size: 1.5rem;
+    text-transform: lowercase; /* Lowercase heading */
+    letter-spacing: 1px;
+    color: #454949; /* Heading color consistent with other pages */
+  }
+
+  h4 {
+    font-family: 'Roboto', sans-serif; /* Subsection headings */
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
   .publications-container {
-    width: 100%; /* Full width */
-    max-height: 300px; /* Set height for scrollable area */
-    overflow-y: auto; /* Enable vertical scrolling */
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
     padding: 15px;
-    background-color: #f9f9f9; /* Light background */
+    background-color: #ffffff; /* Clean white background */
     border: 1px solid #ddd; /* Subtle border */
-    border-radius: 8px; /* Rounded corners */
-    margin-bottom: 20px; /* Space between sections */
+    border-radius: 10px; /* Match rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px;
   }
 
   .publication-item {
-    margin-bottom: 15px; /* Space between individual items */
+    margin-bottom: 15px;
     font-size: 0.95rem;
     line-height: 1.6;
   }
 
   .publication-links a {
-    color: #2e2f2f;
+    color: #2e2f2f; /* Consistent link color */
     text-decoration: none;
     margin-right: 10px;
   }
@@ -106,67 +129,55 @@
     text-decoration: underline;
   }
 
-  /* Subsection Titles */
-  h4 {
-    font-size: 1.2rem;
-    color: #555;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-
-  /* Scrollable Photos Section */
   .photos-container {
-    width: 100%; /* Full width */
-    max-height: 250px; /* Define height for photos */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    overflow-y: hidden; /* Prevent vertical scrolling */
+    width: 100%;
+    max-height: 250px;
+    overflow-x: auto;
+    overflow-y: hidden;
     display: flex;
-    background-color: #f9f9f9; /* Light background */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; /* Add padding around photos */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
   }
 
   .photos-scroll {
-    display: flex; /* Horizontal layout for photos */
-    gap: 15px; /* Space between photo items */
+    display: flex;
+    gap: 15px;
   }
 
   .photo-item {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center titles and images */
-    gap: 5px; /* Space between image and title */
-    text-align: center; /* Center text */
+    align-items: center;
+    gap: 5px;
+    text-align: center;
   }
 
   .photo-title {
-    font-size: 0.7rem; /* Slightly smaller font size for titles */
-    color: #555; /* Subtle gray color */
-    font-style: italic; /* Make the title italic */
-    font-weight: normal; /* Remove bold */
+    font-size: 0.7rem; /* Small caption font */
+    color: #555; /* Consistent caption color */
+    font-style: italic;
   }
 
   .photos-scroll img {
-    max-height: 150px; /* Define maximum photo height */
-    object-fit: cover; /* Ensure photos maintain aspect ratio */
-    border-radius: 5px; /* Rounded corners for photos */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for photos */
   }
 
-  /* Responsive Adjustments */
   @media (max-width: 768px) {
     .publications-container {
-      max-height: 300px; /* Adjust publications height on smaller screens */
+      max-height: 300px;
     }
 
     .photos-container {
-      max-height: 200px; /* Adjust photo height on smaller screens */
+      max-height: 200px;
     }
 
     .photos-scroll img {
-      max-height: 120px; /* Smaller photos on smaller screens */
+      max-height: 120px;
     }
   }
 </style>
-
