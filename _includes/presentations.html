@@ -85,49 +85,50 @@
 </div>
 
 <style>
-  /* Overall Styling */
+  /* Styling for "Selected Presentations" */
+
   body {
-    font-family: 'Libre Baskerville', serif; /* Match home page font */
+    font-family: 'Libre Baskerville', serif;
     line-height: 1.6;
-    background-color: #f5f5f5; /* Consistent background */
+    background-color: #f5f5f5;
   }
 
   h3 {
-    font-family: 'Roboto', sans-serif; /* Match heading font */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    text-transform: lowercase; /* Lowercase for headings */
-    letter-spacing: 1px; /* Optional: Add spacing for clean look */
-    color: #454949; /* Consistent color for headings */
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: #454949;
   }
 
   h4 {
-    font-family: 'Roboto', sans-serif; /* Match heading font */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    color: #555; /* Consistent subsection heading color */
+    color: #555;
     margin-top: 20px;
     margin-bottom: 10px;
   }
 
   .presentations-container {
     width: 100%;
-    max-height: 300px; /* Match the scrollable area size */
-    overflow-y: auto;
+    max-height: 300px;
+    overflow-y: auto; /* Vertical scrolling */
     padding: 15px;
-    background-color: #ffffff; /* Consistent white background */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 10px; /* Match rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
 
   .presentation-item {
-    margin-bottom: 15px; /* Space between items */
+    margin-bottom: 15px;
     font-size: 0.95rem;
     line-height: 1.6;
   }
 
   .presentation-links a {
-    color: #2e2f2f; /* Consistent link color */
+    color: #2e2f2f;
     text-decoration: none;
     margin-right: 10px;
   }
@@ -138,40 +139,43 @@
 
   .photos-container {
     width: 100%;
-    max-height: 250px; /* Define height for photos */
-    overflow-x: auto; /* Horizontal scrolling */
+    max-height: 250px;
+    overflow-x: scroll; /* Horizontal scrolling for photos */
     overflow-y: hidden;
-    display: flex;
+    display: block;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
+    white-space: nowrap; /* Prevent wrapping of photo items */
   }
 
   .photos-scroll {
-    display: flex;
+    display: flex; /* Arrange photos in a row */
     gap: 15px;
+    width: max-content; /* Ensure content expands to fit photos */
   }
 
   .photo-item {
+    flex: none; /* Prevent photo items from shrinking */
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
     text-align: center;
+    gap: 5px;
   }
 
   .photo-title {
-    font-size: 0.7rem; /* Small font for photo captions */
-    color: #555; /* Consistent caption color */
+    font-size: 0.7rem;
+    color: #555;
     font-style: italic;
   }
 
   .photos-scroll img {
-    max-height: 150px; /* Define photo size */
+    max-height: 150px;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   @media (max-width: 768px) {
