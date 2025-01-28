@@ -65,7 +65,7 @@
         </div>
         <div class="photo-item">
           <img src="/assets/img/cave.jpg" alt="Publication Photo 8" class="img-thumbnail">
-          <div class="photo-title">cave, 2023</div>
+          <div class="photo-title">the cave, 2023</div>
         </div>
         <div class="photo-item">
           <img src="/assets/img/bigsur.jpg" alt="Publication Photo 1" class="img-thumbnail">
@@ -96,21 +96,21 @@
 <style>
   /* Overall Styling */
   body {
-    font-family: 'Libre Baskerville', serif; /* Consistent with home page */
+    font-family: 'Libre Baskerville', serif;
     line-height: 1.6;
-    background-color: #f5f5f5; /* Subtle background */
+    background-color: #f5f5f5;
   }
 
   h3 {
-    font-family: 'Roboto', sans-serif; /* Consistent heading font */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    text-transform: lowercase; /* Lowercase heading */
+    text-transform: lowercase;
     letter-spacing: 1px;
-    color: #454949; /* Heading color consistent with other pages */
+    color: #454949;
   }
 
   h4 {
-    font-family: 'Roboto', sans-serif; /* Subsection headings */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     color: #555;
     margin-top: 20px;
@@ -122,10 +122,10 @@
     max-height: 300px;
     overflow-y: auto;
     padding: 15px;
-    background-color: #ffffff; /* Clean white background */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 10px; /* Match rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
 
@@ -136,7 +136,7 @@
   }
 
   .publication-links a {
-    color: #2e2f2f; /* Consistent link color */
+    color: #2e2f2f;
     text-decoration: none;
     margin-right: 10px;
   }
@@ -146,47 +146,45 @@
   }
 
   .photos-container {
-  width: 100%;
-  max-height: 250px;
-  overflow-x: auto; /* Allow horizontal scrolling */
-  overflow-y: hidden; /* Prevent vertical scrolling */
-  display: flex;
-  align-items: center;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  white-space: nowrap; /* Prevent wrapping of child elements */
-}
+    width: 100%;
+    max-height: 250px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: block;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    white-space: nowrap;
+  }
 
-.photos-scroll {
-  display: inline-flex; /* Inline-flex ensures items stay on one line */
-  gap: 15px;
-}
+  .photos-scroll {
+    display: flex;
+    gap: 15px;
+    width: max-content;
+  }
 
-.photo-item {
-  flex-shrink: 0; /* Prevent photos from shrinking */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  text-align: center;
-  max-width: 150px; /* Set a max-width for each photo item */
-}
+  .photo-item {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
 
-.photo-title {
-  font-size: 0.7rem; /* Small caption font */
-  color: #555; /* Consistent caption color */
-  font-style: italic;
-}
+  .photo-title {
+    font-size: 0.7rem;
+    color: #555;
+    font-style: italic;
+  }
 
-.photos-scroll img {
-  max-height: 150px;
-  width: auto; /* Maintain aspect ratio */
-  object-fit: cover;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for photos */
-}
+  .photos-scroll img {
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
   @media (max-width: 768px) {
     .publications-container {
