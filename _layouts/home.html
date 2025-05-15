@@ -7,104 +7,123 @@ layout: default
   <div class="col-md-6">
     <p>Merhaba!</p>
 
-<p>
-  I’m Yağmur, a third-year Ph.D. student in Linguistics at the University of California, Santa Cruz. 
-  I am a syntactician with a focus on the so-called Altaic languages, primarily Turkish and Khalkha Mongolian.
-</p>
+    <p>
+      I’m Yağmur, a third-year Ph.D. student in Linguistics at the University of California, Santa Cruz. 
+      I am a syntactician with a focus on the so-called Altaic languages, primarily Turkish and Khalkha Mongolian.
+    </p>
 
-<p>
-  My primary advisor is 
-  <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a>.
-</p>
+    <p>
+      My primary advisor is 
+      <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a>.
+    </p>
 
-<p>
-  My main interests in syntax include nominalizations, case theory, ellipsis –particularly sluicing-like constructions– 
-  and copular clauses. I also have a strong interest in semantics and am currently working on the evidential restrictions on imperfective markers in Turkish.
-</p>
-
+    <p>
+      My main interests in syntax include nominalizations, case theory, ellipsis –particularly sluicing-like constructions– 
+      and copular clauses. I also have a strong interest in semantics and am currently working on the evidential restrictions on imperfective markers in Turkish.
+    </p>
   </div>
-  <div class="col-md-6" style="text-align: center;"> <!-- Center content -->
-    <div style="display: inline-block; text-align: center;"> <!-- Container for image and caption -->
+
+  <div class="col-md-6" style="text-align: center;">
+    <div style="display: inline-block; text-align: center;">
       <img src="{{ site.github.url }}/assets/img/kiper.png" alt="Home" style="max-width: 300px; height: auto;">
-      <p style="font-size: 0.7rem; color: #6c757d; margin-top: 5px;">photo by <a href="https://www.jungukang.win/index.html" target="_blank">jungu kang</a></p>
+      <p style="font-size: 0.7rem; color: #6c757d; margin-top: 5px;">
+        photo by <a href="https://www.jungukang.win/index.html" target="_blank">jungu kang</a>
+      </p>
     </div>
   </div>
 </div>
 
 <div class="row g-5 mb-5">
-  <!-- Upcoming Section (Left) -->
+  <!-- Upcoming Events -->
   <div class="col-md-6">
     <h3 class="fw-bold border-bottom pb-3 mb-4">upcoming</h3>
     <div class="updates-container shadow">
-      <p><b class="text-secondary">May 2, 2025</b> - Talk at the Syntax and Semantics Circle (SCircle) at UCSC</p>
-      <p><b class="text-secondary">May 30, 2025</b> - Talk at the Syntax and Morphology Circle (SMircle) at Stanford University</p>
+      {% assign today = site.time | date: "%Y-%m-%d" %}
+      {% assign upcoming = site.data.events | where_exp: "event", "event.date >= today" | sort: "date" %}
+      {% if upcoming.size > 0 %}
+        {% for event in upcoming %}
+          <p>
+            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - {{ event.title }}
+          </p>
+        {% endfor %}
+      {% else %}
+        <p class="text-secondary">No upcoming events at the moment.</p>
+      {% endif %}
     </div>
   </div>
 
-  <!-- Recent Updates Section (Right) -->
+  <!-- Recent Updates -->
   <div class="col-md-6">
     <h3 class="fw-bold border-bottom pb-3 mb-4">recent updates</h3>
     <div class="updates-container shadow">
-      <p><b class="text-secondary">Apr 11, 2025</b> - Talk at the Graduate Research Symposium at UCSC </p>
-      <p><b class="text-secondary">January 10, 2025</b> - Talk at the LSA 2025 Annual Meeting [<a href="research/kiper_lsa2025_HO.pdf" target="_blank" class="text-primary">handout</a>]</p>
+      {% assign recent = site.data.events | where_exp: "event", "event.date < today" | sort: "date" | reverse %}
+      {% if recent.size > 0 %}
+        {% for event in recent %}
+          <p>
+            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - 
+            {{ event.title }}
+            {% if event.link %}
+              [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
+            {% endif %}
+          </p>
+        {% endfor %}
+      {% else %}
+        <p class="text-secondary">No recent updates yet.</p>
+      {% endif %}
     </div>
   </div>
 </div>
 
 <style>
-  /* Overall Styling */
   body {
-    font-family: 'Libre Baskerville', serif; /* Apply the body font */
+    font-family: 'Libre Baskerville', serif;
     line-height: 1.6;
-    background-color: #f5f5f5; /* Subtle background color */
+    background-color: #f5f5f5;
   }
 
   h3 {
-    font-family: 'Roboto', sans-serif; /* Use heading font */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    text-transform: lowercase; /* Keep headings lowercase */
-    letter-spacing: 1px; /* Optional: Add spacing for a clean look */
-    color: #454949; /* Updated color for headings */
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: #454949;
   }
 
-  /* Updates Container Styling */
   .updates-container {
-    max-height: 150px; /* Increase height slightly */
-    max-width: 100%; /* Fit to column */
-    overflow-y: auto; /* Enable vertical scrolling */
-    padding: 15px; /* Add padding */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 10px; /* Rounded corners */
-    background-color: #ffffff; /* Clean white background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    max-height: 150px;
+    max-width: 100%;
+    overflow-y: auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  /* Scrollbar Customization */
   .updates-container::-webkit-scrollbar {
-    width: 8px; /* Slimmer scrollbar */
+    width: 8px;
   }
 
   .updates-container::-webkit-scrollbar-thumb {
-    background: #bbb; /* Light gray color */
-    border-radius: 10px; /* Rounded thumb */
+    background: #bbb;
+    border-radius: 10px;
   }
 
   .updates-container::-webkit-scrollbar-thumb:hover {
-    background: #999; /* Slightly darker on hover */
+    background: #999;
   }
 
-  /* Link and Text Styling */
   .text-primary {
-    color: #2e2f2f; /* Use consistent color for links */
+    color: #2e2f2f;
     text-decoration: none;
   }
 
   .text-primary:hover {
-    text-decoration: underline; /* Add hover effect */
+    text-decoration: underline;
   }
 
   .text-secondary {
-    color: #6c757d; /* Subtle secondary color */
+    color: #6c757d;
     font-weight: bold;
   }
 
@@ -113,18 +132,9 @@ layout: default
     line-height: 1.5;
   }
 
-  /* Photographer Credit */
-  .photo-credit {
-    font-size: 0.7rem; /* Small font for credit */
-    color: #6c757d; /* Subtle gray color */
-    margin-top: 5px;
-    text-align: right;
-  }
-
-  /* Responsive Styling */
   @media (max-width: 768px) {
     .updates-container {
-      max-height: 200px; /* Increase height for smaller screens */
+      max-height: 200px;
     }
     h3 {
       font-size: 1.25rem;
