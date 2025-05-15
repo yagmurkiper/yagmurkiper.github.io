@@ -39,16 +39,20 @@ layout: default
     <h3 class="fw-bold border-bottom pb-3 mb-4">upcoming</h3>
     <div class="updates-container shadow">
       {% assign today = site.time | date: "%Y-%m-%d" %}
-      {% assign upcoming = site.data.events | where_exp: "event", "event.date >= today" | sort: "date" %}
-      {% if upcoming.size > 0 %}
-        {% for event in upcoming %}
+      {% assign sorted_events = site.data.events | sort: "date" %}
+      {% assign has_upcoming = false %}
+      {% for event in sorted_events %}
+        {% assign event_date = event.date | date: "%Y-%m-%d" %}
+        {% if event_date >= today %}
+          {% assign has_upcoming = true %}
           <p>
-            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - {{ event.title }}
+            <b class="text-secondary">{{ event_date | date: "%b %d, %Y" }}</b> - {{ event.title }}
           </p>
-        {% endfor %}
-      {% else %}
+        {% endif %}
+      {% endfor %}
+      {% unless has_upcoming %}
         <p class="text-secondary">No upcoming events at the moment.</p>
-      {% endif %}
+      {% endunless %}
     </div>
   </div>
 
@@ -56,9 +60,16 @@ layout: default
   <div class="col-md-6">
     <h3 class="fw-bold border-bottom pb-3 mb-4">recent updates</h3>
     <div class="updates-container shadow">
-      {% assign recent = site.data.events | where_exp: "event", "event.date < today" | sort: "date" | reverse %}
-      {% if recent.size > 0 %}
-        {% for event in recent %}
+      {% assign recent_events = "" | split: "" %}
+      {% for event in sorted_events %}
+        {% assign event_date = event.date | date: "%Y-%m-%d" %}
+        {% if event_date < today %}
+          {% assign recent_events = recent_events | push: event %}
+        {% endif %}
+      {% endfor %}
+      {% assign recent_sorted = recent_events | sort: "date" | reverse %}
+      {% if recent_sorted.size > 0 %}
+        {% for event in recent_sorted %}
           <p>
             <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - 
             {{ event.title }}
