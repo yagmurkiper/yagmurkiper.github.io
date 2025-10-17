@@ -8,13 +8,13 @@ layout: default
     <p>Merhaba!</p>
 
     <p>
-      I’m Yağmur, a third-year Ph.D. student in Linguistics at the University of California, Santa Cruz. 
+      I’m Yağmur, a Ph.D. candidate in Linguistics at the University of California, Santa Cruz. 
       I am a syntactician with a focus on the so-called Altaic languages, primarily Turkish and Khalkha Mongolian.
     </p>
 
     <p>
-      My primary advisor is 
-      <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a>.
+      I am advised by  
+      <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a> and <a href="https://www.miagong.com" target="_blank">Mia Gong</a>.
     </p>
 
     <p>
@@ -38,15 +38,15 @@ layout: default
   <div class="col-md-6">
     <h3 class="fw-bold border-bottom pb-3 mb-4">upcoming</h3>
     <div class="updates-container shadow">
-      {% assign today = site.time | date: "%Y-%m-%d" %}
+      {% assign today = site.time | date: "%s" %}
       {% assign sorted_events = site.data.events | sort: "date" %}
       {% assign has_upcoming = false %}
       {% for event in sorted_events %}
-        {% assign event_date = event.date | date: "%Y-%m-%d" %}
-        {% if event_date >= today %}
+        {% assign event_timestamp = event.date | date: "%s" %}
+        {% if event_timestamp >= today %}
           {% assign has_upcoming = true %}
           <p>
-            <b class="text-secondary">{{ event_date | date: "%b %d, %Y" }}</b> - {{ event.title }}
+            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - {{ event.title }}
           </p>
         {% endif %}
       {% endfor %}
@@ -62,8 +62,8 @@ layout: default
     <div class="updates-container shadow">
       {% assign recent_events = "" | split: "" %}
       {% for event in sorted_events %}
-        {% assign event_date = event.date | date: "%Y-%m-%d" %}
-        {% if event_date < today %}
+        {% assign event_timestamp = event.date | date: "%s" %}
+        {% if event_timestamp < today %}
           {% assign recent_events = recent_events | push: event %}
         {% endif %}
       {% endfor %}
@@ -112,7 +112,7 @@ layout: default
   }
 
   .updates-container p {
-  font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 
   .updates-container::-webkit-scrollbar {
