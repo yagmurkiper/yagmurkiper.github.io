@@ -18,7 +18,7 @@ layout: default
     </p>
 
     <p>
-      My main interests in syntax include nominalizations, case theory, ellipsis –particularly sluicing-like constructions– 
+      My main interests in syntax include case theory, ellipsis –particularly sluicing-like constructions–, nominalizations,
       and copular clauses. I also have a strong interest in semantics and am currently working on the evidential restrictions on imperfective markers in Turkish.
     </p>
   </div>
@@ -38,15 +38,19 @@ layout: default
   <div class="col-md-6">
     <h3 class="fw-bold border-bottom pb-3 mb-4">upcoming</h3>
     <div class="updates-container shadow">
-      {% assign today = site.time | date: "%s" %}
+      {% assign today = site.time | date: "%Y-%m-%d" %}
       {% assign sorted_events = site.data.events | sort: "date" %}
       {% assign has_upcoming = false %}
       {% for event in sorted_events %}
-        {% assign event_timestamp = event.date | date: "%s" %}
-        {% if event_timestamp >= today %}
+        {% assign event_date = event.date | date: "%Y-%m-%d" %}
+        {% if event_date > today %}
           {% assign has_upcoming = true %}
           <p>
-            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - {{ event.title }}
+            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - 
+            {{ event.title }}
+            {% if event.link %}
+              [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
+            {% endif %}
           </p>
         {% endif %}
       {% endfor %}
@@ -62,8 +66,8 @@ layout: default
     <div class="updates-container shadow">
       {% assign recent_events = "" | split: "" %}
       {% for event in sorted_events %}
-        {% assign event_timestamp = event.date | date: "%s" %}
-        {% if event_timestamp < today %}
+        {% assign event_date = event.date | date: "%Y-%m-%d" %}
+        {% if event_date <= today %}
           {% assign recent_events = recent_events | push: event %}
         {% endif %}
       {% endfor %}
