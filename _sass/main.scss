@@ -1,44 +1,86 @@
+/* =========================
+   Colors
+   ========================= */
+
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: 'Libre Baskerville', serif;
-$headingFont: 'Roboto', sans-serif; /* Add a new variable for headings */
 $linkColor: #212529 !important;
 
-/* Body Styling */
+/* =========================
+   Fonts
+   ========================= */
+
+$bodyFont: 'IBM Plex Sans',
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif;
+
+$headingFont: 'IBM Plex Sans Condensed',
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif;
+
+/* =========================
+   Base styling
+   ========================= */
+
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  font-size: 16px; /* Optional: Adjust font size */
-  line-height: 1.6; /* Optional: Improve readability */
+  font-size: 16px;
+  line-height: 1.65;
 }
 
-/* Links Styling */
+/* =========================
+   Links
+   ========================= */
+
 body a {
   color: $linkColor;
-  text-decoration: none; /* Optional: Remove underline */
+  text-decoration: none;
 }
 
 body a:hover {
-  text-decoration: underline; /* Optional: Add underline on hover */
+  text-decoration: underline;
 }
 
-/* Headings Styling */
+/* =========================
+   Headings
+   ========================= */
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: $headingFont; /* Use the new heading font */
-  font-weight: 700; /* Bold headings */
-  letter-spacing: 0.5px; /* Optional: Slight spacing for a modern look */
+  font-family: $headingFont;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
-/* Specific Styling for Other Elements */
-.navbar a {
-  font-family: $headingFont; /* Use heading font for navigation links */
-  font-weight: 400; /* Regular weight for nav links */
-  text-transform: uppercase; /* Optional: Uppercase for nav */
+/* =========================
+   Navigation
+   ========================= */
+
+.navbar,
+.navbar a,
+.navbar-brand {
+  font-family: $headingFont;
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 
-button, .btn {
-  font-family: $headingFont; /* Use heading font for buttons */
-  font-weight: 700; /* Bold buttons */
-  text-transform: uppercase; /* Optional: Uppercase for buttons */
+/* =========================
+   Buttons
+   ========================= */
+
+button,
+.btn {
+  font-family: $headingFont;
+  font-weight: 600;
 }
