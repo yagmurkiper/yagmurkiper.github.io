@@ -1,10 +1,10 @@
 menu:
-- {name: 'about me', url: '/'}
+- {name: 'about', url: '/'}
 - {name: 'research', url: '/research'}
-- {name: 'publications', url: '/publications'}
-- {name: 'presentations', url: '/presentations'}
 - {name: 'teaching', url: '/teaching'}
 - {name: 'cv', url: '/assets/CV.pdf'}
+- {name: 'misc', url: '/misc'}
+
 
 social:
   - {icon: 'fab fa-github', link: 'https://github.com/yagmurkiper'}
