@@ -10,18 +10,15 @@ $linkColor: #212529 !important;
    Fonts
    ========================= */
 
-$bodyFont: 'Source Serif 4',
-  Georgia,
-  'Times New Roman',
-  serif;
-
-$headingFont: 'Source Sans 3',
+$bodyFont: 'Inter',
   -apple-system,
   BlinkMacSystemFont,
   'Segoe UI',
   Helvetica,
   Arial,
   sans-serif;
+
+$headingFont: $bodyFont;
 
 /* =========================
    Base styling
@@ -54,8 +51,8 @@ body a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headingFont;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 /* =========================
