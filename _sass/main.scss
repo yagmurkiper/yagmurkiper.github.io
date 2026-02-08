@@ -2,35 +2,27 @@
    Colors
    ========================= */
 
-$backgroundColor: #ffffff;
+$backgroundColor: #cdcbcb;
 $bodyColor: #000000;
-$linkColor: #212529 !important;
+$linkColor: #05407a !important;
 
 /* =========================
    Fonts
    ========================= */
 
-$bodyFont: 'Inter',
-  -apple-system,
-  BlinkMacSystemFont,
-  'Segoe UI',
-  Helvetica,
-  Arial,
-  sans-serif;
-
-$headingFont: $bodyFont;
+$bodyFont: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+$headingFont: 'Lora', Georgia, 'Times New Roman', serif;
 
 /* =========================
    Base styling
    ========================= */
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
   font-family: $bodyFont;
-  font-size: 18px;
+  font-weight: 400;
   line-height: 1.65;
 }
+
 
 /* =========================
    Links
@@ -51,8 +43,7 @@ body a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headingFont;
-  font-weight: 700;
-  letter-spacing: 0;
+  font-weight: 600;
 }
 
 /* =========================
