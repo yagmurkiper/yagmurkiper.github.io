@@ -37,16 +37,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-
 /* =========================
-   Body text links ONLY (force override)
+   Kill Bootstrap link underlines in body
    ========================= */
 
 main a,
 main a:visited,
 main a:hover,
 main a:focus,
-main a:active {
+main a:active,
+main a.text-primary,
+main a.text-primary:hover {
   color: $linkColor;
   text-decoration: none !important;
   border-bottom: none !important;
@@ -107,7 +108,7 @@ footer a:hover {
    ========================= */
 
 .updates-container {
-  max-height: 100px;
+  max-height: 150px;
   max-width: 100%;
   overflow-y: auto;
   padding: 15px;
@@ -122,7 +123,7 @@ footer a:hover {
 }
 
 .updates-container::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 .updates-container::-webkit-scrollbar-thumb {
