@@ -161,7 +161,7 @@ p {
 /* ========================= teaching page: resources box ========================= */
 
 .resources-container {
-  max-height: 500px;   /* taller than homepage */
+  min-height: 500px;   /* taller than homepage */
   max-width: 100%;
   overflow-y: auto;
   padding: 15px;
