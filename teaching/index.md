@@ -3,8 +3,8 @@ layout: teaching
 title: "Teaching"
 ---
 
-<h3>University of California, Santa Cruz</h3>
-<p class="text-secondary mb-2">Teaching Assistant (2023–present)</p>
+<h4>University of California, Santa Cruz</h4>
+<p class="text-secondary mb-2">Teaching Assistant, Department of Linguistics (2023–present)</p>
 
 <ul class="mb-4">
   <li><strong>LING 116: Semantics II</strong> — Adrian Brasoveanu (Winter 2026)</li>
@@ -18,18 +18,16 @@ title: "Teaching"
   <li><strong>LING 112: Syntax I</strong> — Ivy Sichel (Fall 2023)</li>
 </ul>
 
-<h3>Middle East Technical University (METU)</h3>
+<h4>Middle East Technical University</h4>
 <p class="text-secondary mb-2">Teaching Assistant, Department of Foreign Language Education (2019–2022)</p>
 
 <p>
-  I assisted with undergraduate courses in linguistics and language education, including syntax, language acquisition,
-  bilingualism/multilingualism, grammar, and academic writing. For a complete list of courses and terms, please see my CV.
+  I assisted with undergraduate courses in linguistics, applied linguistics and language education, including grammar and academic writing. For a complete list of courses and terms, please see my <a href="/assets/CV.pdf" target="_blank">CV</a>.
 </p>
 
-<h3>TOBB University of Economics and Technology</h3>
+<h4>TOBB University of Economics and Technology</h4>
 <p class="text-secondary mb-2">Instructor of Record, Department of Foreign Languages (2017–2019)</p>
 
 <p>
-  I taught academic and professional English courses (writing, grammar, and language skills) and developed course materials and assessments.
-  For a full list of courses, please see my <a href="/assets/CV.pdf" target="_blank">CV (PDF)</a>.
+  I taught grammar and integrated language skills in the Preparatory English Program, preparing students for TOEFL-level instruction. I also taught English for Academic Purposes (EAP) courses to undergraduates and developed course materials and assessments.
 </p>
