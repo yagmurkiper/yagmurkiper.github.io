@@ -4,7 +4,7 @@
 
 $backgroundColor: #f4f4f5; 
 $bodyColor: #000000;
-$linkColor: #042e57;
+$linkColor: #0947b4;
 
 
 /* =========================
@@ -48,7 +48,7 @@ main a:focus,
 main a:active,
 main a.text-primary,
 main a.text-primary:hover {
-  color: $linkColor;
+  color: $linkColor !important;
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
@@ -148,7 +148,7 @@ footer a:hover {
 .updates-container a:hover,
 .updates-container a:focus,
 .updates-container a:active {
-  color: $linkColor;
+  color: $linkColor !important;
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
