@@ -14,7 +14,7 @@ layout: default
 
     <p>
       I am advised by  
-      <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a> and <a href="https://www.miagong.com" target="_blank">Mia Gong</a>.
+      <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a> and <a href="https://miazgong.github.io" target="_blank">Mia Gong</a>.
     </p>
 
     <p>
@@ -33,49 +33,18 @@ layout: default
   </div>
 </div>
 
-<div class="row g-5 mb-5">
-  <!-- Upcoming Events -->
-  <div class="col-md-6">
-    <h3 class="fw-bold border-bottom pb-3 mb-4">upcoming</h3>
+<div class="row mb-5">
+  <div class="col-12">
+    <h3 class="updates-title fw-bold border-bottom pb-3 mb-4">updates</h3>
+
     <div class="updates-container shadow">
       {% assign today = site.time | date: "%Y-%m-%d" %}
-      {% assign sorted_events = site.data.events | sort: "date" %}
-      {% assign has_upcoming = false %}
-      {% for event in sorted_events %}
-        {% assign event_date = event.date | date: "%Y-%m-%d" %}
-        {% if event_date > today %}
-          {% assign has_upcoming = true %}
-          <p>
-            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - 
-            {{ event.title }}
-            {% if event.link %}
-              [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
-            {% endif %}
-          </p>
-        {% endif %}
-      {% endfor %}
-      {% unless has_upcoming %}
-        <p class="text-secondary">No upcoming events at the moment.</p>
-      {% endunless %}
-    </div>
-  </div>
+      {% assign sorted_events = site.data.events | sort: "date" | reverse %}
 
-  <!-- Recent Updates -->
-  <div class="col-md-6">
-    <h3 class="fw-bold border-bottom pb-3 mb-4">recent updates</h3>
-    <div class="updates-container shadow">
-      {% assign recent_events = "" | split: "" %}
-      {% for event in sorted_events %}
-        {% assign event_date = event.date | date: "%Y-%m-%d" %}
-        {% if event_date <= today %}
-          {% assign recent_events = recent_events | push: event %}
-        {% endif %}
-      {% endfor %}
-      {% assign recent_sorted = recent_events | sort: "date" | reverse %}
-      {% if recent_sorted.size > 0 %}
-        {% for event in recent_sorted %}
+      {% if sorted_events.size > 0 %}
+        {% for event in sorted_events %}
           <p>
-            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> - 
+            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> -
             {{ event.title }}
             {% if event.link %}
               [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
@@ -83,8 +52,9 @@ layout: default
           </p>
         {% endfor %}
       {% else %}
-        <p class="text-secondary">No recent updates yet.</p>
+        <p class="text-secondary">No updates yet.</p>
       {% endif %}
     </div>
   </div>
 </div>
+

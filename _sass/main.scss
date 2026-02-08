@@ -2,7 +2,7 @@
    Colors
    ========================= */
 
-$backgroundColor: #dfdbdb;
+$backgroundColor: #f4f4f5; 
 $bodyColor: #000000;
 $linkColor: #042e57;
 
@@ -39,16 +39,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* =========================
-   Body text links ONLY
+   Body text links ONLY (force override)
    ========================= */
 
-main a {
+main a,
+main a:visited,
+main a:hover,
+main a:focus,
+main a:active {
   color: $linkColor;
-  text-decoration: none;
-}
-
-main a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 
@@ -69,6 +71,18 @@ main a:hover {
 .site-header a:hover {
   color: $bodyColor;
   text-decoration: none;
+}
+
+/* =========================
+   Header sizing tweaks
+   ========================= */
+
+.site-header .fs-4 {
+  font-size: 1.65rem !important;
+}
+
+.site-header .text-secondary {
+  font-size: 0.95rem;
 }
 
 
@@ -118,6 +132,10 @@ footer a:hover {
 
 .updates-container::-webkit-scrollbar-thumb:hover {
   background: #999;
+}
+
+.updates-title {
+  text-align: center;
 }
 
 
