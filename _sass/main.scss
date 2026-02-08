@@ -54,7 +54,6 @@ main a.text-primary:hover {
   box-shadow: none !important;
 }
 
-
 /* =========================
    Header
    ========================= */
@@ -86,6 +85,13 @@ main a.text-primary:hover {
   font-size: 0.95rem;
 }
 
+/* =========================
+   Header navigation
+   ========================= */
+
+.site-header nav a {
+  font-weight: 600;
+}
 
 /* =========================
    Footer
