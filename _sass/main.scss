@@ -2,9 +2,9 @@
    Colors
    ========================= */
 
-$backgroundColor: #cdcbcb;
+$backgroundColor: #dfdbdb;
 $bodyColor: #000000;
-$linkColor: #05407a;
+$linkColor: #042e57;
 
 
 /* =========================
@@ -21,7 +21,7 @@ $headingFont: 'Lora', Georgia, 'Times New Roman', serif;
 
 body {
   font-family: $bodyFont;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.65;
   color: $bodyColor;
   background-color: $backgroundColor;
@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headingFont;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 
@@ -48,7 +48,7 @@ main a {
 }
 
 main a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
