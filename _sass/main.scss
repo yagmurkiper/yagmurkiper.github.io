@@ -139,6 +139,20 @@ footer a:hover {
   text-align: center;
 }
 
+/* =========================
+   Updates box: inherit global link style
+   ========================= */
+
+.updates-container a,
+.updates-container a:visited,
+.updates-container a:hover,
+.updates-container a:focus,
+.updates-container a:active {
+  color: $linkColor;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
 
 /* =========================
    Utility text
