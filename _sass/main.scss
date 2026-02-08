@@ -1,23 +1,15 @@
-/* =========================
-   Colors
-   ========================= */
+/* ========================= colors ========================= */
 
 $backgroundColor: #f4f4f5; 
 $bodyColor: #000000;
 $linkColor: #0947b4;
 
-
-/* =========================
-   Fonts
-   ========================= */
+/* ========================= fonts ========================= */
 
 $bodyFont: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 $headingFont: 'Lora', Georgia, 'Times New Roman', serif;
 
-
-/* =========================
-   Base styling
-   ========================= */
+/* ====================== base styling ====================== */
 
 body {
   font-family: $bodyFont;
@@ -27,19 +19,14 @@ body {
   background-color: $backgroundColor;
 }
 
-
-/* =========================
-   Headings
-   ========================= */
+/* ======================== headings ========================= */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headingFont;
   font-weight: 700;
 }
 
-/* =========================
-   Kill Bootstrap link underlines in body
-   ========================= */
+/* ========= kill Bootstrap link underlines in body ========== */
 
 main a,
 main a:visited,
@@ -54,9 +41,7 @@ main a.text-primary:hover {
   box-shadow: none !important;
 }
 
-/* =========================
-   Header
-   ========================= */
+/* ========================= header ========================= */
 
 .site-header {
   font-family: $headingFont;
@@ -73,9 +58,7 @@ main a.text-primary:hover {
   text-decoration: none;
 }
 
-/* =========================
-   Header sizing tweaks
-   ========================= */
+/* ========================= header sizing tweaks ========================= */
 
 .site-header .fs-4 {
   font-size: 2rem !important;
@@ -85,17 +68,14 @@ main a.text-primary:hover {
   font-size: 1.2rem;
 }
 
-/* =========================
-   Header navigation
-   ========================= */
+/* ========================= header navigation ========================= */
 
 .site-header nav a {
   font-weight: 800;
+  font-size: 1.05rem;
 }
 
-/* =========================
-   Footer
-   ========================= */
+/* ========================= footer ========================= */
 
 footer a,
 footer a:visited {
@@ -108,10 +88,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
-/* =========================
-   Home page: Updates boxes
-   ========================= */
+/* ========================= home page: updates box ========================= */
 
 .updates-container {
   max-height: 150px;
@@ -125,7 +102,7 @@ footer a:hover {
 }
 
 .updates-container p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .updates-container::-webkit-scrollbar {
@@ -145,9 +122,7 @@ footer a:hover {
   text-align: left;
 }
 
-/* =========================
-   Updates box: inherit global link style
-   ========================= */
+/* ========================= updates box: inherit global link style ========================= */
 
 .updates-container a,
 .updates-container a:visited,
@@ -160,26 +135,20 @@ footer a:hover {
   box-shadow: none !important;
 }
 
-/* =========================
-   Utility text
-   ========================= */
+/* ========================= utility text ========================= */
 
 .text-secondary {
   color: #808182;
   font-weight: 400;
 }
 
-
-/* =========================
-   Paragraph spacing
-   ========================= */
+/* ========================= paragraph spacing ========================= */
 
 p {
   margin-bottom: 10px;
 }
-/* =========================
-   Footer icon hover effect
-   ========================= */
+
+/* ========================= footer icon hover effect ========================= */
 
 .footer-link i {
   transition: opacity 0.2s ease;
@@ -189,12 +158,45 @@ p {
   opacity: 0.7;
 }
 
-/* =========================
-   Teaching page: Resources box
-   ========================= */
+/* ========================= teaching page: resources box ========================= */
 
 .resources-container {
-  max-height: 500px;   /* adjust if needed */
+  max-height: 500px;   /* taller than homepage */
+  max-width: 100%;
+  overflow-y: auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resources-container p {
+  font-size: 0.9rem;
+}
+
+.resources-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.resources-container::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+
+.resources-container::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.resources-container a,
+.resources-container a:visited,
+.resources-container a:hover,
+.resources-container a:focus,
+.resources-container a:active {
+  color: $linkColor !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 @media (min-width: 768px) {
