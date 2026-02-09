@@ -22,12 +22,12 @@ title: "Teaching"
 <p class="text-secondary mb-2">Teaching Assistant, Department of Foreign Language Education (2019–2022)</p>
 
 <p>
-  I assisted with undergraduate courses in linguistics, applied linguistics and language education, including grammar and academic writing. For a complete list of courses and terms, please see my <a href="/assets/CV.pdf" target="_blank">CV</a>.
+  Assisted with undergraduate courses in linguistics, applied linguistics and language education. For a complete list of courses and terms, please see my <a href="/assets/CV.pdf" target="_blank">CV</a>.
 </p>
 
 <h4>TOBB University of Economics and Technology</h4>
 <p class="text-secondary mb-2">Instructor of Record, Department of Foreign Languages (2017–2019)</p>
 
 <p>
-  I taught grammar and integrated language skills in the Preparatory English Program, preparing students for TOEFL-level instruction. I also taught English for Academic Purposes (EAP) courses to undergraduates and developed course materials and assessments.
+  Taught grammar and integrated language skills in the Preparatory English Program and English for Academic Purposes (EAP) courses to undergraduates.
 </p>
