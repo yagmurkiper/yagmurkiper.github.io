@@ -32,7 +32,7 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
   <ul class="list-unstyled mb-0">
-    <li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the 101st Annual Meeting of the Linguistic Society of America (LSA), Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
+    <li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the Annual Meeting of Linguistic Society of America (LSA), Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
     <li>(2022). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. In Marianne Huijsmans &amp; Sander Nederveen (eds.), <em>Proceedings of the Northwest Linguistics Conference 37</em>. Vancouver, BC: UBCWPL. <a class="material-link" href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf" target="_blank">[paper]</a></li>
     <li>(2021). Kiper, S. Yağmur. (Mis)matches in Turkish sluicing constructions. Short talk at Architectures and Mechanisms for Language Processing (AMLaP), Université de Paris, online.</li>
     <li>(2020). Kiper, S. Yağmur. <em>In the case of sluicing</em>. Master of Arts Thesis, Middle East Technical University. OpenMETU.
@@ -58,7 +58,7 @@ The semantic system underlying aspect, modality, and evidentiality in Turkish re
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
   <ul class="list-unstyled mb-0">
-    <li>(upcoming). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. <em>Perfect-like meanings in Turkish via temporal adverbials.</em> Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston.</li>
+    <li>(upcoming). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. Perfect-like meanings in Turkish via temporal adverbials. Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston.</li>
   </ul>
 </div>
 
