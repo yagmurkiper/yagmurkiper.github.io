@@ -260,11 +260,20 @@ p {
 }
 
 .photo-scrollbox img {
-  display: block;
   width: 100%;
-  height: auto;
+  height: 200px;      /* all images same height */
+  object-fit: cover;  /* crops instead of stretching */
+  display: block;
   margin-bottom: 1rem;
   border-radius: 10px;
+}
+
+.photo-scrollbox img {
+  transition: transform 0.25s ease;
+}
+
+.photo-scrollbox img:hover {
+  transform: scale(1.03);
 }
 
 .photo-scrollbox img:last-child {
