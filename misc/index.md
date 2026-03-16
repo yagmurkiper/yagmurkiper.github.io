@@ -33,7 +33,6 @@ title: "Misc"
         <img src="/assets/img/kizilay.jpg" alt="Kızılay">
         <img src="/assets/img/cappadocia.jpg" alt="Cappadocia">
         <img src="/assets/img/kas.jpg" alt="Kaş">
-        <img src="/assets/img/kiper2.png" alt="Yağmur Kiper">
       </div>
     </div>
   </aside>
