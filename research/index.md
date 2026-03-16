@@ -5,7 +5,7 @@ title: "Research"
 
 My research focuses on syntax and semantics, with an emphasis on empirical investigation of the so-called Altaic languages (e.g., Turkic, Mongolic, Korean). As a linguist, I place particular emphasis on careful elicitation and systematic data collection, especially for Turkish, and on grounding theoretical claims in well-documented linguistic evidence. More broadly, I approach linguistic theory through cross-linguistic comparison, with the goal of developing analyses that are informed by the diversity of natural languages.
 
-Below you can find a summary of my research projects. See my <a href="/assets/CV.pdf" target="_blank">CV</a></li> for a complete list of publications and presentations.
+Below you can find a summary of my research projects. See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
 
 <br>
 
