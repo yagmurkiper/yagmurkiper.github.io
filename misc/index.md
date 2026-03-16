@@ -16,7 +16,6 @@ title: "Misc"
 
   <aside class="col-md-4">
     <div class="photo-sidebar">
-      <h3 class="updates-title fw-bold border-bottom pb-3 mb-4">photos</h3>
 
       <div class="photo-scrollbox">
         <img src="/assets/img/mosque.jpg" alt="Mosque">
