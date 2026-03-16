@@ -7,11 +7,9 @@ My research focuses on syntax and semantics, with an emphasis on empirical inves
 
 Below you can find a summary of my research projects. See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
 
----
-
 <div class="research-domain"><span>Syntax</span></div>
 
-### Case
+#### Case
 
 A central theme of my syntactic research concerns how grammatical case is assigned and how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
 
@@ -26,7 +24,7 @@ A central theme of my syntactic research concerns how grammatical case is assign
 
 </div>
 
-### Ellipsis
+#### Ellipsis
 
 A major strand of my work focuses on ellipsis, especially sluicing-like constructions and verb phrase ellipsis (VPE) in Turkish, Khalkha Mongolian, and Korean. Because ellipsis involves meaning that is interpreted despite missing material, it provides a powerful window into underlying syntactic structure. I investigate how these constructions vary across languages and what this variation reveals about the mechanisms that license ellipsis.
 
@@ -48,15 +46,13 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
 
 </div>
 
-### Clausal Architecture
+#### Clausal Architecture
 
 Another line of my research examines clausal architecture in Turkish, particularly constructions that blur the boundary between clauses and nominals. I study pseudo-clefts and related structures, examining the restrictions on cleft clauses and the role of (light-headed or free) relative clauses in licensing pivots. I also investigate Turkish nominalizations, exploring how nominal and clausal nominalizations differ structurally and how they relate to relative clause formation.
 
----
-
 <div class="research-domain"><span>Semantics</span></div>
 
-### Evidentiality, Modality, and Aspect
+#### Evidentiality, Modality, and Aspect
 
 The semantic system underlying aspect, modality, and evidentiality in Turkish remains considerably less studied than its syntax. My work contributes to this area by investigating how markers such as the so-called <em>aorist</em> and the imperfective interact with modal interpretation and types of evidence, as well as how perfect-like meanings arise.
 
@@ -72,6 +68,6 @@ The semantic system underlying aspect, modality, and evidentiality in Turkish re
 
 </div>
 
-### Attitude Reports
+#### Attitude Reports
 
 Attitude reports provide another domain for my semantic research. I examine verbs such as <em>know</em> and <em>think</em> in Turkish and Khalkha Mongolian, focusing on how they interact with embedded questions and wh-scope. I also contribute to an ongoing project with <a href="https://sites.google.com/site/rachelelainedudley">Rachel Dudley</a> on children’s understanding of factivity in Turkish, supporting corpus analysis and theoretical work on how input with factive verbs relates to the acquisition of belief and knowledge verbs.
