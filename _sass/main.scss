@@ -247,3 +247,26 @@ p {
   text-transform: uppercase;
   color: #2a2a2a;
 }
+/* ========================= misc page photo sidebar ========================= */
+
+.photo-sidebar {
+  margin-top: 0.25rem;
+}
+
+.photo-scrollbox {
+  max-height: 900px;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+}
+
+.photo-scrollbox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.photo-scrollbox img:last-child {
+  margin-bottom: 0;
+}
