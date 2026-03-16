@@ -312,9 +312,6 @@ p {
   z-index: 9999;
   inset: 0;
   background: rgba(0, 0, 0, 0.88);
-  padding: 2rem;
-  text-align: center;
-  cursor: zoom-out;
 }
 
 .lightbox:target {
@@ -324,10 +321,20 @@ p {
 }
 
 .lightbox img {
+  position: relative;
+  z-index: 10001;
   max-width: min(92vw, 1200px);
   max-height: 90vh;
   width: auto;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+.lightbox-close {
+  position: absolute;
+  inset: 0;
+  z-index: 10000;
+  display: block;
+  cursor: zoom-out;
 }

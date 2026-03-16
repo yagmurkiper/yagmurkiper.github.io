@@ -121,58 +121,72 @@ title: "Misc"
   </aside>
 </div>
 
-<a href="#!" id="photo-mosque" class="lightbox">
+<div id="photo-mosque" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/mosque.jpg" alt="Mosque">
-</a>
+</div>
 
-<a href="#!" id="photo-goldengate" class="lightbox">
+<div id="photo-goldengate" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/goldengate.jpg" alt="Golden Gate">
-</a>
+</div>
 
-<a href="#!" id="photo-goldengate2" class="lightbox">
+<div id="photo-goldengate2" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/goldengate2.jpg" alt="Golden Gate">
-</a>
+</div>
 
-<a href="#!" id="photo-naturalbridges" class="lightbox">
+<div id="photo-naturalbridges" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/naturalbridges.jpg" alt="Natural Bridges">
-</a>
+</div>
 
-<a href="#!" id="photo-westcliff" class="lightbox">
+<div id="photo-westcliff" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/westcliff.jpg" alt="West Cliff">
-</a>
+</div>
 
-<a href="#!" id="photo-wharf" class="lightbox">
+<div id="photo-wharf" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/wharf.jpg" alt="Wharf">
-</a>
+</div>
 
-<a href="#!" id="photo-henrycowell" class="lightbox">
+<div id="photo-henrycowell" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/henrycowell.jpg" alt="Henry Cowell">
-</a>
+</div>
 
-<a href="#!" id="photo-bigsur" class="lightbox">
+<div id="photo-bigsur" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/bigsur.jpg" alt="Big Sur">
-</a>
+</div>
 
-<a href="#!" id="photo-ucscfield" class="lightbox">
+<div id="photo-ucscfield" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/ucscfield.jpg" alt="UCSC field">
-</a>
+</div>
 
-<a href="#!" id="photo-cave" class="lightbox">
+<div id="photo-cave" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/cave.jpg" alt="Cave">
-</a>
+</div>
 
-<a href="#!" id="photo-devrim" class="lightbox">
+<div id="photo-devrim" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/devrim.jpg" alt="Devrim">
-</a>
+</div>
 
-<a href="#!" id="photo-kizilay" class="lightbox">
+<div id="photo-kizilay" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/kizilay.jpg" alt="Kızılay">
-</a>
+</div>
 
-<a href="#!" id="photo-cappadocia" class="lightbox">
+<div id="photo-cappadocia" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/cappadocia.jpg" alt="Cappadocia">
-</a>
+</div>
 
-<a href="#!" id="photo-kas" class="lightbox">
+<div id="photo-kas" class="lightbox">
+  <a href="#" class="lightbox-close"></a>
   <img src="/assets/img/kas.jpg" alt="Kaş">
-</a>
+</div>
