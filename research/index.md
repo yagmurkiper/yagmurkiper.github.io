@@ -3,25 +3,31 @@ layout: default
 title: "Research"
 ---
 
-under construction
+My research focuses on syntax and semantics, with an emphasis on empirical investigation of the so-called Altaic languages (e.g., Turkic, Mongolic, Korean). As a linguist, I place particular emphasis on careful elicitation and systematic data collection, especially for Turkish, and on grounding theoretical claims in well-documented linguistic evidence. More broadly, I approach linguistic theory through cross-linguistic comparison, with the goal of developing analyses that are informed by the diversity of natural languages.
+
+Below you can find a summary of my research projects. See my <a href="/assets/CV.pdf" target="_blank">CV</a></li> for a complete list of publications and presentations.
+
+<br>
 
 ### Syntax
 
+<br>
+
 #### Case
 
-A central theme of my syntactic research is how grammatical case is assigned and how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? To answer this question, I examine a range of constructions using diagnostics that do not rely on case marking alone. This approach allows me to determine what structure must be present in the derivation even when surface case patterns appear unexpected, and to explain why surface case may diverge from structural expectations.
+A central theme of my syntactic research is how grammatical case is assigned and how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I examine a range of constructions to answer this question using diagnostics that do not rely on case marking alone.
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
   <ul class="list-unstyled mb-0">
-    <li>(Upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at the Syntax &amp; Semantics Circle (SSCircle), University of California, Berkeley.</li>
+    <li>(upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at the Syntax &amp; Semantics Circle (SSCircle), University of California, Berkeley.</li>
     <li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56), New York University, New York. <a class="material-link" href="/assets/handouts/kiper_nels56_HO.pdf" target="_blank">[handout]</a></li>
   </ul>
 </div>
 
 #### Ellipsis
 
-Another major line of my work examines ellipsis, especially sluicing-like constructions in Turkish, Khalkha Mongolian, and Korean. Because ellipsis involves unpronounced structure that is nevertheless interpreted, it provides a powerful window into underlying syntax. I investigate how sluicing and related constructions vary across languages and what this variation reveals about the mechanisms responsible for ellipsis. In particular, my work explores the relationship between sluicing-like constructions and verb phrase ellipsis (VPE), using cross-linguistic evidence to refine theories of ellipsis and clausal structure.
+A major strand of my work focuses on ellipsis, especially sluicing-like constructions and verb phrase ellipsis (VPE) in Turkish, Khalkha Mongolian, and Korean. Because ellipsis involves meaning that is interpreted despite missing material, it provides a powerful window into underlying syntactic structure. I investigate how these constructions vary across languages and what this variation reveals about the mechanisms that license ellipsis.
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
@@ -37,21 +43,26 @@ Another major line of my work examines ellipsis, especially sluicing-like constr
 
 #### Clausal Architecture
 
-I investigate clausal architecture in Turkish, particularly constructions that blur the boundary between clauses and noun phrases. I study pseudo-clefts and related structures, examining the restrictions on cleft clauses and the role of light-headed and free relative clauses in licensing pivots. I also work on Turkish nominalizations, exploring how nominal and clausal nominalizations differ structurally and how they connect to relative clause formation. More broadly, this work aims to clarify how different clause types are built and how their internal structure constrains interpretation and argument licensing.
+Another line of my research examines clausal architecture in Turkish, particularly constructions that blur the boundary between clauses and nominals. I study pseudo-clefts and related structures, examining the restrictions on cleft clauses and the role of (light-headed/free) relative clauses in licensing pivots. I also investigate Turkish nominalizations, exploring how nominal and clausal nominalizations differ structurally and how they relate to relative clause formation.
+
+<br>
 
 ### Semantics
 
+<br>
+
 #### Evidentiality, Modality, and Aspect
 
-under construction
+The semantic system underlying aspect, modality, and evidentiality in Turkish remains considerably less studied than its syntax. My work contributes to this area by investigating how markers such as the so-called <em>aorist</em> and the imperfective interact with modal interpretation and types of evidence as well as how perfect-like meanings arise.
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
   <ul class="list-unstyled mb-0">
-    <li>(Upcoming). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. <em>Perfect-like meanings in Turkish via temporal adverbials.</em> Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston.</li>
+    <li>(upcoming). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. <em>Perfect-like meanings in Turkish via temporal adverbials.</em> Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston.</li>
   </ul>
 </div>
 
-#### Attitude Verbs
+#### Attitude Reports
 
-Another strand of my semantic research focuses on the semantics of attitude verbs, such as verbs of belief, discovery, and knowledge. I investigate how these verbs interact with embedded clauses and how they constrain interpretation in different contexts. This work contributes to broader questions about how speakers represent information, belief states, and evidential commitments in natural language.
+Attitude reports provide another domain for my semantic research. I examine verbs such as <em>know</em> and <em>think</em> in Turkish and Khalkha Mongolian, focusing on how they interact with embedded questions and wh-scope. I also contribute to an ongoing project with <a href="https://sites.google.com/site/rachelelainedudley">Rachel Dudley</a> on children’s understanding of factivity in Turkish, supporting corpus analysis and theoretical work on how input with factive verbs relates to the acquisition of belief and knowledge verbs.
+
