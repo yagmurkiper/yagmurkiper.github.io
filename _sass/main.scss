@@ -135,6 +135,16 @@ footer a:hover {
   box-shadow: none !important;
 }
 
+.updates-container ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.updates-container li {
+  margin-bottom: 0.4rem;
+}
+
 /* ========================= utility text ========================= */
 
 .text-secondary {
@@ -204,15 +214,4 @@ p {
     position: sticky;
     top: 1.5rem;
   }
-}
-
-.resources-container ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.resources-container li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
 }
