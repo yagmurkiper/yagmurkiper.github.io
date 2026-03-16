@@ -6,12 +6,17 @@ title: "Misc"
 <div class="row g-5 mb-5">
   <div class="col-md-8">
     <p>
-      Outside of linguistics, I enjoy places, landscapes, and everyday scenes that make up the texture of life across the places I have lived and travelled. I also like documenting these visually.
+    My name means <em>rain</em> in Turkish. As cliché as it sounds, my family named me Yağmur because it was pouring rain on a hot summer day in my hometown when I was born. The funny little g with a “hat” <ğ>, is called <em>soft g</em> and lengthens the immediately preceding vowel. The word-final rhotic is also devoiced in this environment (see <a href="https://academic.oup.com/book/58905" target="_blank">Özçelik 2025</a> for more details on Turkish phonology, and please don't come for me).
     </p>
 
     <p>
-      This page gathers a few photographs from California and Turkey, including places that have been meaningful to me during different periods of my life.
-    </p> 
+    Its phonetic transcription is [jaːmur̥]. Here is a <a href="https://youtu.be/m_HGO3-Kl3w?t=3" target="_blank">short video</a> showing how to pronounce it.
+    </p>
+
+    <p>
+    Outside of linguistics, I enjoy places, landscapes, and everyday scenes that make up the texture of the places where I have lived and traveled. I like documenting these visually. Some selected photographs appear on the right. Click on any image to view it at a larger size.
+    </p>
+
   </div>
 
   <aside class="col-md-4">
@@ -22,7 +27,7 @@ title: "Misc"
           <a href="#photo-mosque">
             <img src="/assets/img/mosque.jpg" alt="Mosque">
           </a>
-          <p class="photo-caption">Mersin</p>
+          <p class="photo-caption">Ahmet Hamdi Akseki Mosque</p>
         </div>
 
         <div class="photo-item">
@@ -76,7 +81,7 @@ title: "Misc"
 
         <div class="photo-item">
           <a href="#photo-ucscfield">
-            <img src="/assets/img/ucscfield.jpg" alt="UCSC field">
+            <img src="/assets/img/ucscfield.jpg" alt="UCSC Field">
           </a>
           <p class="photo-caption">UCSC</p>
         </div>
