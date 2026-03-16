@@ -3,11 +3,6 @@ layout: research
 title: "Research"
 ---
 
----
-layout: default
-title: "Research"
----
-
 My research lies at the intersection of syntax and semantics, with a primary empirical focus on Turkish and other languages of the Turkic and Altaic area. In syntax, I investigate how grammatical structure is diagnosed and represented, with particular attention to case marking, ellipsis, and clausal architecture. In semantics, I study how tense, aspect, modality, and evidentiality interact in natural language meaning. Across both areas, my work aims to understand how grammatical form constrains interpretation and how surface patterns can sometimes obscure deeper structural or semantic mechanisms.
 
 # Syntax
