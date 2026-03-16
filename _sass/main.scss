@@ -223,29 +223,27 @@ p {
   }
 }
 
-/* ========================= research page section dividers ========================= */
+/* Research section dividers */
 
 .research-domain {
   display: flex;
   align-items: center;
-  gap: 0.9rem;
-  margin: 2.5rem 0 1.5rem;
+  gap: 1rem;
+  margin: 3rem 0 2rem;
 }
 
 .research-domain::before,
 .research-domain::after {
   content: "";
-  height: 1px;
-  background: #cfcfd4;
   flex: 1;
+  height: 1px;
+  background: #d9d9d9;
 }
 
 .research-domain span {
-  display: inline-block;
-  font-family: $headingFont;
-  font-size: 0.95rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
+  font-size: 1.4rem;      /* makes it heading-sized */
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #55565a;
+  color: #2a2a2a;
 }
