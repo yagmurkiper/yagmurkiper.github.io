@@ -205,3 +205,19 @@ p {
     top: 1.5rem;
   }
 }
+.research-list {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-list li {
+  counter-increment: item;
+  margin-bottom: 0.5rem;
+}
+
+.research-list li::before {
+  content: "[" counter(item) "] ";
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
