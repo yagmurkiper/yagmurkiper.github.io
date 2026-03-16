@@ -43,7 +43,7 @@ I investigate clausal architecture in Turkish, particularly constructions that b
 
 #### Evidentiality, Modality, and Aspect
 
-In semantics, my research examines the interaction between tense, aspect, modality, and evidentiality, with a focus on Turkish. I investigate how different grammatical markers encode subtle distinctions in how speakers evaluate events and evidence. My work on the Turkish aorist and imperfective markers explores how these forms interact with modal interpretation and types of inferential evidence. More broadly, this research contributes to cross-linguistic discussions of how languages encode epistemic reasoning and event structure.
+under construction
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
