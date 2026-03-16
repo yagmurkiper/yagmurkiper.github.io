@@ -19,6 +19,13 @@ body {
   background-color: $backgroundColor;
 }
 
+.material-link {
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: 6px;
+}
+
 /* ======================== headings ========================= */
 
 h1, h2, h3, h4, h5, h6 {
