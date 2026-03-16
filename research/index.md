@@ -13,7 +13,7 @@ A central theme of my syntactic research is how grammatical case is assigned and
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
-  <ul class="ps-3 mb-0">
+  <ul class="list-unstyled mb-0">
     <li>(Upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at the Syntax &amp; Semantics Circle (SSCircle), University of California, Berkeley.</li>
     <li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56), New York University, New York.</li>
   </ul>
@@ -25,7 +25,7 @@ Another major line of my work examines ellipsis, especially sluicing-like constr
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
-  <ul class="ps-3 mb-0">
+  <ul class="list-unstyled mb-0">
     <li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the 101st Annual Meeting of the Linguistic Society of America (LSA), Philadelphia.</li>
     <li>(2021). Kiper, S. Yağmur. (Mis)matches in Turkish sluicing constructions. Short talk at Architectures and Mechanisms for Language Processing (AMLaP), Université de Paris, online.</li>
     <li>(2021). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. Talk at the 37th Annual Northwest Linguistics Conference (NWLC 37), University of British Columbia, online.</li>
@@ -45,7 +45,7 @@ In semantics, my research examines the interaction between tense, aspect, modali
 
 <div class="updates-container small mb-5">
   <p><strong>Output</strong></p>
-  <ul class="ps-3 mb-0">
+  <ul class="list-unstyled mb-0">
     <li>(Upcoming). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. <em>Perfect-like meanings in Turkish via temporal adverbials.</em> Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston.</li>
   </ul>
 </div>
