@@ -1,9 +1,9 @@
 menu:
-- {name: 'about', url: '/'}
+- {name: 'home', url: '/'}
 - {name: 'research', url: '/research'}
 - {name: 'teaching', url: '/teaching'}
 - {name: 'cv', url: '/assets/CV.pdf'}
-- {name: 'misc', url: '/misc'}
+- {name: 'about', url: '/about'}
 
 
 social:
@@ -11,3 +11,4 @@ social:
   - {icon: 'fas fa-graduation-cap', link: 'https://scholar.google.com/citations?user=_4wll80AAAAJ&hl=en&oi=ao'}
   - {icon: 'fab fa-linkedin', link: 'https://linkedin.com/in/yagmur-kiper'}
   - {icon: 'fab fa-orcid', link: 'https://orcid.org/0000-0003-1430-2424'}
+  - {icon: 'fas fa-university', link: 'https://campusdirectory.ucsc.edu/cd_detail?uid=ykiper'}
