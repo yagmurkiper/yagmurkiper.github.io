@@ -11,13 +11,13 @@ Below you can find a summary of my research projects. See my <a href="/assets/CV
 
 #### Case
 
-A central theme of my syntactic research concerns how grammatical case is assigned and how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
+A central theme of my syntactic research concerns how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
 
 <div class="updates-container small mb-5">
 <p><strong>Output</strong></p>
 
 <ul class="list-unstyled mb-0">
-<li>(upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at the Syntax &amp; Semantics Circle (SSCircle), University of California, Berkeley.</li>
+<li>(2026). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at the Syntax &amp; Semantics Circle (SSCircle), University of California, Berkeley. [email for handout]</li>
 
 <li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56), New York University, New York. <a class="material-link" href="/assets/handouts/kiper_nels56_HO.pdf" target="_blank">[handout]</a></li>
 </ul>
@@ -62,7 +62,7 @@ The semantic system underlying aspect, modality, and evidentiality in Turkish re
 
 <ul class="list-unstyled mb-0">
 
-<li>(upcoming). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. Perfect-like meanings in Turkish via temporal adverbials. Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston.</li>
+<li>(2026). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. Perfect-like meanings in Turkish via temporal adverbials. Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston. <a class="material-link" href="/assets/handouts/kiper_knick_tu+11.pdf" target="_blank">[poster]</a> </li>
 
 </ul>
 
