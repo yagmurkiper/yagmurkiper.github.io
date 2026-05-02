@@ -17,9 +17,9 @@ A central theme of my syntactic research concerns how reliably case marking diag
 <p><strong>Output</strong></p>
 
 <ul class="list-unstyled mb-0">
-<li>(2026). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at the Syntax &amp; Semantics Circle (SSCircle), University of California, Berkeley. [email for handout]</li>
+<li>(upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Poster at 19th Workshop on Altaic Formal Linguistics (WAFL 19), The Leibniz-Centre General Linguistics; Berlin, Germany. </li>
 
-<li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56), New York University, New York. <a class="material-link" href="/assets/handouts/kiper_nels56_HO.pdf" target="_blank">[handout]</a></li>
+<li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56). New York University; New York. <a class="material-link" href="/assets/handouts/kiper_nels56_HO.pdf" target="_blank">[handout]</a></li>
 </ul>
 
 </div>
@@ -34,11 +34,11 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
 
 <ul class="list-unstyled mb-0">
 
-<li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the Annual Meeting of the Linguistic Society of America (LSA), Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
+<li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the Annual Meeting of the Linguistic Society of America (LSA). Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
 
 <li>(2022). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. In Marianne Huijsmans &amp; Sander Nederveen (eds.), <em>Proceedings of the Northwest Linguistics Conference 37</em>. Vancouver, BC: UBCWPL. <a class="material-link" href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf" target="_blank">[paper]</a></li>
 
-<li>(2021). Kiper, S. Yağmur. (Mis)matches in Turkish sluicing constructions. Short talk at Architectures and Mechanisms for Language Processing (AMLaP), Université de Paris, online.</li>
+<li>(2021). Kiper, S. Yağmur. (Mis)matches in Turkish sluicing constructions. Short talk at Architectures and Mechanisms for Language Processing (AMLaP). Université de Paris; online.</li>
 
 <li>(2020). Kiper, S. Yağmur. <em>In the case of sluicing</em>. Master of Arts Thesis, Middle East Technical University. OpenMETU. <a class="material-link" href="https://open.metu.edu.tr/handle/11511/69179" target="_blank">[thesis]</a></li>
 
@@ -62,7 +62,7 @@ The semantic system underlying aspect, modality, and evidentiality in Turkish re
 
 <ul class="list-unstyled mb-0">
 
-<li>(2026). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. Perfect-like meanings in Turkish via temporal adverbials. Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11), MIT, Boston. <a class="material-link" href="/assets/handouts/kiper_knick_tu+11.pdf" target="_blank">[poster]</a> </li>
+<li>(2026). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. Perfect-like meanings in Turkish via temporal adverbials. Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11). MIT; Boston, MA. <a class="material-link" href="/assets/handouts/kiper_knick_tu+11.pdf" target="_blank">[poster]</a> </li>
 
 </ul>
 
