@@ -17,7 +17,7 @@ A central theme of my syntactic research concerns how reliably case marking diag
 <p><strong>Output</strong></p>
 
 <ul class="list-unstyled mb-0">
-<li>(upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Poster at 19th Workshop on Altaic Formal Linguistics (WAFL 19), The Leibniz-Centre General Linguistics; Berlin, Germany. </li>
+<li>(upcoming). Kiper, Yağmur. Two distinct mechanisms for genitive case across nominalizations. Talk at 19th Workshop on Altaic Formal Linguistics (WAFL 19), The Leibniz-Centre General Linguistics; Berlin, Germany. </li>
 
 <li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56). New York University; New York. <a class="material-link" href="/assets/handouts/kiper_nels56_HO.pdf" target="_blank">[handout]</a></li>
 </ul>
