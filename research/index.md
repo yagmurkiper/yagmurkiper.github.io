@@ -3,26 +3,13 @@ layout: default
 title: "Research"
 ---
 
-My research focuses on syntax and semantics, with an emphasis on empirical investigation of the so-called Altaic languages (e.g., Turkic, Mongolic, Korean). I place particular emphasis on careful elicitation and systematic data collection especially for Turkish and on grounding theoretical claims in well-documented linguistic evidence. More broadly, I approach linguistic theory through cross-linguistic comparison, with the goal of developing analyses informed by the diversity of natural languages.
+My research focuses on syntax and semantics, with an emphasis on empirical investigation of the so-called Altaic languages (e.g., Turkic, Mongolic, Korean). A central theme of my syntactic research concerns how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
 
-Below you can find a summary of my research projects. See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
+Below you can find a summary of my research projects. 
+
+See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
 
 <div class="research-domain"><span>Syntax</span></div>
-
-#### Case
-
-A central theme of my syntactic research concerns how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
-
-<div class="updates-container small mb-5">
-<p><strong>Output</strong></p>
-
-<ul class="list-unstyled mb-0">
-<li>(2026). Kiper, Yağmur. Distinct mechanisms for genitive case across nominalizations. Talk at 19th Workshop on Altaic Formal Linguistics (WAFL 19), The Leibniz-Centre General Linguistics; Berlin, Germany. <a class="material-link" href="/assets/handouts/kiper_wafl19_HO.pdf" target="_blank">[handout]</a></li>
-
-<li>(2025). Kiper, Yağmur. Ellipsis as leverage for dependent case. Talk at the 56th Annual Meeting of the North East Linguistic Society (NELS 56). New York University; New York. <a class="material-link" href="https://lingbuzz.net/lingbuzz/010106" target="_blank">[proceedings]</a> <a class="material-link" href="/assets/handouts/kiper_nels56_HO.pdf" target="_blank">[handout]</a></li>
-</ul>
-
-</div>
 
 #### Ellipsis
 
@@ -34,13 +21,11 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
 
 <ul class="list-unstyled mb-0">
 
+<li>(to appear). Kiper, Yağmur. Ellipsis as leverage for dependent case. In Gabriel Correa &amp; Kevin Morand (eds.), <em>Proceedings of the Fifty-Sixth Annual Meeting of the North East Linguistic Society</em>. New York University; New York. <a class="material-link" href="https://lingbuzz.net/lingbuzz/010106" target="_blank">[proceedings]</a></li>
+
 <li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the Annual Meeting of the Linguistic Society of America (LSA). Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
 
 <li>(2022). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. In Marianne Huijsmans &amp; Sander Nederveen (eds.), <em>Proceedings of the Northwest Linguistics Conference 37</em>. Vancouver, BC: UBCWPL. <a class="material-link" href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf" target="_blank">[paper]</a></li>
-
-<li>(2021). Kiper, S. Yağmur. (Mis)matches in Turkish sluicing constructions. Short talk at Architectures and Mechanisms for Language Processing (AMLaP). Université de Paris; online.</li>
-
-<li>(2020). Kiper, S. Yağmur. <em>In the case of sluicing</em>. Master of Arts Thesis, Middle East Technical University. OpenMETU. <a class="material-link" href="https://open.metu.edu.tr/handle/11511/69179" target="_blank">[thesis]</a></li>
 
 </ul>
 
@@ -49,6 +34,15 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
 #### Clausal Architecture
 
 Another line of my research examines clausal architecture in Turkish, particularly constructions that blur the boundary between clauses and nominals. I study pseudo-clefts and related structures, examining the restrictions on cleft clauses and the role of (light-headed or free) relative clauses in licensing pivots. I also investigate Turkish nominalizations, exploring how nominal and clausal nominalizations differ structurally and how they relate to relative clause formation.
+
+<div class="updates-container small mb-5">
+<p><strong>Output</strong></p>
+
+<ul class="list-unstyled mb-0">
+<li>(2026). Kiper, Yağmur. Distinct mechanisms for genitive case across nominalizations. Talk at 19th Workshop on Altaic Formal Linguistics (WAFL 19), The Leibniz-Centre General Linguistics; Berlin, Germany. <a class="material-link" href="/assets/handouts/kiper_wafl19_HO.pdf" target="_blank">[handout]</a></li>
+</ul>
+
+</div>
 
 <div class="research-domain"><span>Semantics</span></div>
 
