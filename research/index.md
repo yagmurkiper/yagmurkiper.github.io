@@ -25,7 +25,7 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
 
 <li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the Annual Meeting of the Linguistic Society of America (LSA). Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
 
-<li>(2022). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. In Marianne Huijsmans &amp; Sander Nederveen (eds.), <em>Proceedings of the Northwest Linguistics Conference 37</em>. Vancouver, BC: UBCWPL. <a class="material-link" href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf" target="_blank">[paper]</a></li>
+<li>(2022). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. In Marianne Huijsmans &amp; Sander Nederveen (eds.), <em>Proceedings of the Northwest Linguistics Conference 37</em>. Vancouver, BC: UBCWPL. <a class="material-link" href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf" target="_blank">[proceedings]</a></li>
 
 </ul>
 
