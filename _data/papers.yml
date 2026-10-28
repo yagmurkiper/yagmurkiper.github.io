@@ -7,7 +7,7 @@ sections:
   # ARTICLES PEER-REVIEWED BY ABSTRACT
   # ========================================
 
-  - title: Articles peer-reviewed by abstract
+  - title: Articles Peer-reviewed by Abstract
     papers:
 
       # NELS 57
@@ -117,7 +117,7 @@ sections:
             - name: author
               value: Kiper, Yağmur
             - name: title
-              value: The Position of the Q-like Particle {ki} in Turkish and Consequences for Sluicing
+              value: The position of the Q-like particle {ki} in Turkish and consequences for sluicing
             - name: booktitle
               value: Proceedings of the Northwest Linguistics Conference 37
             - name: editor
@@ -218,7 +218,7 @@ sections:
   # EDITED VOLUMES
   # ========================================
 
-  - title: Edited volumes
+  - title: Edited Volumes
     papers:
 
       # WCCFL 41
@@ -245,7 +245,7 @@ sections:
 
         bib:
           type: book
-          key: websterEtAl2025wccfl41
+          key: websteretal2025
           fields:
             - name: editor
               value: Webster, Nikolas and Kiper, Yağmur and Wang, Richard and Lyu, Sichen Larry

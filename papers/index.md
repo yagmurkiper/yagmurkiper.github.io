@@ -220,12 +220,6 @@ title: "Papers"
      ====================================== -->
 
 <div class="papers-page">
-
-  <header class="papers-intro">
-    <h1>Papers</h1>
-  </header>
-
-
   <!-- Loop through publication sections -->
 
   {% for section in site.data.papers.sections %}
