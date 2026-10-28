@@ -180,13 +180,13 @@ sections:
           are affixed by a tense marker. To account for all
           conditions, I propose unified accounts for matrix
           clause and embedded clause sluicing by adopting
-          the MD analysis for case connectivity and the
-          pro-form analysis for anti-connectivity between
+          a movement-and-deletion analysis for case connectivity and the
+          <em>pro</em>-form analysis for anti-connectivity between
           the remnant and its correlate. I also argue that
-          the Question particle ki can occur not only in
+          the question particle <em>ki</em> can occur not only in
           matrix interrogative clauses, but also in tensed
           embedded interrogative environments clause-finally.
-          Due to this distribution of the particle ki, I
+          Due to this distribution of the particle <em>ki</em>, I
           propose that the pre-sluice can transform from a
           non-finite to a finite clause, and that the source
           of the sluice must be the minimal tensed clause
@@ -226,8 +226,8 @@ sections:
       - year: "2025"
         title: Proceedings of the 41st West Coast Conference on Formal Linguistics (WCCFL 41)
         venue: >-
-          Edited with Nikolas Webster, Richard Wang,
-          and Sichen Larry Lyu. Somerville, MA:
+          <em>With Nikolas Webster, Richard Wang,
+          and Sichen Larry Lyu</em>. Somerville, MA:
           Cascadilla Proceedings Project.
 
         abstract_label: About
