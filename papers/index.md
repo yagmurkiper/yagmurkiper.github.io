@@ -2,7 +2,6 @@
 layout: default
 title: "Papers"
 ---
-
 <style>
 
 /* ======================================
@@ -224,7 +223,6 @@ title: "Papers"
 
   <header class="papers-intro">
     <h1>Papers</h1>
-    <p>Publications, manuscripts, and edited volumes.</p>
   </header>
 
 

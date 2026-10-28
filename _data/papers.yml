@@ -1,79 +1,87 @@
-# PUBLICATIONS
-# Add and edit papers here.
-# The Papers page reads this file automatically.
-
+# ==========================================
+# PAPERS
+# ==========================================
 sections:
 
-  # ======================================
+  # ========================================
   # ARTICLES PEER-REVIEWED BY ABSTRACT
-  # ======================================
+  # ========================================
 
   - title: Articles peer-reviewed by abstract
     papers:
 
-      - year: "in prep"
+      # NELS 57
+
+      - year: "In prep"
         title: Two distinct mechanisms for genitive across nominalizations in Turkish
         venue: >-
-          Planned for <em>Proceedings of the Fifty-Seventh
-          Annual Meeting of the North East Linguistic
-          Society</em>. GLSA.
+          <em>Proceedings of the Fifty-Seventh Annual
+          Meeting of the North East Linguistic Society</em>.
+          GLSA.
 
-        abstract: Abstract to be added.
+        links:
+          - label: Abstract
+            url: https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/50641/files/2026/10/Kiper.pdf
 
-        bib:
-          type: unpublished
-          key: kiperGenitiveNominalizations
-          fields:
-            - name: author
-              value: Kiper, Sebahat Yağmur
-            - name: title
-              value: Two Distinct Mechanisms for Genitive across Nominalizations in Turkish
-            - name: note
-              value: In preparation for the Proceedings of NELS 57
 
+      # NELS 56
 
       - year: "2026"
         title: Ellipsis as leverage for dependent case theory
         venue: >-
-          In <em>Proceedings of the Fifty-Sixth Annual
+          In Gabriel Correa and Kevin Morand (eds.),
+          <em>Proceedings of the Fifty-Sixth Annual
           Meeting of the North East Linguistic Society</em>.
-          GLSA.
+          Amherst, MA: GLSA, University of Massachusetts Amherst.
 
         abstract: >-
-          This paper uses low sluicing in Turkish to
-          investigate the mechanisms of case assignment.
-          Accusative and genitive on embedded subjects
-          are absent from certain wh-remnants even when
-          their correlates bear those cases, while other
-          case markers can survive ellipsis. The paper
-          argues that these contrasts support a
-          configurational approach to structural case
-          under dependent case theory rather than an
-          exclusively head-driven account.
-
-        abstract_note: >-
-          Short working summary based on the conference
-          abstract; replace with your final abstract.
+          This paper uses low sluicing in Turkish as a
+          diagnostic for the timing of ellipsis licensing
+          and structural case assignment. In low sluicing,
+          wh-remnants bear case, auxiliary and tense morphology,
+          but structural cases such as accusative and genitive
+          fail to survive the ellipsis, even though they are
+          present on the correlate in the antecedent clause.
+          I argue that this disconnectivity cannot be reduced
+          to a copular clause source: low sluicing allows
+          multiple wh-remnants and adjunct remnants, and it
+          is island-sensitive. Instead, I propose that low
+          sluicing has a full clausal source, but that the
+          ellipsis-licensing head renders its complement
+          inaccessible for later case computation. Under a
+          dependent case approach, this prevents wh-remnants
+          from entering the configurational relations required
+          for accusative or genitive case assignment, causing
+          them to surface with unmarked nominative case.
+          The analysis shows that ellipsis licensing can affect
+          syntactic computation and provides new evidence for
+          a configurational theory of structural case.
 
         links:
-          - label: Conference abstract
-            url: https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/2/33372/files/2025/08/125_ellipsis_as_leverage.pdf
+          - label: PDF
+            url: https://lingbuzz.net/lingbuzz/010106
 
         bib:
           type: inproceedings
-          key: kiper2026ellipsis
+          key: kiper2026
           fields:
             - name: author
-              value: Kiper, Sebahat Yağmur
+              value: Kiper, Yağmur
             - name: title
               value: Ellipsis as Leverage for Dependent Case Theory
             - name: booktitle
               value: Proceedings of the Fifty-Sixth Annual Meeting of the North East Linguistic Society
+            - name: editor
+              value: Correa, Gabriel and Morand, Kevin
             - name: year
               value: "2026"
             - name: publisher
-              value: GLSA
+              value: GLSA, University of Massachusetts Amherst
+            - name: address
+              value: Amherst, MA
 
+
+      # NWLC 37
 
       - year: "2022"
         title: 'The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing'
@@ -84,17 +92,19 @@ sections:
           Vancouver, BC: UBCWPL.
 
         abstract: >-
-          This paper investigates the distribution of
-          the Turkish Q-like particle <em>ki</em>.
-          It argues that the particle can occur in
-          tensed embedded questions, contrary to
-          earlier claims. This distribution motivates
-          an analysis of embedded sluicing in which
-          wh-remnants move to the closest tensed CP.
-
-        abstract_note: >-
-          Temporary summary; to be replaced with the
-          published abstract.
+          The paper revises the distribution of the so-called
+          Q-like particle <em>ki</em> in Turkish and investigates
+          the consequences of this revised distribution for
+          embedded sluicing constructions. Contrary to the
+          claim that <em>ki</em> appears only in matrix clauses
+          (Ince, 2012; Zidani-Eroğlu, 2019), I show that it
+          can also occur in embedded interrogative clauses
+          when they are tensed. Based on this possibility,
+          I propose an analysis of sluicing constructions
+          in Turkish, where I argue that wh-remnants in
+          embedded sluicing environments raise to the
+          [Spec CP] position of the closest tensed clause
+          (contra Ince, 2012).
 
         links:
           - label: PDF
@@ -102,10 +112,10 @@ sections:
 
         bib:
           type: inproceedings
-          key: kiper2022ki
+          key: kiper2022
           fields:
             - name: author
-              value: Kiper, Sebahat Yağmur
+              value: Kiper, Yağmur
             - name: title
               value: The Position of the Q-like Particle {ki} in Turkish and Consequences for Sluicing
             - name: booktitle
@@ -120,30 +130,23 @@ sections:
               value: Vancouver, BC
 
 
-  # ======================================
+  # ========================================
   # MANUSCRIPTS
-  # ======================================
+  # ========================================
 
   - title: Manuscripts
     papers:
+
+      # Manuscript in preparation
 
       - year: "in prep"
         title: Sluicing as a lens on case
         venue: Manuscript in preparation.
 
-        abstract: Abstract to be added.
+        abstract: TBD
 
-        bib:
-          type: unpublished
-          key: kiperSluicingCase
-          fields:
-            - name: author
-              value: Kiper, Sebahat Yağmur
-            - name: title
-              value: Sluicing as a Lens on Case
-            - name: note
-              value: Manuscript in preparation
 
+      # MA Thesis
 
       - year: "2020"
         title: In the case of sluicing
@@ -152,35 +155,57 @@ sections:
           University. OpenMETU.
 
         abstract: >-
-          This thesis investigates case connectivity
-          and anti-connectivity in Turkish sluicing-like
-          constructions. An acceptability judgment
-          study with 216 participants tests the
-          distribution of case-marked wh-remnants.
-          The analysis distinguishes connectivity
-          and anti-connectivity and addresses the
-          availability of embedded sluicing and the
-          distribution of the particle <em>ki</em>.
-
-        abstract_note: >-
-          Short working summary based on the thesis
-          repository description.
+          This thesis explores sluicing like constructions
+          (SLCs) in Turkish. SLCs are investigated from a
+          particular perspective: that of case connectivity
+          between the wh-phrase in the ellipsis site
+          (wh-remnant) and the indefinite pronoun in the
+          antecedent clause (indefinite correlate). Case
+          connectivity refers to the wh-remnant sharing the
+          morphological case of its correlate, while
+          anti-connectivity refers to the wh-remnant
+          surfacing bare, regardless of the form of the
+          correlate. The thesis's purpose is twofold:
+          It aims to provide empirical data regarding which
+          SLCs are indeed well-formed in Turkish (given
+          controversial judgments in the literature) and
+          to offer an appropriate analysis of SLCs
+          compatible with the findings. Based on the
+          judgments collected through an Acceptability
+          Judgment Task from 216 participants, I establish
+          that connectivity and anti-connectivity in all
+          grammatical cases between the wh-phrase and its
+          correlate are acceptable except when accusative
+          object wh-remnants or genitive subject wh-remnants
+          are affixed by a tense marker. To account for all
+          conditions, I propose unified accounts for matrix
+          clause and embedded clause sluicing by adopting
+          the MD analysis for case connectivity and the
+          pro-form analysis for anti-connectivity between
+          the remnant and its correlate. I also argue that
+          the Question particle ki can occur not only in
+          matrix interrogative clauses, but also in tensed
+          embedded interrogative environments clause-finally.
+          Due to this distribution of the particle ki, I
+          propose that the pre-sluice can transform from a
+          non-finite to a finite clause, and that the source
+          of the sluice must be the minimal tensed clause
+          where wh-phrase originates. In cases where a
+          bigger source is forced, it must be as minimal
+          as possible.
 
         links:
           - label: PDF
             url: https://open.metu.edu.tr/bitstream/handle/11511/69179/12625825.pdf
 
-          - label: Repository
-            url: https://open.metu.edu.tr/handle/11511/69179
-
         bib:
           type: mastersthesis
-          key: kiper2020sluicing
+          key: kiper2020
           fields:
             - name: author
-              value: Kiper, Sebahat Yağmur
+              value: Kiper, Yağmur
             - name: title
-              value: In the Case of Sluicing
+              value: In the case of sluicing
             - name: school
               value: Middle East Technical University
             - name: year
@@ -189,12 +214,14 @@ sections:
               value: https://open.metu.edu.tr/handle/11511/69179
 
 
-  # ======================================
+  # ========================================
   # EDITED VOLUMES
-  # ======================================
+  # ========================================
 
   - title: Edited volumes
     papers:
+
+      # WCCFL 41
 
       - year: "2025"
         title: Proceedings of the 41st West Coast Conference on Formal Linguistics (WCCFL 41)
@@ -213,18 +240,15 @@ sections:
           to the individual contributions.
 
         links:
-          - label: Contents
+          - label: PDF
             url: https://www.lingref.com/cpp/wccfl/41/index.html
-
-          - label: Preface PDF
-            url: https://www.lingref.com/cpp/wccfl/41/paper3726.pdf
 
         bib:
           type: book
           key: websterEtAl2025wccfl41
           fields:
             - name: editor
-              value: Webster, Nikolas and Kiper, Sebahat Yağmur and Wang, Richard and Lyu, Sichen Larry
+              value: Webster, Nikolas and Kiper, Yağmur and Wang, Richard and Lyu, Sichen Larry
             - name: title
               value: Proceedings of the 41st West Coast Conference on Formal Linguistics
             - name: year
