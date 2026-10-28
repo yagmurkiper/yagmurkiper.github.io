@@ -1,9 +1,12 @@
+
 menu:
 - {name: 'home', url: '/'}
 - {name: 'research', url: '/research'}
+- {name: 'papers', url: '/papers/'}
 - {name: 'teaching', url: '/teaching'}
 - {name: 'cv', url: '/assets/CV.pdf'}
 - {name: 'about', url: '/about'}
+
 
 
 social:
