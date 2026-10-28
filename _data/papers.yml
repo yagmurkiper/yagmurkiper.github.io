@@ -1,0 +1,173 @@
+# Add or edit entries here. The Papers page builds itself from this file.
+# For each item: keep the id unique; links are optional; add doi only if verified.
+sections:
+  - id: proceedings
+    number: '01'
+    eyebrow: Publications
+    title: Articles peer-reviewed by abstract
+    description: Conference proceedings and papers accepted through abstract review.
+    papers:
+      - id: genitive-nominalizations
+        year: 'in prep'
+        title: Two distinct mechanisms for genitive across nominalizations in Turkish
+        authors: Yağmur Kiper
+        venue: 'Proceedings of the Fifty-Seventh Annual Meeting of the North East Linguistic Society (NELS 57). GLSA.'
+        abstract: >-
+          Turkish nominalizations exhibit two distinct patterns of genitive case marking.
+          Evidence from low sluicing reveals a contrast between nominalizations with
+          -DIK/-AcAK and those with -mA/-Iş: genitive-marked wh-remnants are excluded
+          with the former but possible with the latter. I argue that the two classes
+          have different internal structures, and that genitive is consequently
+          licensed through different mechanisms: unmarked case in a nominal domain
+          in one class, and Agree in the other.
+        abstract_note: 'Working summary based on the related WAFL 19 handout; replace with the final paper abstract when ready.'
+        links:
+          - label: Related handout
+            url: /assets/handouts/kiper_wafl19_HO.pdf
+        bibtex: |-
+          @inproceedings{kiperInPrepGenitive,
+            author    = {Kiper, Yağmur},
+            title     = {Two distinct mechanisms for genitive across nominalizations in {Turkish}},
+            booktitle = {Proceedings of the Fifty-Seventh Annual Meeting of the North East Linguistic Society},
+            publisher = {GLSA},
+            note      = {In preparation}
+          }
+
+      - id: dependent-case
+        year: '2026'
+        title: Ellipsis as leverage for dependent case theory
+        authors: Yağmur Kiper
+        venue: 'In Gabriel Correa and Kevin Morand (eds.), Proceedings of the Fifty-Sixth Annual Meeting of the North East Linguistic Society (NELS 56). GLSA.'
+        abstract: >-
+          Low sluicing in Turkish reveals a contrast between structural and
+          non-structural case. Although the wh-remnant may preserve dative, ablative,
+          locative or possessive genitive, it cannot retain accusative or subject
+          genitive in environments where its antecedent bears those cases. I argue
+          that these mismatches follow from dependent case theory: movement and
+          ellipsis disrupt the configurations required for structural case licensing,
+          leaving unmarked case to surface. The pattern provides evidence against
+          a purely functional-head-based approach to case assignment.
+        abstract_note: 'Summary adapted from the NELS 56 conference abstract.'
+        links:
+          - label: Conference handout PDF
+            url: /assets/handouts/kiper_nels56_HO.pdf
+          - label: Abstract PDF
+            url: https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/2/33372/files/2025/08/125_ellipsis_as_leverage.pdf
+        bibtex: |-
+          @inproceedings{kiper2026Ellipsis,
+            author    = {Kiper, Yağmur},
+            title     = {Ellipsis as leverage for dependent case theory},
+            booktitle = {Proceedings of the Fifty-Sixth Annual Meeting of the North East Linguistic Society},
+            editor    = {Correa, Gabriel and Morand, Kevin},
+            publisher = {GLSA},
+            year      = {2026},
+            note      = {Conference proceedings, 2026}
+          }
+
+      - id: particle-ki
+        year: '2022'
+        title: The position of the Q-like particle ki in Turkish and consequences for sluicing
+        authors: Yağmur Kiper
+        venue: 'In Marianne Huijsmans and Sander Nederveen (eds.), Proceedings of the Northwest Linguistics Conference 37. Vancouver, BC: UBCWPL.'
+        abstract: >-
+          This paper revisits the distribution of the Turkish Q-like particle ki.
+          Against earlier claims that this particle is restricted to matrix
+          interrogatives, I show that it can also appear in tensed embedded questions.
+          The revised distribution bears on the structure of embedded sluicing:
+          wh-remnants can raise to the specifier of the closest tensed CP rather
+          than necessarily moving to the matrix clause.
+        abstract_note: 'Summary adapted from the published paper.'
+        links:
+          - label: PDF
+            url: https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf
+        bibtex: |-
+          @inproceedings{kiper2022Ki,
+            author    = {Kiper, Yağmur},
+            title     = {The position of the {Q}-like particle {ki} in {Turkish} and consequences for sluicing},
+            booktitle = {Proceedings of the Northwest Linguistics Conference 37},
+            editor    = {Huijsmans, Marianne and Nederveen, Sander},
+            publisher = {UBCWPL},
+            address   = {Vancouver, BC},
+            year      = {2022},
+            url       = {https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf}
+          }
+
+  - id: manuscripts
+    number: '02'
+    eyebrow: Works in progress & thesis
+    title: Manuscripts
+    description: Current writing and earlier independent research.
+    papers:
+      - id: sluicing-lens
+        year: 'in prep'
+        title: Sluicing as a lens on case
+        authors: Yağmur Kiper
+        venue: Manuscript in preparation.
+        bibtex: |-
+          @unpublished{kiperInPrepSluicing,
+            author = {Kiper, Yağmur},
+            title  = {Sluicing as a lens on case},
+            note   = {Manuscript in preparation}
+          }
+
+      - id: case-of-sluicing
+        year: '2020'
+        title: In the case of sluicing
+        authors: Sebahat Yağmur Kiper
+        venue: 'Master of Arts thesis, Middle East Technical University. OpenMETU.'
+        abstract: >-
+          This thesis investigates case connectivity and anti-connectivity in
+          Turkish sluicing-like constructions, drawing on acceptability judgments
+          from 216 participants. It documents the distribution of case-marked
+          wh-remnants, including restrictions on accusative and subject genitive
+          with tense morphology. The analysis combines a movement-and-deletion
+          approach to connectivity with a pro-form approach to anti-connectivity.
+          It also examines the position of the particle ki in embedded questions
+          and its consequences for the size of the sluicing source.
+        abstract_note: 'Summary adapted from the thesis abstract in OpenMETU.'
+        links:
+          - label: PDF
+            url: https://open.metu.edu.tr/bitstream/handle/11511/69179/12625825.pdf
+          - label: Repository
+            url: https://hdl.handle.net/11511/69179
+        bibtex: |-
+          @mastersthesis{kiper2020Sluicing,
+            author = {Kiper, Sebahat Yağmur},
+            title  = {In the case of sluicing},
+            school = {Middle East Technical University},
+            year   = {2020},
+            url    = {https://hdl.handle.net/11511/69179}
+          }
+
+  - id: edited-volumes
+    number: '03'
+    eyebrow: Editorial work
+    title: Edited volumes
+    description: Collaborative work bringing together research in formal linguistics.
+    papers:
+      - id: wccfl41
+        year: '2025'
+        title: Proceedings of the 41st West Coast Conference on Formal Linguistics (WCCFL 41)
+        authors: 'Edited with Nikolas Webster, Richard Wang, and Sichen Larry Lyu'
+        venue: 'Somerville, MA: Cascadilla Proceedings Project. ISBN 978-1-57473-483-6.'
+        abstract_label: About the volume
+        abstract: >-
+          This edited volume brings together research presented at WCCFL 41,
+          held at the University of California, Santa Cruz in May 2023.
+          The full table of contents and individual open-access papers are
+          available through Cascadilla Proceedings Project.
+        links:
+          - label: Contents & papers
+            url: https://www.lingref.com/cpp/wccfl/41/index.html
+          - label: Preface PDF
+            url: https://www.lingref.com/cpp/wccfl/41/paper3726.pdf
+        bibtex: |-
+          @book{websterEtAl2025WCCFL41,
+            editor    = {Webster, Nikolas and Kiper, Yağmur and Wang, Richard and Lyu, Sichen Larry},
+            title     = {Proceedings of the 41st West Coast Conference on Formal Linguistics},
+            publisher = {Cascadilla Proceedings Project},
+            address   = {Somerville, MA},
+            year      = {2025},
+            isbn      = {978-1-57473-483-6},
+            url       = {https://www.lingref.com/cpp/wccfl/41/index.html}
+          }
