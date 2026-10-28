@@ -1,0 +1,237 @@
+# PUBLICATIONS
+# Add and edit papers here.
+# The Papers page reads this file automatically.
+
+sections:
+
+  # ======================================
+  # ARTICLES PEER-REVIEWED BY ABSTRACT
+  # ======================================
+
+  - title: Articles peer-reviewed by abstract
+    papers:
+
+      - year: "in prep"
+        title: Two distinct mechanisms for genitive across nominalizations in Turkish
+        venue: >-
+          Planned for <em>Proceedings of the Fifty-Seventh
+          Annual Meeting of the North East Linguistic
+          Society</em>. GLSA.
+
+        abstract: Abstract to be added.
+
+        bib:
+          type: unpublished
+          key: kiperGenitiveNominalizations
+          fields:
+            - name: author
+              value: Kiper, Sebahat Yağmur
+            - name: title
+              value: Two Distinct Mechanisms for Genitive across Nominalizations in Turkish
+            - name: note
+              value: In preparation for the Proceedings of NELS 57
+
+
+      - year: "2026"
+        title: Ellipsis as leverage for dependent case theory
+        venue: >-
+          In <em>Proceedings of the Fifty-Sixth Annual
+          Meeting of the North East Linguistic Society</em>.
+          GLSA.
+
+        abstract: >-
+          This paper uses low sluicing in Turkish to
+          investigate the mechanisms of case assignment.
+          Accusative and genitive on embedded subjects
+          are absent from certain wh-remnants even when
+          their correlates bear those cases, while other
+          case markers can survive ellipsis. The paper
+          argues that these contrasts support a
+          configurational approach to structural case
+          under dependent case theory rather than an
+          exclusively head-driven account.
+
+        abstract_note: >-
+          Short working summary based on the conference
+          abstract; replace with your final abstract.
+
+        links:
+          - label: Conference abstract
+            url: https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/2/33372/files/2025/08/125_ellipsis_as_leverage.pdf
+
+        bib:
+          type: inproceedings
+          key: kiper2026ellipsis
+          fields:
+            - name: author
+              value: Kiper, Sebahat Yağmur
+            - name: title
+              value: Ellipsis as Leverage for Dependent Case Theory
+            - name: booktitle
+              value: Proceedings of the Fifty-Sixth Annual Meeting of the North East Linguistic Society
+            - name: year
+              value: "2026"
+            - name: publisher
+              value: GLSA
+
+
+      - year: "2022"
+        title: 'The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing'
+        venue: >-
+          In Marianne Huijsmans and Sander Nederveen
+          (eds.), <em>Proceedings of the Northwest
+          Linguistics Conference 37</em>.
+          Vancouver, BC: UBCWPL.
+
+        abstract: >-
+          This paper investigates the distribution of
+          the Turkish Q-like particle <em>ki</em>.
+          It argues that the particle can occur in
+          tensed embedded questions, contrary to
+          earlier claims. This distribution motivates
+          an analysis of embedded sluicing in which
+          wh-remnants move to the closest tensed CP.
+
+        abstract_note: >-
+          Temporary summary; to be replaced with the
+          published abstract.
+
+        links:
+          - label: PDF
+            url: https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf
+
+        bib:
+          type: inproceedings
+          key: kiper2022ki
+          fields:
+            - name: author
+              value: Kiper, Sebahat Yağmur
+            - name: title
+              value: The Position of the Q-like Particle {ki} in Turkish and Consequences for Sluicing
+            - name: booktitle
+              value: Proceedings of the Northwest Linguistics Conference 37
+            - name: editor
+              value: Huijsmans, Marianne and Nederveen, Sander
+            - name: year
+              value: "2022"
+            - name: publisher
+              value: UBCWPL
+            - name: address
+              value: Vancouver, BC
+
+
+  # ======================================
+  # MANUSCRIPTS
+  # ======================================
+
+  - title: Manuscripts
+    papers:
+
+      - year: "in prep"
+        title: Sluicing as a lens on case
+        venue: Manuscript in preparation.
+
+        abstract: Abstract to be added.
+
+        bib:
+          type: unpublished
+          key: kiperSluicingCase
+          fields:
+            - name: author
+              value: Kiper, Sebahat Yağmur
+            - name: title
+              value: Sluicing as a Lens on Case
+            - name: note
+              value: Manuscript in preparation
+
+
+      - year: "2020"
+        title: In the case of sluicing
+        venue: >-
+          Master's thesis, Middle East Technical
+          University. OpenMETU.
+
+        abstract: >-
+          This thesis investigates case connectivity
+          and anti-connectivity in Turkish sluicing-like
+          constructions. An acceptability judgment
+          study with 216 participants tests the
+          distribution of case-marked wh-remnants.
+          The analysis distinguishes connectivity
+          and anti-connectivity and addresses the
+          availability of embedded sluicing and the
+          distribution of the particle <em>ki</em>.
+
+        abstract_note: >-
+          Short working summary based on the thesis
+          repository description.
+
+        links:
+          - label: PDF
+            url: https://open.metu.edu.tr/bitstream/handle/11511/69179/12625825.pdf
+
+          - label: Repository
+            url: https://open.metu.edu.tr/handle/11511/69179
+
+        bib:
+          type: mastersthesis
+          key: kiper2020sluicing
+          fields:
+            - name: author
+              value: Kiper, Sebahat Yağmur
+            - name: title
+              value: In the Case of Sluicing
+            - name: school
+              value: Middle East Technical University
+            - name: year
+              value: "2020"
+            - name: url
+              value: https://open.metu.edu.tr/handle/11511/69179
+
+
+  # ======================================
+  # EDITED VOLUMES
+  # ======================================
+
+  - title: Edited volumes
+    papers:
+
+      - year: "2025"
+        title: Proceedings of the 41st West Coast Conference on Formal Linguistics (WCCFL 41)
+        venue: >-
+          Edited with Nikolas Webster, Richard Wang,
+          and Sichen Larry Lyu. Somerville, MA:
+          Cascadilla Proceedings Project.
+
+        abstract_label: About
+
+        abstract: >-
+          This edited volume collects work from
+          WCCFL 41, held at the University of
+          California, Santa Cruz, in May 2023.
+          The publisher provides free online access
+          to the individual contributions.
+
+        links:
+          - label: Contents
+            url: https://www.lingref.com/cpp/wccfl/41/index.html
+
+          - label: Preface PDF
+            url: https://www.lingref.com/cpp/wccfl/41/paper3726.pdf
+
+        bib:
+          type: book
+          key: websterEtAl2025wccfl41
+          fields:
+            - name: editor
+              value: Webster, Nikolas and Kiper, Sebahat Yağmur and Wang, Richard and Lyu, Sichen Larry
+            - name: title
+              value: Proceedings of the 41st West Coast Conference on Formal Linguistics
+            - name: year
+              value: "2025"
+            - name: publisher
+              value: Cascadilla Proceedings Project
+            - name: address
+              value: Somerville, MA
+            - name: isbn
+              value: 978-1-57473-483-6

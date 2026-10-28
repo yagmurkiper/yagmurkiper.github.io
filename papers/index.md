@@ -4,7 +4,10 @@ title: "Papers"
 ---
 
 <style>
-/* Styling ONLY for the Papers page */
+
+/* ======================================
+   GENERAL PAGE STYLING
+   ====================================== */
 
 .papers-page {
   max-width: 850px;
@@ -30,7 +33,14 @@ title: "Papers"
   border-bottom: 1px solid #d7dce2;
 }
 
-/* Publication cards */
+.papers-page section {
+  margin-bottom: 42px;
+}
+
+
+/* ======================================
+   PUBLICATION CARDS
+   ====================================== */
 
 .paper-card {
   background: #ffffff;
@@ -62,7 +72,10 @@ title: "Papers"
   margin-bottom: 18px;
 }
 
-/* Abstract, PDF, and BIB buttons */
+
+/* ======================================
+   ABSTRACT / PDF / BIB BUTTONS
+   ====================================== */
 
 .paper-actions {
   display: flex;
@@ -99,7 +112,10 @@ title: "Papers"
   width: 100%;
 }
 
-/* Abstract panel */
+
+/* ======================================
+   ABSTRACT PANEL
+   ====================================== */
 
 .paper-detail {
   background: #f7f9fc;
@@ -111,7 +127,10 @@ title: "Papers"
   line-height: 1.7;
 }
 
-/* BIB: code editor appearance */
+
+/* ======================================
+   BIB CODE EDITOR
+   ====================================== */
 
 .paper-detail.bib-panel {
   background: #192433;
@@ -121,7 +140,7 @@ title: "Papers"
   padding: 20px;
 }
 
-/* Code editor header */
+/* Editor header */
 
 .bib-header {
   display: flex;
@@ -159,7 +178,7 @@ title: "Papers"
   color: #93a4b9;
 }
 
-/* Monospaced typewriter font */
+/* Monospaced code */
 
 .paper-detail.bib-panel pre {
   font-family: "SFMono-Regular", Consolas,
@@ -175,7 +194,7 @@ title: "Papers"
   margin: 0;
 }
 
-/* BIB syntax highlighting */
+/* Syntax highlighting */
 
 .bib-type {
   color: #ffbd8a;
@@ -195,6 +214,12 @@ title: "Papers"
 
 </style>
 
+
+<!-- ======================================
+     PAPERS PAGE
+     Content comes from _data/papers.yml
+     ====================================== -->
+
 <div class="papers-page">
 
   <header class="papers-intro">
@@ -202,66 +227,116 @@ title: "Papers"
     <p>Publications, manuscripts, and edited volumes.</p>
   </header>
 
+
+  <!-- Loop through publication sections -->
+
+  {% for section in site.data.papers.sections %}
+
   <section>
 
     <h2 class="papers-section-title">
-      Articles peer-reviewed by abstract
+      {{ section.title | escape }}
     </h2>
 
-    <!-- FIRST PAPER -->
+
+    <!-- Loop through papers in this section -->
+
+    {% for paper in section.papers %}
 
     <article class="paper-card">
 
-      <div class="paper-year">2022</div>
+      <!-- YEAR -->
+
+      <div class="paper-year">
+        {{ paper.year | upcase | escape }}
+      </div>
+
+
+      <!-- TITLE -->
 
       <h3 class="paper-title">
-        The position of the Q-like particle
-        <em>ki</em> in Turkish and consequences
-        for sluicing
+        {{ paper.title }}
       </h3>
 
+
+      <!-- PUBLICATION INFORMATION -->
+
       <p class="paper-venue">
-        In Marianne Huijsmans and Sander Nederveen
-        (eds.), <em>Proceedings of the Northwest
-        Linguistics Conference 37</em>.
-        Vancouver, BC: UBCWPL.
+        {{ paper.venue }}
       </p>
+
+
+      <!-- ACTION BUTTONS -->
 
       <div class="paper-actions">
 
+
         <!-- ABSTRACT -->
 
+        {% if paper.abstract %}
+
         <details>
-          <summary>Abstract</summary>
+
+          <summary>
+            {{ paper.abstract_label | default: "Abstract" }}
+          </summary>
 
           <div class="paper-detail">
-            <p>
-              The paper revises the distribution of the so-called Q-like particle ki in Turkish and
-              investigates the consequences of this revised distribution for embedded sluicing constructions.
-              Contrary to the claim that ki appears only in matrix clauses (Ince, 2012; Zidani-Eroğlu, 2019), I
-              show that it can also occur in embedded interrogative clauses when they are tensed. Based on this
-              possibility, I propose an analysis of sluicing constructions in Turkish, where I argue that wh-
-              remnants in embedded sluicing environments raise to the [Spec CP] position of the closest tensed
-              clause (contra Ince, 2012)
-            </p>
+
+            <p>{{ paper.abstract }}</p>
+
+            {% if paper.abstract_note %}
+            <small>
+              {{ paper.abstract_note | escape }}
+            </small>
+            {% endif %}
+
           </div>
+
         </details>
 
-        <!-- PDF -->
+        {% endif %}
+
+
+        <!-- PDF AND EXTERNAL LINKS -->
+
+        {% for link in paper.links %}
 
         <a class="paper-link"
-           href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf"
+           href="{{ link.url | escape }}"
            target="_blank"
            rel="noopener noreferrer">
-          PDF ↗
+          {{ link.label | escape }} ↗
         </a>
+
+        {% endfor %}
+
+
+        <!-- DOI (IF AVAILABLE) -->
+
+        {% if paper.doi %}
+
+        <a class="paper-link"
+           href="https://doi.org/{{ paper.doi | escape }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          DOI ↗
+        </a>
+
+        {% endif %}
+
 
         <!-- BIB -->
 
+        {% if paper.bib %}
+
         <details>
+
           <summary>BIB</summary>
 
           <div class="paper-detail bib-panel">
+
+            <!-- Code editor header -->
 
             <div class="bib-header">
               <span class="bib-dot red"></span>
@@ -270,23 +345,28 @@ title: "Papers"
               <span class="bib-header-label">BIBTEX</span>
             </div>
 
-<pre><span class="bib-type">@inproceedings</span>{<span class="bib-key">kiper2022</span>,
-  <span class="bib-field">author</span> = {<span class="bib-value">Kiper, Yağmur</span>},
-  <span class="bib-field">title</span> = {<span class="bib-value">The position of the Q-like particle {ki} in Turkish and consequences for sluicing</span>},
-  <span class="bib-field">booktitle</span> = {<span class="bib-value">Proceedings of the Northwest Linguistics Conference 37</span>},
-  <span class="bib-field">editor</span> = {<span class="bib-value">Huijsmans, Marianne and Nederveen, Sander</span>},
-  <span class="bib-field">year</span> = {<span class="bib-value">2022</span>},
-  <span class="bib-field">publisher</span> = {<span class="bib-value">UBCWPL</span>},
-  <span class="bib-field">address</span> = {<span class="bib-value">Vancouver, BC</span>}
-}</pre>
+
+            <!-- Syntax-highlighted citation -->
+
+<pre><span class="bib-type">@{{ paper.bib.type | escape }}</span>{<span class="bib-key">{{ paper.bib.key | escape }}</span>,
+{% for field in paper.bib.fields %}  <span class="bib-field">{{ field.name | escape }}</span> = {<span class="bib-value">{{ field.value | escape }}</span>}{% unless forloop.last %},{% endunless %}
+{% endfor %}}</pre>
 
           </div>
+
         </details>
+
+        {% endif %}
+
 
       </div>
 
     </article>
 
+    {% endfor %}
+
   </section>
+
+  {% endfor %}
 
 </div>
