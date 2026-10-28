@@ -236,20 +236,14 @@ title: "Papers"
 
           <div class="paper-detail">
             <p>
-              This paper investigates the distribution
-              of the Turkish Q-like particle
-              <em>ki</em>. It argues that the particle
-              can occur in tensed embedded questions,
-              contrary to earlier claims. This
-              distribution motivates an analysis of
-              embedded sluicing in which wh-remnants
-              move to the closest tensed CP.
+              The paper revises the distribution of the so-called Q-like particle ki in Turkish and
+              investigates the consequences of this revised distribution for embedded sluicing constructions.
+              Contrary to the claim that ki appears only in matrix clauses (Ince, 2012; Zidani-Eroğlu, 2019), I
+              show that it can also occur in embedded interrogative clauses when they are tensed. Based on this
+              possibility, I propose an analysis of sluicing constructions in Turkish, where I argue that wh-
+              remnants in embedded sluicing environments raise to the [Spec CP] position of the closest tensed
+              clause (contra Ince, 2012)
             </p>
-
-            <small>
-              Temporary summary; to be replaced
-              with the published abstract.
-            </small>
           </div>
         </details>
 
@@ -276,9 +270,9 @@ title: "Papers"
               <span class="bib-header-label">BIBTEX</span>
             </div>
 
-<pre><span class="bib-type">@inproceedings</span>{<span class="bib-key">kiper2022ki</span>,
-  <span class="bib-field">author</span> = {<span class="bib-value">Kiper, Sebahat Yağmur</span>},
-  <span class="bib-field">title</span> = {<span class="bib-value">The Position of the Q-like Particle {ki} in Turkish and Consequences for Sluicing</span>},
+<pre><span class="bib-type">@inproceedings</span>{<span class="bib-key">kiper2022</span>,
+  <span class="bib-field">author</span> = {<span class="bib-value">Kiper, Yağmur</span>},
+  <span class="bib-field">title</span> = {<span class="bib-value">The position of the Q-like particle {ki} in Turkish and consequences for sluicing</span>},
   <span class="bib-field">booktitle</span> = {<span class="bib-value">Proceedings of the Northwest Linguistics Conference 37</span>},
   <span class="bib-field">editor</span> = {<span class="bib-value">Huijsmans, Marianne and Nederveen, Sander</span>},
   <span class="bib-field">year</span> = {<span class="bib-value">2022</span>},
