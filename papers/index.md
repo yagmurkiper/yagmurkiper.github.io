@@ -13,12 +13,12 @@ title: "Papers"
 }
 
 .papers-intro {
-  margin-bottom: 38px;
+  margin-bottom: 26px;
 }
 
 .papers-intro h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .papers-intro p {
@@ -26,49 +26,51 @@ title: "Papers"
 }
 
 .papers-section-title {
-  font-size: 1.35rem;
-  margin-bottom: 22px;
-  padding-bottom: 12px;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #d7dce2;
 }
 
 .papers-page section {
-  margin-bottom: 42px;
+  margin-bottom: 30px;
 }
 
 
 /* ======================================
-   PUBLICATION CARDS
+   PUBLICATION CARDS — COMPACT
    ====================================== */
 
 .paper-card {
   background: #ffffff;
   border: 1px solid #e0e4e8;
-  border-radius: 12px;
-  padding: 25px;
-  margin-bottom: 22px;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
 }
 
 .paper-year {
   color: #697682;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+  margin: 0 0 5px;
+  line-height: 1.3;
 }
 
 .paper-title {
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   font-weight: 700;
-  line-height: 1.5;
-  margin-bottom: 10px;
+  line-height: 1.35;
+  margin: 0 0 6px;
 }
 
 .paper-venue {
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   color: #616b75;
-  line-height: 1.6;
-  margin-bottom: 18px;
+  line-height: 1.45;
+  margin: 0 0 12px;
 }
 
 
@@ -80,7 +82,7 @@ title: "Papers"
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 9px;
+  gap: 7px;
 }
 
 .paper-actions summary,
@@ -89,9 +91,10 @@ title: "Papers"
   border: 1px solid #cbd5df;
   border-radius: 20px;
   background: #f7f9fc;
-  padding: 6px 15px;
-  font-size: 0.85rem;
+  padding: 4px 12px;
+  font-size: 0.8rem;
   font-weight: 600;
+  line-height: 1.5;
   cursor: pointer;
   list-style: none;
   color: #0947b4;
@@ -119,11 +122,16 @@ title: "Papers"
 .paper-detail {
   background: #f7f9fc;
   border-left: 3px solid #0947b4;
-  padding: 16px;
-  margin-top: 12px;
-  margin-bottom: 8px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  margin-bottom: 6px;
   font-size: 0.92rem;
   line-height: 1.7;
+}
+
+.paper-detail p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -136,7 +144,7 @@ title: "Papers"
   color: #d6e3f2;
   border-left: 3px solid #69c597;
   border-radius: 8px;
-  padding: 20px;
+  padding: 16px;
 }
 
 /* Editor header */
@@ -145,8 +153,8 @@ title: "Papers"
   display: flex;
   align-items: center;
   gap: 7px;
-  margin-bottom: 15px;
-  padding-bottom: 13px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #364456;
 }
 
