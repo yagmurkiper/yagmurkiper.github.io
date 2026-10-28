@@ -3,65 +3,234 @@ layout: default
 title: "Research"
 ---
 
+<style>
+
+.research-output {
+  display: block;
+  margin: 12px 0 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+/* Small pill-shaped Output button */
+
+.research-output summary {
+  display: inline-block;
+  width: auto;
+  border: 1px solid #cbd5df;
+  border-radius: 20px;
+  background: #f7f9fc;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #0947b4;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+.research-output summary::-webkit-details-marker {
+  display: none;
+}
+
+.research-output summary::marker {
+  content: "";
+}
+
+.research-output summary:hover {
+  background: #eaf0f8;
+}
+
+.research-output summary:focus-visible {
+  outline: 2px solid #0947b4;
+  outline-offset: 2px;
+}
+
+/* ======================================
+   EXPANDED OUTPUT PANEL
+   ====================================== */
+
+.research-output-content {
+  background: #f7f9fc;
+  border-left: 3px solid #0947b4;
+  padding: 14px 16px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+/* Publication list */
+
+.research-output-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-output-list li {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #394653;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.research-output-list li + li {
+  border-top: 1px solid #e0e4e8;
+}
+
+/* Links */
+
+.research-output a {
+  color: #0947b4;
+  text-decoration: none;
+}
+
+.research-output a:hover {
+  text-decoration: underline;
+}
+
+</style>
+
+
 My research focuses on syntax and semantics, with an emphasis on empirical investigation of the so-called Altaic languages (e.g., Turkic, Mongolic, Korean). A central theme of my syntactic research concerns how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
 
-Below you can find a summary of my research projects. 
+Below you can find a summary of my research projects.
 
 See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
 
+
 <div class="research-domain"><span>Syntax</span></div>
+
 
 #### Ellipsis
 
 A major strand of my work focuses on ellipsis, especially sluicing-like constructions and verb phrase ellipsis (VPE) in Turkish, Khalkha Mongolian, and Korean. Because ellipsis involves meaning that is interpreted despite missing material, it provides a powerful window into underlying syntactic structure. I investigate how these constructions vary across languages and what this variation reveals about the mechanisms that license ellipsis.
 
-<div class="updates-container small mb-5">
+<details class="research-output">
 
-<p><strong>Output</strong></p>
+  <summary>Output</summary>
 
-<ul class="list-unstyled mb-0">
+  <div class="research-output-content">
 
-<li>(to appear). Kiper, Yağmur. Ellipsis as leverage for dependent case. In Gabriel Correa &amp; Kevin Morand (eds.), <em>Proceedings of the Fifty-Sixth Annual Meeting of the North East Linguistic Society</em>. New York University; New York. <a class="material-link" href="https://lingbuzz.net/lingbuzz/010106" target="_blank">[proceedings]</a></li>
+    <ul class="research-output-list">
 
-<li>(2025). Kiper, Yağmur. Low sluicing is VPE. Talk at the Annual Meeting of the Linguistic Society of America (LSA). Philadelphia. <a class="material-link" href="/assets/handouts/kiper_lsa2025_HO.pdf" target="_blank">[handout]</a></li>
+      <li>
+        (to appear). Kiper, Yağmur.
+        Ellipsis as leverage for dependent case.
+        In Gabriel Correa &amp; Kevin Morand (eds.),
+        <em>Proceedings of the Fifty-Sixth Annual
+        Meeting of the North East Linguistic Society</em>.
+        New York University; New York.
+        <a class="material-link"
+           href="https://lingbuzz.net/lingbuzz/010106"
+           target="_blank">[proceedings]</a>
+      </li>
 
-<li>(2022). Kiper, S. Yağmur. The position of the Q-like particle <em>ki</em> in Turkish and consequences for sluicing. In Marianne Huijsmans &amp; Sander Nederveen (eds.), <em>Proceedings of the Northwest Linguistics Conference 37</em>. Vancouver, BC: UBCWPL. <a class="material-link" href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf" target="_blank">[proceedings]</a></li>
+      <li>
+        (2025). Kiper, Yağmur.
+        Low sluicing is VPE.
+        Talk at the Annual Meeting of the Linguistic
+        Society of America (LSA). Philadelphia.
+        <a class="material-link"
+           href="/assets/handouts/kiper_lsa2025_HO.pdf"
+           target="_blank">[handout]</a>
+      </li>
 
-</ul>
+      <li>
+        (2022). Kiper, S. Yağmur.
+        The position of the Q-like particle
+        <em>ki</em> in Turkish and consequences
+        for sluicing.
+        In Marianne Huijsmans &amp;
+        Sander Nederveen (eds.),
+        <em>Proceedings of the Northwest
+        Linguistics Conference 37</em>.
+        Vancouver, BC: UBCWPL.
+        <a class="material-link"
+           href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf"
+           target="_blank">[proceedings]</a>
+      </li>
 
-</div>
+    </ul>
+
+  </div>
+
+</details>
+
 
 #### Clausal Architecture
 
 Another line of my research examines clausal architecture in Turkish, particularly constructions that blur the boundary between clauses and nominals. I study pseudo-clefts and related structures, examining the restrictions on cleft clauses and the role of (light-headed or free) relative clauses in licensing pivots. I also investigate Turkish nominalizations, exploring how nominal and clausal nominalizations differ structurally and how they relate to relative clause formation.
 
-<div class="updates-container small mb-5">
-<p><strong>Output</strong></p>
+<details class="research-output">
 
-<ul class="list-unstyled mb-0">
-<li>(2026). Kiper, Yağmur. Distinct mechanisms for genitive case across nominalizations. Talk at 19th Workshop on Altaic Formal Linguistics (WAFL 19), The Leibniz-Centre General Linguistics; Berlin, Germany. <a class="material-link" href="/assets/handouts/kiper_wafl19_HO.pdf" target="_blank">[handout]</a></li>
-</ul>
+  <summary>Output</summary>
 
-</div>
+  <div class="research-output-content">
+
+    <ul class="research-output-list">
+
+      <li>
+        (2026). Kiper, Yağmur.
+        Distinct mechanisms for genitive case
+        across nominalizations.
+        Talk at 19th Workshop on Altaic Formal
+        Linguistics (WAFL 19),
+        The Leibniz-Centre General Linguistics;
+        Berlin, Germany.
+        <a class="material-link"
+           href="/assets/handouts/kiper_wafl19_HO.pdf"
+           target="_blank">[handout]</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+</details>
+
 
 <div class="research-domain"><span>Semantics</span></div>
+
 
 #### Evidentiality, Modality, and Aspect
 
 The semantic system underlying aspect, modality, and evidentiality in Turkish remains considerably less studied than its syntax. My work contributes to this area by investigating how markers such as the so-called <em>aorist</em> and the imperfective interact with modal interpretation and types of evidence, as well as how perfect-like meanings arise.
 
-<div class="updates-container small mb-5">
+<details class="research-output">
 
-<p><strong>Output</strong></p>
+  <summary>Output</summary>
 
-<ul class="list-unstyled mb-0">
+  <div class="research-output-content">
 
-<li>(2026). Kiper, Yağmur &amp; <a href="https://emilyknick.github.io">Knick, Emily</a>. Perfect-like meanings in Turkish via temporal adverbials. Poster at the 11th Workshop on Turkic and Languages in Contact with Turkic (Tu+11). MIT; Boston, MA. <a class="material-link" href="/assets/handouts/kiper_knick_tu+11.pdf" target="_blank">[poster]</a> </li>
+    <ul class="research-output-list">
 
-</ul>
+      <li>
+        (2026). Kiper, Yağmur &amp;
+        <a href="https://emilyknick.github.io">
+        Knick, Emily</a>.
+        Perfect-like meanings in Turkish
+        via temporal adverbials.
+        Poster at the 11th Workshop on Turkic
+        and Languages in Contact with Turkic
+        (Tu+11). MIT; Boston, MA.
+        <a class="material-link"
+           href="/assets/handouts/kiper_knick_tu+11.pdf"
+           target="_blank">[poster]</a>
+      </li>
 
-</div>
+    </ul>
 
-#### Attitude Reports
+  </div>
 
-Attitude reports provide another domain for my semantic research. I examine verbs such as <em>know</em> and <em>think</em> in Turkish and Khalkha Mongolian, focusing on how they interact with embedded questions and wh-scope. I also contribute to an ongoing project led by <a href="https://sites.google.com/site/rachelelainedudley">Rachel Dudley</a> on children’s understanding of factivity in Turkish, supporting corpus analysis and theoretical work on how input with factive verbs relates to the acquisition of belief and knowledge verbs.
+</details>
+
+
+% #### Attitude Reports
+
+%Attitude reports provide another domain for my semantic research. I examine verbs such as <em>know</em> and <em>think</em> in Turkish and Khalkha Mongolian, focusing on how they interact with embedded questions and wh-scope. I also contribute to an ongoing project led by <a href="https://sites.google.com/site/rachelelainedudley">Rachel Dudley</a> on children’s understanding of factivity in Turkish, supporting corpus analysis and theoretical work on how input with factive verbs relates to the acquisition of belief and knowledge verbs.
