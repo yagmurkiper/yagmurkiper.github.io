@@ -1,3 +1,7 @@
+/* TeX Gyre Pagella web font */
+
+@import url('https://fonts.cdnfonts.com/css/tex-gyre-pagella');
+
 /* ========================= colors ========================= */
 
 $backgroundColor: #f4f4f5; 
@@ -6,14 +10,14 @@ $linkColor: #0947b4;
 
 /* ========================= fonts ========================= */
 
-$bodyFont: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-$headingFont: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+$bodyFont: 'TeXGyrePagella', 'Palatino Linotype', Palatino, serif;
+$headingFont: 'TeXGyrePagella', 'Palatino Linotype', Palatino, serif;
 
 /* ====================== base styling ====================== */
 
 body {
   font-family: $bodyFont;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.65;
   color: $bodyColor;
   background-color: $backgroundColor;
