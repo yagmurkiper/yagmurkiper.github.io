@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Papers"
-permalink: /papers/
 ---
 
 <style>
 /* Styling ONLY for the Papers page */
+
 .papers-page {
   max-width: 850px;
 }
@@ -29,6 +29,8 @@ permalink: /papers/
   padding-bottom: 12px;
   border-bottom: 1px solid #d7dce2;
 }
+
+/* Publication cards */
 
 .paper-card {
   background: #ffffff;
@@ -60,6 +62,8 @@ permalink: /papers/
   margin-bottom: 18px;
 }
 
+/* Abstract, PDF, and BIB buttons */
+
 .paper-actions {
   display: flex;
   flex-wrap: wrap;
@@ -79,6 +83,7 @@ permalink: /papers/
   cursor: pointer;
   list-style: none;
   color: #0947b4;
+  text-decoration: none;
 }
 
 .paper-actions summary::-webkit-details-marker {
@@ -94,6 +99,8 @@ permalink: /papers/
   width: 100%;
 }
 
+/* Abstract panel */
+
 .paper-detail {
   background: #f7f9fc;
   border-left: 3px solid #0947b4;
@@ -104,12 +111,88 @@ permalink: /papers/
   line-height: 1.7;
 }
 
-.paper-detail pre {
+/* BIB: code editor appearance */
+
+.paper-detail.bib-panel {
+  background: #192433;
+  color: #d6e3f2;
+  border-left: 3px solid #69c597;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Code editor header */
+
+.bib-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 15px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #364456;
+}
+
+.bib-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bib-dot.red {
+  background: #ef7973;
+}
+
+.bib-dot.yellow {
+  background: #e5bb66;
+}
+
+.bib-dot.green {
+  background: #69c597;
+}
+
+.bib-header-label {
+  margin-left: auto;
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: #93a4b9;
+}
+
+/* Monospaced typewriter font */
+
+.paper-detail.bib-panel pre {
+  font-family: "SFMono-Regular", Consolas,
+               "Liberation Mono", Menlo, monospace;
+  font-size: 0.84rem;
+  line-height: 1.8;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  font-size: 0.82rem;
+  color: #d6e3f2;
+  background: transparent;
+  border: none;
+  padding: 0;
   margin: 0;
 }
+
+/* BIB syntax highlighting */
+
+.bib-type {
+  color: #ffbd8a;
+}
+
+.bib-key {
+  color: #e9d48c;
+}
+
+.bib-field {
+  color: #8cc8ff;
+}
+
+.bib-value {
+  color: #a9e4b1;
+}
+
 </style>
 
 <div class="papers-page">
@@ -120,9 +203,12 @@ permalink: /papers/
   </header>
 
   <section>
+
     <h2 class="papers-section-title">
       Articles peer-reviewed by abstract
     </h2>
+
+    <!-- FIRST PAPER -->
 
     <article class="paper-card">
 
@@ -143,8 +229,11 @@ permalink: /papers/
 
       <div class="paper-actions">
 
+        <!-- ABSTRACT -->
+
         <details>
-          <summary>Abstract +</summary>
+          <summary>Abstract</summary>
+
           <div class="paper-detail">
             <p>
               This paper investigates the distribution
@@ -156,6 +245,7 @@ permalink: /papers/
               embedded sluicing in which wh-remnants
               move to the closest tensed CP.
             </p>
+
             <small>
               Temporary summary; to be replaced
               with the published abstract.
@@ -163,30 +253,46 @@ permalink: /papers/
           </div>
         </details>
 
+        <!-- PDF -->
+
         <a class="paper-link"
            href="https://lingpapers.sites.olt.ubc.ca/files/2022/01/NWLC37_Kiper_Final.pdf"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
           PDF ↗
         </a>
 
+        <!-- BIB -->
+
         <details>
-          <summary>BibTeX +</summary>
-          <div class="paper-detail">
-<pre>@inproceedings{kiper2022ki,
-  author = {Kiper, Sebahat Yağmur},
-  title = {The Position of the Q-like Particle {ki} in Turkish and Consequences for Sluicing},
-  booktitle = {Proceedings of the Northwest Linguistics Conference 37},
-  editor = {Huijsmans, Marianne and Nederveen, Sander},
-  year = {2022},
-  publisher = {UBCWPL},
-  address = {Vancouver, BC}
+          <summary>BIB</summary>
+
+          <div class="paper-detail bib-panel">
+
+            <div class="bib-header">
+              <span class="bib-dot red"></span>
+              <span class="bib-dot yellow"></span>
+              <span class="bib-dot green"></span>
+              <span class="bib-header-label">BIBTEX</span>
+            </div>
+
+<pre><span class="bib-type">@inproceedings</span>{<span class="bib-key">kiper2022ki</span>,
+  <span class="bib-field">author</span> = {<span class="bib-value">Kiper, Sebahat Yağmur</span>},
+  <span class="bib-field">title</span> = {<span class="bib-value">The Position of the Q-like Particle {ki} in Turkish and Consequences for Sluicing</span>},
+  <span class="bib-field">booktitle</span> = {<span class="bib-value">Proceedings of the Northwest Linguistics Conference 37</span>},
+  <span class="bib-field">editor</span> = {<span class="bib-value">Huijsmans, Marianne and Nederveen, Sander</span>},
+  <span class="bib-field">year</span> = {<span class="bib-value">2022</span>},
+  <span class="bib-field">publisher</span> = {<span class="bib-value">UBCWPL</span>},
+  <span class="bib-field">address</span> = {<span class="bib-value">Vancouver, BC</span>}
 }</pre>
+
           </div>
         </details>
 
       </div>
+
     </article>
+
   </section>
 
 </div>
-
