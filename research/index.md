@@ -13,8 +13,6 @@ title: "Research"
   border: none;
 }
 
-/* Small pill-shaped Output button */
-
 .research-output summary {
   display: inline-block;
   width: auto;
@@ -49,9 +47,6 @@ title: "Research"
   outline-offset: 2px;
 }
 
-/* ======================================
-   EXPANDED OUTPUT PANEL
-   ====================================== */
 
 .research-output-content {
   background: #f7f9fc;
@@ -96,31 +91,24 @@ title: "Research"
 
 </style>
 
-
-My research focuses on syntax and semantics, with an emphasis on empirical investigation of the so-called Altaic languages (e.g., Turkic, Mongolic, Korean). A central theme of my syntactic research concerns how reliably case marking diagnoses syntactic structure. When a case pattern deviates from expectations, does this indicate a different underlying structure, or can the deviation arise from interactions within the grammatical derivation itself? I investigate a range of constructions to address this question using diagnostics that do not rely on case marking alone.
-
-Below you can find a summary of my research projects.
+My research focuses on syntax and semantics, with an empirical emphasis on Turkish, Khalkha Mongolian, and Korean. Across my syntactic projects, I investigate what morphological case reveals about underlying structure and how it interacts with other grammatical dependencies.
 
 See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
 
 
 <div class="research-domain"><span>Syntax</span></div>
 
-
 #### Ellipsis
 
-A major strand of my work focuses on ellipsis, especially sluicing-like constructions and verb phrase ellipsis (VPE) in Turkish, Khalkha Mongolian, and Korean. Because ellipsis involves meaning that is interpreted despite missing material, it provides a powerful window into underlying syntactic structure. I investigate how these constructions vary across languages and what this variation reveals about the mechanisms that license ellipsis.
+I investigate sluicing-like constructions in Turkish, Khalkha Mongolian, and Korean. My work uses case connectivity and mismatches under ellipsis to probe the interaction between ellipsis licensing, syntactic identity, and case assignment.
 
 <details class="research-output">
-
   <summary>Output</summary>
-
   <div class="research-output-content">
-
     <ul class="research-output-list">
 
       <li>
-        (to appear). Kiper, Yağmur.
+        (2026). Kiper, Yağmur.
         Ellipsis as leverage for dependent case.
         In Gabriel Correa &amp; Kevin Morand (eds.),
         <em>Proceedings of the Fifty-Sixth Annual
@@ -142,7 +130,7 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
       </li>
 
       <li>
-        (2022). Kiper, S. Yağmur.
+        (2022). Kiper, Yağmur.
         The position of the Q-like particle
         <em>ki</em> in Turkish and consequences
         for sluicing.
@@ -157,63 +145,52 @@ A major strand of my work focuses on ellipsis, especially sluicing-like construc
       </li>
 
     </ul>
-
   </div>
-
 </details>
 
 
-#### Clausal Architecture
+#### Nominalizations
 
-Another line of my research examines clausal architecture in Turkish, particularly constructions that blur the boundary between clauses and nominals. I study pseudo-clefts and related structures, examining the restrictions on cleft clauses and the role of (light-headed or free) relative clauses in licensing pivots. I also investigate Turkish nominalizations, exploring how nominal and clausal nominalizations differ structurally and how they relate to relative clause formation.
+My research on Turkish nominalizations investigates the relationship between clausal structure and case assignment. I argue that genitive case arises through distinct mechanisms across nominalization types: configurational case assignment in full-clausal nominalizations and local structural licensing in partially clausal ones. Evidence comes from their differing nominal properties and case connectivity under sluicing.
 
 <details class="research-output">
-
   <summary>Output</summary>
-
   <div class="research-output-content">
-
     <ul class="research-output-list">
 
       <li>
         (2026). Kiper, Yağmur.
-        Distinct mechanisms for genitive case
-        across nominalizations.
-        Talk at 19th Workshop on Altaic Formal
-        Linguistics (WAFL 19),
-        The Leibniz-Centre General Linguistics;
-        Berlin, Germany.
-        <a class="material-link"
-           href="/assets/handouts/kiper_wafl19_HO.pdf"
-           target="_blank">[handout]</a>
+        Two distinct mechanisms for genitive
+        across nominalizations in Turkish.
+        Poster at the 57th Annual Meeting of
+        the North East Linguistic Society (NELS 57).
+        CUNY Graduate Center; New York.
       </li>
 
     </ul>
-
   </div>
-
 </details>
+
+#### Copular Clauses
+
+I investigate the syntax of copular constructions in Turkish, particularly pseudo-clefts. My work examines the structure of cleft clauses, their relationship to free and light-headed relative clauses, and the restrictions governing the distribution of cleft pivots.
 
 
 <div class="research-domain"><span>Semantics</span></div>
 
-
 #### Evidentiality, Modality, and Aspect
 
-The semantic system underlying aspect, modality, and evidentiality in Turkish remains considerably less studied than its syntax. My work contributes to this area by investigating how markers such as the so-called <em>aorist</em> and the imperfective interact with modal interpretation and types of evidence, as well as how perfect-like meanings arise.
+I investigate how aspectual morphology in Turkish interacts with modal and evidential interpretations. My work examines the semantics of the aorist and imperfective, as well as the emergence of perfect-like meanings through temporal modification.
 
 <details class="research-output">
-
   <summary>Output</summary>
-
   <div class="research-output-content">
-
     <ul class="research-output-list">
 
       <li>
         (2026). Kiper, Yağmur &amp;
-        <a href="https://emilyknick.github.io">
-        Knick, Emily</a>.
+        <a href="https://emilyknick.github.io"
+           target="_blank">Knick, Emily</a>.
         Perfect-like meanings in Turkish
         via temporal adverbials.
         Poster at the 11th Workshop on Turkic
@@ -225,14 +202,13 @@ The semantic system underlying aspect, modality, and evidentiality in Turkish re
       </li>
 
     </ul>
-
   </div>
-
 </details>
 
-
 {% comment %}
+
 #### Attitude Reports
 
 Attitude reports provide another domain for my semantic research. I examine verbs such as <em>know</em> and <em>think</em> in Turkish and Khalkha Mongolian, focusing on how they interact with embedded questions and wh-scope. I also contribute to an ongoing project led by <a href="https://sites.google.com/site/rachelelainedudley">Rachel Dudley</a> on children’s understanding of factivity in Turkish, supporting corpus analysis and theoretical work on how input with factive verbs relates to the acquisition of belief and knowledge verbs.
+
 {% endcomment %}
