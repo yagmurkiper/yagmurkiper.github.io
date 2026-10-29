@@ -97,6 +97,7 @@ I also occasionally work on semantics, with particular interests in evidentialit
 
 See the brief summaries below to learn more about my research projects.
 
+
 #### Ellipsis
 
 I investigate sluicing-like constructions in Turkish, Khalkha Mongolian, and Korean. My work uses case (dis)connectivity under ellipsis to probe the interaction between ellipsis licensing, syntactic identity, and case assignment.
@@ -178,6 +179,7 @@ My research on nominalizations investigates the relationship between clausal str
 #### Copular Clauses
 
 I investigate the syntax of copular constructions in Turkish, particularly pseudo-clefts. My work examines the structure of cleft clauses, their relationship to free and light-headed relative clauses, and the restrictions governing the distribution of cleft pivots.
+
 
 #### Evidentiality, Modality, and Aspect
 
