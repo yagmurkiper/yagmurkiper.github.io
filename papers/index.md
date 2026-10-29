@@ -306,7 +306,7 @@ title: "Papers"
            href="{{ link.url | escape }}"
            target="_blank"
            rel="noopener noreferrer">
-          {{ link.label | escape }} ↗
+          {{ link.label | escape }} +
         </a>
 
         {% endfor %}
