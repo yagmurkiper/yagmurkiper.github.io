@@ -5,9 +5,14 @@ title: "Research"
 
 <style>
 
+h4 {
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
 .research-output {
   display: block;
-  margin: 12px 0 24px;
+  margin: 12px 0 0px;
   padding: 0;
   background: transparent;
   border: none;
