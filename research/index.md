@@ -165,6 +165,12 @@ My research on Turkish nominalizations investigates the relationship between cla
         Poster at the 57th Annual Meeting of
         the North East Linguistic Society (NELS 57).
         CUNY Graduate Center; New York.
+        <a class="material-link"
+           href="/assets/handouts/kiper_nels57.pdf"
+           target="_blank">[poster]</a>
+        <a class="material-link"
+           href="/assets/handouts/kiper_wafl19_HO.pdf"
+           target="_blank">[handout]</a>
       </li>
 
     </ul>

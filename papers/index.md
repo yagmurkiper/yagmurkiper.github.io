@@ -29,8 +29,8 @@ title: "Papers"
   font-size: 1.3rem;
   line-height: 1.4;
   margin: 0 0 14px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #d7dce2;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .papers-page section {
