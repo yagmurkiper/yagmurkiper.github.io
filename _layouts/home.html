@@ -2,59 +2,70 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <!-- Introduction Section -->
-  <div class="col-md-6">
-    <p>Merhaba!</p>
+<div class="row g-5 mb-5 align-items-center">
+
+  <!-- LEFT COLUMN: Introduction + Recent Updates -->
+  <div class="col-md-7">
+
+    <!-- Introduction -->
+    <div class="mb-5">
+      <p>Merhaba!</p>
 
       <p>
-    I am a Ph.D. candidate in Linguistics at the University of California Santa Cruz, 
-    advised by
-    <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a> 
-    and 
-    <a href="https://miazgong.github.io" target="_blank">Mia Gong</a>.
-  </p>
+        I am a Ph.D. candidate in Linguistics at the University of California Santa Cruz,
+        advised by
+        <a href="https://people.ucsc.edu/~mtoosarv/" target="_blank">Maziar Toosarvandani</a>
+        and
+        <a href="https://miazgong.github.io" target="_blank">Mia Gong</a>.
+      </p>
 
-    <p>
-      I hold a BA in 
-      <a href="https://fle.metu.edu.tr" target="_blank">Foreign Language Education</a> 
-      and an MA in Language Studies Track of English Language Teaching from 
-      <a href="https://www.metu.edu.tr" target="_blank">Middle East Technical University</a>. 
-    </p>
+      <p>
+        I hold a BA in
+        <a href="https://fle.metu.edu.tr" target="_blank">Foreign Language Education</a>
+        and an MA in Language Studies Track of English Language Teaching from
+        <a href="https://www.metu.edu.tr" target="_blank">Middle East Technical University</a>.
+      </p>
+    </div>
+
+    <!-- Recent Updates -->
+    <div>
+      <h3 class="updates-title fw-bold border-bottom pb-3 mb-4">recent updates</h3>
+
+      <div class="updates-container shadow">
+        {% assign today = site.time | date: "%Y-%m-%d" %}
+        {% assign sorted_events = site.data.events | sort: "date" | reverse %}
+
+        {% if sorted_events.size > 0 %}
+          {% for event in sorted_events %}
+            <p>
+              <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> -
+              {{ event.title }}
+              {% if event.link %}
+                [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
+              {% endif %}
+            </p>
+          {% endfor %}
+        {% else %}
+          <p class="text-secondary">No updates yet.</p>
+        {% endif %}
+      </div>
+    </div>
+
   </div>
 
-  <div class="col-md-6" style="text-align: center;">
-    <div style="display: inline-block; text-align: center;">
-      <img src="{{ site.github.url }}/assets/img/kiper.png" alt="Home" style="max-width: 300px; height: auto;">
+  <!-- RIGHT COLUMN: Vertically Centered Photo -->
+  <div class="col-md-5 d-flex justify-content-center align-items-center">
+    <div style="text-align: center;">
+      <img
+        src="{{ site.github.url }}/assets/img/kiper.png"
+        alt="Portrait"
+        style="max-width: 300px; width: 100%; height: auto;"
+      >
       <p style="font-size: 0.7rem; color: #6c757d; margin-top: 5px;">
-        photo by <a href="https://www.jungukang.win/index.html" target="_blank">jungu kang</a>
+        photo by
+        <a href="https://www.jungukang.win/index.html" target="_blank">jungu kang</a>
       </p>
     </div>
   </div>
+
 </div>
-
-<div class="row mb-5">
-  <div class="col-12">
-    <h3 class="updates-title fw-bold border-bottom pb-3 mb-4">recent updates</h3>
-
-    <div class="updates-container shadow">
-      {% assign today = site.time | date: "%Y-%m-%d" %}
-      {% assign sorted_events = site.data.events | sort: "date" | reverse %}
-
-      {% if sorted_events.size > 0 %}
-        {% for event in sorted_events %}
-          <p>
-            <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> -
-            {{ event.title }}
-            {% if event.link %}
-              [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
-            {% endif %}
-          </p>
-        {% endfor %}
-      {% else %}
-        <p class="text-secondary">No updates yet.</p>
-      {% endif %}
-    </div>
-  </div>
-</div>
-
