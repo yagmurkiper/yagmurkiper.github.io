@@ -91,16 +91,15 @@ title: "Research"
 
 </style>
 
-My research focuses on syntax and semantics, with an empirical emphasis on Turkish, Khalkha Mongolian, and Korean. Across my syntactic projects, I investigate what morphological case reveals about underlying structure and how it interacts with other grammatical dependencies.
+My research is primarily in syntax, with an empirical focus on the so-called <em>Altaic</em> languages. Across my syntactic projects, I investigate what morphological case reveals about underlying syntactic structure and how case marking interacts with other grammatical dependencies.
 
-See my <a href="/assets/CV.pdf" target="_blank">CV</a> for a complete list of publications and presentations.
+I also occasionally work on semantics, with particular interests in evidentiality, modality, and aspect.
 
-
-<div class="research-domain"><span>Syntax</span></div>
+See the brief summaries below to learn more about my research projects.
 
 #### Ellipsis
 
-I investigate sluicing-like constructions in Turkish, Khalkha Mongolian, and Korean. My work uses case connectivity and mismatches under ellipsis to probe the interaction between ellipsis licensing, syntactic identity, and case assignment.
+I investigate sluicing-like constructions in Turkish, Khalkha Mongolian, and Korean. My work uses case (dis)connectivity under ellipsis to probe the interaction between ellipsis licensing, syntactic identity, and case assignment.
 
 <details class="research-output">
   <summary>Output</summary>
@@ -148,10 +147,9 @@ I investigate sluicing-like constructions in Turkish, Khalkha Mongolian, and Kor
   </div>
 </details>
 
-
 #### Nominalizations
 
-My research on Turkish nominalizations investigates the relationship between clausal structure and case assignment. I argue that genitive case arises through distinct mechanisms across nominalization types: configurational case assignment in full-clausal nominalizations and local structural licensing in partially clausal ones. Evidence comes from their differing nominal properties and case connectivity under sluicing.
+My research on nominalizations investigates the relationship between clausal structure and case assignment. I argue that genitive case arises through distinct mechanisms across nominalization types in Turkish: configurational case assignment in full-clausal nominalizations and local structural licensing in partially clausal ones. Evidence comes from their differing nominal properties and case connectivity under sluicing.
 
 <details class="research-output">
   <summary>Output</summary>
@@ -181,12 +179,9 @@ My research on Turkish nominalizations investigates the relationship between cla
 
 I investigate the syntax of copular constructions in Turkish, particularly pseudo-clefts. My work examines the structure of cleft clauses, their relationship to free and light-headed relative clauses, and the restrictions governing the distribution of cleft pivots.
 
-
-<div class="research-domain"><span>Semantics</span></div>
-
 #### Evidentiality, Modality, and Aspect
 
-I investigate how aspectual morphology in Turkish interacts with modal and evidential interpretations. My work examines the semantics of the aorist and imperfective, as well as the emergence of perfect-like meanings through temporal modification.
+I explore the interaction between aspect/modal markers and evidentiality in Turkish. Building on my second qualifying paper, this ongoing project examines the evidential restrictions associated with the aorist and how they distinguish it from the imperfective. Previously, I have worked on the emergence of perfect-like interpretations through temporal modification in Turkish.
 
 <details class="research-output">
   <summary>Output</summary>
