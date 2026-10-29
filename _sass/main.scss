@@ -100,105 +100,81 @@ footer a:hover {
 }
 
 
-/* ========================= RECENT UPDATES CARD ========================= */
+
+/* ========================= RECENT UPDATES ========================= */
 
 .updates-card {
   width: 100%;
+  max-width: 420px;
   background: #ffffff;
   border: 1px solid #e5eaf0;
-  border-radius: 14px;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Header */
+/* Compact header */
 
 .updates-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 17px 20px 13px;
-  background: linear-gradient(120deg, #f2f6fb, #ffffff);
-}
-
-.updates-kicker {
-  display: block;
-  font-size: 0.63rem;
-  font-weight: 700;
-  letter-spacing: 0.13em;
-  color: #738398;
-  text-transform: uppercase;
-  margin-bottom: 5px;
+  padding: 11px 16px 8px;
+  background: #f5f8fc;
 }
 
 .updates-title {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 650;
-  line-height: 1.3;
   color: #26384e;
   margin: 0;
+  padding-left: 9px;
+  border-left: 3px solid $linkColor;
 }
 
-.updates-ornament {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: #eaf1fa;
-  color: $linkColor;
-  font-size: 1.2rem;
-  flex-shrink: 0;
-}
-
-/* Scrollable content */
+/* Scrollable news */
 
 .updates-container {
-  max-height: 180px;
+  max-height: 130px;
   overflow-y: auto;
-  padding: 6px 20px 16px 28px;
+  padding: 6px 16px 10px 20px;
 }
 
-/* Vertical timeline */
+/* Timeline */
 
 .update-item {
   position: relative;
   border-left: 1px solid #dce4ed;
-  padding: 9px 0 7px 17px;
+  padding: 6px 0 6px 14px;
 }
 
 .update-item::before {
   content: "";
   position: absolute;
-  left: -4px;
-  top: 15px;
-  width: 7px;
-  height: 7px;
+  left: -3.5px;
+  top: 12px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: #bdcbd9;
 }
 
-/* Highlight newest update */
-
 .update-item:first-child::before {
   background: $linkColor;
-  box-shadow: 0 0 0 3px #eaf1fa;
 }
 
-/* Dates and text */
+/* Dates */
 
 .update-date {
   display: block;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: #778497;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
+/* Text */
+
 .update-text {
-  font-size: 0.85rem;
-  line-height: 1.55;
+  font-size: 0.82rem;
+  line-height: 1.45;
   color: #343e4a;
 }
 
@@ -222,23 +198,19 @@ footer a:hover {
 }
 
 .updates-empty {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: #778497;
 }
 
 /* Scrollbar */
 
 .updates-container::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
 
 .updates-container::-webkit-scrollbar-thumb {
   background: #cbd5df;
   border-radius: 10px;
-}
-
-.updates-container::-webkit-scrollbar-thumb:hover {
-  background: #9aaaba;
 }
 
 

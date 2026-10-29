@@ -1,10 +1,11 @@
+
 ---
 layout: default
 ---
 
-<div class="row g-5 mb-5 align-items-center">
+<div class="row g-4 mb-5 align-items-center">
 
-  <!-- LEFT COLUMN: Introduction + Recent Updates -->
+  <!-- LEFT COLUMN -->
   <div class="col-md-7">
 
     <!-- Introduction -->
@@ -27,55 +28,50 @@ layout: default
       </p>
     </div>
 
-    
-<!-- Recent Updates -->
-<div class="updates-card">
+    <!-- Recent Updates -->
+    <div class="updates-card">
 
-  <div class="updates-card-header">
-    <div>
-      <span class="updates-kicker">NEWS &amp; NOTES</span>
-      <h3 class="updates-title">recent updates</h3>
+      <div class="updates-card-header">
+        <h3 class="updates-title">recent updates</h3>
+      </div>
+
+      <div class="updates-container">
+        {% assign sorted_events = site.data.events | sort: "date" | reverse %}
+
+        {% if sorted_events.size > 0 %}
+          {% for event in sorted_events %}
+            <div class="update-item">
+              <time class="update-date" datetime="{{ event.date }}">
+                {{ event.date | date: "%b %d, %Y" }}
+              </time>
+
+              <div class="update-text">
+                {{ event.title }}
+
+                {% if event.link %}
+                  <a href="{{ event.link }}" target="_blank"
+                     rel="noopener noreferrer" class="update-link">
+                    handout ↗
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p class="updates-empty">No updates yet.</p>
+        {% endif %}
+      </div>
+
     </div>
-    <span class="updates-ornament" aria-hidden="true">✳</span>
   </div>
 
-  <div class="updates-container">
-    {% assign sorted_events = site.data.events | sort: "date" | reverse %}
-
-    {% if sorted_events.size > 0 %}
-      {% for event in sorted_events %}
-        <div class="update-item">
-          <time class="update-date" datetime="{{ event.date }}">
-            {{ event.date | date: "%b %d, %Y" }}
-          </time>
-
-          <div class="update-text">
-            {{ event.title }}
-
-            {% if event.link %}
-              <a href="{{ event.link }}" target="_blank"
-                 rel="noopener noreferrer" class="update-link">
-                handout ↗
-              </a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    {% else %}
-      <p class="updates-empty">No updates yet.</p>
-    {% endif %}
-  </div>
-
-</div>
-
-
-  <!-- RIGHT COLUMN: Vertically Centered Photo -->
+  <!-- RIGHT COLUMN: PHOTO -->
   <div class="col-md-5 d-flex justify-content-center align-items-center">
     <div style="text-align: center;">
       <img
         src="{{ site.github.url }}/assets/img/kiper.png"
         alt="Portrait"
-        style="max-width: 300px; width: 100%; height: auto;"
+        style="max-width: 280px; width: 100%; height: auto;"
       >
       <p style="font-size: 0.7rem; color: #6c757d; margin-top: 5px;">
         photo by
