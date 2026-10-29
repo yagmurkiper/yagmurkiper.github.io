@@ -196,9 +196,9 @@ I explore the interaction between aspect/modal markers and evidentiality in Turk
     <ul class="research-output-list">
 
       <li>
-        (2026). Kiper, Yağmur &amp;
+        (2026). Kiper*, Yağmur &amp;
         <a href="https://emilyknick.github.io"
-           target="_blank">Knick, Emily</a>.
+           target="_blank">Knick*, Emily</a>.
         Perfect-like meanings in Turkish
         via temporal adverbials.
         Poster at the 11th Workshop on Turkic
@@ -212,7 +212,7 @@ I explore the interaction between aspect/modal markers and evidentiality in Turk
     </ul>
   </div>
 </details>
-
+<span style="font-size: 0.75rem;"><em>* = co-first authors</em></span>
 {% comment %}
 
 #### Attitude Reports
