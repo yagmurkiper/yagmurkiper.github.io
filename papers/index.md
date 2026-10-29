@@ -9,7 +9,8 @@ title: "Papers"
    ====================================== */
 
 .papers-page {
-  max-width: 850px;
+  width: 100%;
+  max-width: none;
 }
 
 .papers-intro {
@@ -36,7 +37,6 @@ title: "Papers"
 .papers-page section {
   margin-bottom: 30px;
 }
-
 
 /* ======================================
    PUBLICATION CARDS — COMPACT
