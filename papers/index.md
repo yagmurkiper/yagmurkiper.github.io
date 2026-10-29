@@ -114,6 +114,14 @@ title: "Papers"
   width: 100%;
 }
 
+.paper-actions a.paper-link,
+.paper-actions a.paper-link:visited,
+.paper-actions a.paper-link:hover,
+.paper-actions a.paper-link:focus {
+  border: 1px solid #cbd5df !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
 
 /* ======================================
    ABSTRACT PANEL
