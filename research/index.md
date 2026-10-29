@@ -102,6 +102,7 @@ I also occasionally work on semantics, with particular interests in evidentialit
 
 See the brief summaries below to learn more about my research projects.
 
+<span style="font-size: 0.75rem;"><em>* = co-first authors</em></span>
 
 #### Ellipsis
 
@@ -212,7 +213,7 @@ I explore the interaction between aspect/modal markers and evidentiality in Turk
     </ul>
   </div>
 </details>
-<span style="font-size: 0.75rem;"><em>* = co-first authors</em></span>
+
 {% comment %}
 
 #### Attitude Reports
