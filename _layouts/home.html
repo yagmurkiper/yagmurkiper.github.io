@@ -27,31 +27,47 @@ layout: default
       </p>
     </div>
 
-    <!-- Recent Updates -->
+    
+<!-- Recent Updates -->
+<div class="updates-card">
+
+  <div class="updates-card-header">
     <div>
-      <h3 class="updates-title border-bottom pb-3 mb-4">news</h3>
-
-      <div class="updates-container shadow">
-        {% assign today = site.time | date: "%Y-%m-%d" %}
-        {% assign sorted_events = site.data.events | sort: "date" | reverse %}
-
-        {% if sorted_events.size > 0 %}
-          {% for event in sorted_events %}
-            <p>
-              <b class="text-secondary">{{ event.date | date: "%b %d, %Y" }}</b> -
-              {{ event.title }}
-              {% if event.link %}
-                [<a href="{{ event.link }}" target="_blank" class="text-primary">handout</a>]
-              {% endif %}
-            </p>
-          {% endfor %}
-        {% else %}
-          <p class="text-secondary">No updates yet.</p>
-        {% endif %}
-      </div>
+      <span class="updates-kicker">NEWS &amp; NOTES</span>
+      <h3 class="updates-title">recent updates</h3>
     </div>
-
+    <span class="updates-ornament" aria-hidden="true">✳</span>
   </div>
+
+  <div class="updates-container">
+    {% assign sorted_events = site.data.events | sort: "date" | reverse %}
+
+    {% if sorted_events.size > 0 %}
+      {% for event in sorted_events %}
+        <div class="update-item">
+          <time class="update-date" datetime="{{ event.date }}">
+            {{ event.date | date: "%b %d, %Y" }}
+          </time>
+
+          <div class="update-text">
+            {{ event.title }}
+
+            {% if event.link %}
+              <a href="{{ event.link }}" target="_blank"
+                 rel="noopener noreferrer" class="update-link">
+                handout ↗
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p class="updates-empty">No updates yet.</p>
+    {% endif %}
+  </div>
+
+</div>
+
 
   <!-- RIGHT COLUMN: Vertically Centered Photo -->
   <div class="col-md-5 d-flex justify-content-center align-items-center">
